@@ -1,0 +1,1670 @@
+2025-08-18 20:00:59,472	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+[36m(run_sample pid=73689)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73689)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f5ee042e270>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f5ea814b950>, t=<yastn.tensor.Tensor object at 0x7f39303b82c0>, tr=<yastn.tensor.Tensor object at 0x7f5ea814bb60>, r=<yastn.tensor.Tensor object at 0x7f39303b8bc0>, br=<yastn.tensor.Tensor object at 0x7f5ea814bf80>, b=<yastn.tensor.Tensor object at 0x7f39303b88c0>, bl=<yastn.tensor.Tensor object at 0x7f5ea814bd70>, l=<yastn.tensor.Tensor object at 0x7f39303b85c0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f5ea8149280>, t=<yastn.tensor.Tensor object at 0x7f39303b9460>, tr=<yastn.tensor.Tensor object at 0x7f39303b8d40>, r=<yastn.tensor.Tensor object at 0x7f39303b9d60>, br=<yastn.tensor.Tensor object at 0x7f39303b9160>, b=<yastn.tensor.Tensor object at 0x7f39303b9a60>, bl=<yastn.tensor.Tensor object at 0x7f39303b8f50>, l=<yastn.tensor.Tensor object at 0x7f39303b9760>)})
+[36m(run_sample pid=616)[0m 0 samples in time = 39633.652819395065
+[36m(run_sample pid=513)[0m dict_keys(['class', 'psi', 'data', 'info'])[32m [repeated 71x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(run_sample pid=73710)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f154042e960>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f15204eb6e0>, t=<yastn.tensor.Tensor object at 0x7f15204ebe60>, tr=<yastn.tensor.Tensor object at 0x7f15204eb8f0>, r=<yastn.tensor.Tensor object at 0x7f152030c7a0>, br=<yastn.tensor.Tensor object at 0x7f154042c9b0>, b=<yastn.tensor.Tensor object at 0x7f152030c4a0>, bl=<yastn.tensor.Tensor object at 0x7f15204ebb00>, l=<yastn.tensor.Tensor object at 0x7f152030c1a0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f152030c9b0>, t=<yastn.tensor.Tensor object at 0x7f152030d2e0>, tr=<yastn.tensor.Tensor object at 0x7f152030cbc0>, r=<yastn.tensor.Tensor object at 0x7f152030dbe0>, br=<yastn.tensor.Tensor object at 0x7f152030cfe0>, b=<yastn.tensor.Tensor object at 0x7f152030d8e0>, bl=<yastn.tensor.Tensor object at 0x7f152030cdd0>, l=<yastn.tensor.Tensor object at 0x7f152030d5e0>)})[32m [repeated 71x across cluster][0m
+[36m(run_sample pid=73720)[0m 0 samples in time = 39654.45997977257
+[36m(run_sample pid=544)[0m 0 samples in time = 39696.22439813614
+[36m(run_sample pid=519)[0m 0 samples in time = 39717.14765930176[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=521)[0m 0 samples in time = 39725.655333042145[32m [repeated 5x across cluster][0m
+[36m(run_sample pid=516)[0m 0 samples in time = 39749.18648338318[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=512)[0m 0 samples in time = 39756.33808207512[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=620)[0m 0 samples in time = 39766.925235033035[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=517)[0m 0 samples in time = 39772.39593625069
+[36m(run_sample pid=514)[0m 0 samples in time = 39780.655948638916
+[36m(run_sample pid=537)[0m 0 samples in time = 39806.50265073776[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=73689)[0m 0 samples in time = 39825.161984205246
+[36m(run_sample pid=493)[0m 0 samples in time = 39828.304179906845
+[36m(run_sample pid=73694)[0m 0 samples in time = 39839.25419378281[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=480)[0m 0 samples in time = 39847.04427647591[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73697)[0m 0 samples in time = 39852.84493255615
+[36m(run_sample pid=638)[0m 0 samples in time = 39857.46155953407
+[36m(run_sample pid=442)[0m 0 samples in time = 39867.78804349899[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=474)[0m 0 samples in time = 39873.459916591644[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=606)[0m 0 samples in time = 39887.81872153282
+[36m(run_sample pid=73709)[0m 0 samples in time = 39893.92738175392
+[36m(run_sample pid=640)[0m 0 samples in time = 39899.00145959854[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73692)[0m 0 samples in time = 39908.487869501114
+[36m(run_sample pid=520)[0m 0 samples in time = 39923.89975094795
+[36m(run_sample pid=73696)[0m 0 samples in time = 39928.98245048523
+[36m(run_sample pid=462)[0m 0 samples in time = 39930.315328121185
+[36m(run_sample pid=73693)[0m 0 samples in time = 39944.98189282417
+[36m(run_sample pid=456)[0m 0 samples in time = 39952.84559082985
+[36m(run_sample pid=73695)[0m 0 samples in time = 39959.454578876495
+[36m(run_sample pid=73691)[0m 0 samples in time = 39963.58996510506
+[36m(run_sample pid=73700)[0m 0 samples in time = 39972.854649066925[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73712)[0m 0 samples in time = 39993.82079768181[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=540)[0m 0 samples in time = 40001.593740701675
+[36m(run_sample pid=73722)[0m 0 samples in time = 40002.26518702507
+[36m(run_sample pid=73687)[0m 0 samples in time = 40019.55898332596
+[36m(run_sample pid=73710)[0m 0 samples in time = 40039.11621761322
+[36m(run_sample pid=73714)[0m 0 samples in time = 40044.440643787384[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=451)[0m 0 samples in time = 40063.11246395111
+[36m(run_sample pid=73721)[0m 0 samples in time = 40064.37161445618
+[36m(run_sample pid=73711)[0m 0 samples in time = 40080.21476793289[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=513)[0m 0 samples in time = 40086.20259690285
+[36m(run_sample pid=73718)[0m 0 samples in time = 40089.511321783066
+[36m(run_sample pid=73688)[0m 0 samples in time = 40113.060024261475
+[36m(run_sample pid=73713)[0m 0 samples in time = 40117.290133953094
+[36m(run_sample pid=73703)[0m 0 samples in time = 40134.4897942543
+[36m(run_sample pid=73716)[0m 0 samples in time = 40177.40786790848
+[36m(run_sample pid=73699)[0m 0 samples in time = 40183.46248936653
+[36m(run_sample pid=436)[0m 0 samples in time = 40184.26365733147
+[36m(run_sample pid=73701)[0m 0 samples in time = 40208.7507147789
+[36m(run_sample pid=509)[0m 0 samples in time = 40311.84069824219
+[36m(run_sample pid=616)[0m 1 samples in time = 79051.95600771904
+[36m(run_sample pid=544)[0m 1 samples in time = 79094.17699098587
+[36m(run_sample pid=73720)[0m 1 samples in time = 79111.16287279129[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73715)[0m 1 samples in time = 79180.35808324814
+[36m(run_sample pid=73719)[0m 1 samples in time = 79203.03999328613
+[36m(run_sample pid=545)[0m 1 samples in time = 79242.0426735878[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=514)[0m 1 samples in time = 79250.67708039284
+[36m(run_sample pid=517)[0m 1 samples in time = 79270.69745850563
+[36m(run_sample pid=537)[0m 1 samples in time = 79277.20983982086[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=641)[0m 1 samples in time = 79286.3027253151[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=521)[0m 1 samples in time = 79292.67881703377[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=515)[0m 1 samples in time = 79304.43470287323
+[36m(run_sample pid=519)[0m 1 samples in time = 79308.4048473835
+[36m(run_sample pid=620)[0m 1 samples in time = 79332.69944143295
+[36m(run_sample pid=642)[0m 1 samples in time = 79370.37087059021
+[36m(run_sample pid=512)[0m 1 samples in time = 79378.69536566734[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=639)[0m 1 samples in time = 79402.06569743156
+[36m(run_sample pid=466)[0m 1 samples in time = 79419.66514706612
+[36m(run_sample pid=73696)[0m 1 samples in time = 79446.4306883812[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=637)[0m 1 samples in time = 79455.2891638279[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=638)[0m 1 samples in time = 79466.73314499855[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=493)[0m 1 samples in time = 79473.64876890182
+[36m(run_sample pid=73690)[0m 1 samples in time = 79480.28994727135
+[36m(run_sample pid=73709)[0m 1 samples in time = 79488.6728527546
+[36m(run_sample pid=459)[0m 1 samples in time = 79504.04954099655
+[36m(run_sample pid=640)[0m 1 samples in time = 79510.77011179924
+[36m(run_sample pid=520)[0m 1 samples in time = 79511.42027401924
+[36m(run_sample pid=606)[0m 1 samples in time = 79546.1993701458
+[36m(run_sample pid=73694)[0m 1 samples in time = 79547.33816432953
+[36m(run_sample pid=554)[0m 1 samples in time = 79566.46742343903
+[36m(run_sample pid=461)[0m 1 samples in time = 79609.106808424
+[36m(run_sample pid=73697)[0m 1 samples in time = 79615.04018425941
+[36m(run_sample pid=462)[0m 1 samples in time = 79617.77222585678
+[36m(run_sample pid=456)[0m 1 samples in time = 79623.60466885567
+[36m(run_sample pid=73693)[0m 1 samples in time = 79638.47356510162
+[36m(run_sample pid=73698)[0m 1 samples in time = 79652.89949917793[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73700)[0m 1 samples in time = 79660.60135149956
+[36m(run_sample pid=73691)[0m 1 samples in time = 79666.82192826271
+[36m(run_sample pid=450)[0m 1 samples in time = 79707.17385482788
+[36m(run_sample pid=73695)[0m 1 samples in time = 79760.16679501534
+[36m(run_sample pid=540)[0m 1 samples in time = 79786.66381669044
+[36m(run_sample pid=73704)[0m 1 samples in time = 79788.5015873909
+[36m(run_sample pid=73712)[0m 1 samples in time = 79798.50155949593
+[36m(run_sample pid=451)[0m 1 samples in time = 79808.47642874718
+[36m(run_sample pid=73711)[0m 1 samples in time = 79821.04740166664
+[36m(run_sample pid=73710)[0m 1 samples in time = 79875.31800818443
+[36m(run_sample pid=460)[0m 1 samples in time = 79892.71803975105
+[36m(run_sample pid=73714)[0m 1 samples in time = 79897.78740215302
+[36m(run_sample pid=73722)[0m 1 samples in time = 79911.03022551537
+[36m(run_sample pid=73713)[0m 1 samples in time = 79921.95293831825
+[36m(run_sample pid=513)[0m 1 samples in time = 79941.05417394638
+[36m(run_sample pid=73687)[0m 1 samples in time = 79952.96498775482
+[36m(run_sample pid=73721)[0m 1 samples in time = 80003.40283989906[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73701)[0m 1 samples in time = 80060.31645941734
+[36m(run_sample pid=73688)[0m 1 samples in time = 80069.95852589607
+[36m(run_sample pid=73699)[0m 1 samples in time = 80096.4110789299[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=509)[0m 1 samples in time = 80139.2343313694
+[36m(run_sample pid=73703)[0m 1 samples in time = 80149.263692379
+[36m(run_sample pid=73716)[0m 1 samples in time = 80193.00865411758
+[36m(run_sample pid=616)[0m 2 samples in time = 118389.5731883049
+[36m(run_sample pid=518)[0m 2 samples in time = 118414.2487912178
+[36m(run_sample pid=73720)[0m 2 samples in time = 118495.87245082855
+[36m(run_sample pid=73719)[0m 2 samples in time = 118523.40589809418
+[36m(run_sample pid=544)[0m 2 samples in time = 118523.6641561985
+[36m(run_sample pid=73715)[0m 2 samples in time = 118592.54036355019[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73717)[0m 2 samples in time = 118606.57647752762
+[36m(run_sample pid=517)[0m 2 samples in time = 118646.63444685936
+[36m(run_sample pid=545)[0m 2 samples in time = 118656.59430217743
+[36m(run_sample pid=514)[0m 2 samples in time = 118713.82990956306
+[36m(run_sample pid=73708)[0m 2 samples in time = 118730.40760755539
+[36m(run_sample pid=643)[0m 2 samples in time = 118755.89425134659
+[36m(run_sample pid=521)[0m 2 samples in time = 118765.02718114853[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=639)[0m 2 samples in time = 118783.4491918087
+[36m(run_sample pid=641)[0m 2 samples in time = 118785.16959142685
+[36m(run_sample pid=515)[0m 2 samples in time = 118817.86024022102
+[36m(run_sample pid=512)[0m 2 samples in time = 118851.07904434204
+[36m(run_sample pid=480)[0m 2 samples in time = 118917.77606892586
+[36m(run_sample pid=73689)[0m 2 samples in time = 118936.99587488174
+[36m(run_sample pid=442)[0m 2 samples in time = 118959.47572350502
+[36m(run_sample pid=73696)[0m 2 samples in time = 118959.72551965714
+[36m(run_sample pid=474)[0m 2 samples in time = 118965.0887067318
+[36m(run_sample pid=466)[0m 2 samples in time = 118970.97402262688
+[36m(run_sample pid=642)[0m 2 samples in time = 118980.84618592262
+[36m(run_sample pid=620)[0m 2 samples in time = 118989.51298761368
+[36m(run_sample pid=640)[0m 2 samples in time = 119035.37201976776
+[36m(run_sample pid=73690)[0m 2 samples in time = 119056.8564286232
+[36m(run_sample pid=459)[0m 2 samples in time = 119069.61232161522
+[36m(run_sample pid=606)[0m 2 samples in time = 119083.15613007545
+[36m(run_sample pid=638)[0m 2 samples in time = 119101.1954677105
+[36m(run_sample pid=73702)[0m 2 samples in time = 119126.45580506325
+[36m(run_sample pid=554)[0m 2 samples in time = 119140.01112246513
+[36m(run_sample pid=637)[0m 2 samples in time = 119141.14094161987
+[36m(run_sample pid=73694)[0m 2 samples in time = 119153.20057082176[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73697)[0m 2 samples in time = 119209.85348653793[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73709)[0m 2 samples in time = 119241.34401655197[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73698)[0m 2 samples in time = 119307.71310091019
+[36m(run_sample pid=73691)[0m 2 samples in time = 119318.473341465
+[36m(run_sample pid=73693)[0m 2 samples in time = 119328.65255689621
+[36m(run_sample pid=461)[0m 2 samples in time = 119349.28745532036
+[36m(run_sample pid=462)[0m 2 samples in time = 119368.11395573616
+[36m(run_sample pid=450)[0m 2 samples in time = 119377.84199762344
+[36m(run_sample pid=73692)[0m 2 samples in time = 119385.05400013924
+[36m(run_sample pid=73700)[0m 2 samples in time = 119406.36582779884
+[36m(run_sample pid=73704)[0m 2 samples in time = 119421.84749889374
+[36m(run_sample pid=451)[0m 2 samples in time = 119477.06510806084
+[36m(run_sample pid=73710)[0m 2 samples in time = 119529.17881131172[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73712)[0m 2 samples in time = 119549.005361557
+[36m(run_sample pid=540)[0m 2 samples in time = 119573.41395235062
+[36m(run_sample pid=73695)[0m 2 samples in time = 119579.12219238281
+[36m(run_sample pid=73713)[0m 2 samples in time = 119588.8020002842
+[36m(run_sample pid=73714)[0m 2 samples in time = 119615.03765821457
+[36m(run_sample pid=436)[0m 2 samples in time = 119620.6391813755
+[36m(run_sample pid=73722)[0m 2 samples in time = 119645.76158094406[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73687)[0m 2 samples in time = 119696.3558280468
+[36m(run_sample pid=513)[0m 2 samples in time = 119724.6403131485
+[36m(run_sample pid=73721)[0m 2 samples in time = 119778.44187736511
+[36m(run_sample pid=73701)[0m 2 samples in time = 119786.09162259102
+[36m(run_sample pid=73688)[0m 2 samples in time = 119859.86810207367
+[36m(run_sample pid=73718)[0m 2 samples in time = 119860.89304232597
+[36m(run_sample pid=73699)[0m 2 samples in time = 119888.93679976463
+[36m(run_sample pid=73703)[0m 2 samples in time = 120026.89239931107
+[36m(run_sample pid=73716)[0m 2 samples in time = 120068.05853748322
+[36m(run_sample pid=509)[0m 2 samples in time = 120078.60162758827
+[36m(run_sample pid=616)[0m 3 samples in time = 157702.1811285019
+[36m(run_sample pid=518)[0m 3 samples in time = 157735.80854916573
+[36m(run_sample pid=73720)[0m 3 samples in time = 157840.56640315056
+[36m(run_sample pid=73719)[0m 3 samples in time = 157855.02359700203
+[36m(run_sample pid=544)[0m 3 samples in time = 157910.67618346214
+[36m(run_sample pid=73717)[0m 3 samples in time = 157958.71542048454
+[36m(run_sample pid=73715)[0m 3 samples in time = 157974.98072075844
+[36m(run_sample pid=517)[0m 3 samples in time = 157986.5764644146
+[36m(run_sample pid=516)[0m 3 samples in time = 158023.63263130188
+[36m(run_sample pid=73708)[0m 3 samples in time = 158146.36505413055
+[36m(run_sample pid=514)[0m 3 samples in time = 158156.38889455795
+[36m(run_sample pid=537)[0m 3 samples in time = 158208.94825482368
+[36m(run_sample pid=643)[0m 3 samples in time = 158214.40566420555
+[36m(run_sample pid=515)[0m 3 samples in time = 158232.18497037888
+[36m(run_sample pid=545)[0m 3 samples in time = 158256.25000834465
+[36m(run_sample pid=521)[0m 3 samples in time = 158268.0888273716
+[36m(run_sample pid=519)[0m 3 samples in time = 158278.99092817307
+[36m(run_sample pid=639)[0m 3 samples in time = 158304.76796078682
+[36m(run_sample pid=512)[0m 3 samples in time = 158341.88804602623
+[36m(run_sample pid=641)[0m 3 samples in time = 158384.51637601852
+[36m(run_sample pid=73689)[0m 3 samples in time = 158438.8215827942
+[36m(run_sample pid=466)[0m 3 samples in time = 158486.2129611969
+[36m(run_sample pid=442)[0m 3 samples in time = 158492.4694199562[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=642)[0m 3 samples in time = 158528.16456770897
+[36m(run_sample pid=474)[0m 3 samples in time = 158541.73446416855
+[36m(run_sample pid=73696)[0m 3 samples in time = 158559.60713386536
+[36m(run_sample pid=459)[0m 3 samples in time = 158567.3827934265
+[36m(run_sample pid=606)[0m 3 samples in time = 158618.37330412865
+[36m(run_sample pid=640)[0m 3 samples in time = 158625.08559322357
+[36m(run_sample pid=493)[0m 3 samples in time = 158696.59381651878
+[36m(run_sample pid=637)[0m 3 samples in time = 158702.74756765366
+[36m(run_sample pid=73690)[0m 3 samples in time = 158712.07747411728
+[36m(run_sample pid=620)[0m 3 samples in time = 158729.8915848732
+[36m(run_sample pid=638)[0m 3 samples in time = 158737.60847258568
+[36m(run_sample pid=554)[0m 3 samples in time = 158738.65250110626
+[36m(run_sample pid=73694)[0m 3 samples in time = 158762.97777438164
+[36m(run_sample pid=73702)[0m 3 samples in time = 158847.72103261948
+[36m(run_sample pid=73697)[0m 3 samples in time = 158870.5572705269
+[36m(run_sample pid=456)[0m 3 samples in time = 158879.5310394764
+[36m(run_sample pid=73709)[0m 3 samples in time = 158893.19420909882
+[36m(run_sample pid=520)[0m 3 samples in time = 158896.86970162392
+[36m(run_sample pid=73691)[0m 3 samples in time = 158930.10956645012
+[36m(run_sample pid=462)[0m 3 samples in time = 158970.86911821365
+[36m(run_sample pid=73698)[0m 3 samples in time = 159011.60435032845
+[36m(run_sample pid=73693)[0m 3 samples in time = 159023.5535826683
+[36m(run_sample pid=450)[0m 3 samples in time = 159033.24305653572[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73700)[0m 3 samples in time = 159090.19510245323
+[36m(run_sample pid=73704)[0m 3 samples in time = 159097.9515759945
+[36m(run_sample pid=73711)[0m 3 samples in time = 159129.95186305046
+[36m(run_sample pid=461)[0m 3 samples in time = 159138.89160251617
+[36m(run_sample pid=451)[0m 3 samples in time = 159145.7672457695
+[36m(run_sample pid=73710)[0m 3 samples in time = 159182.07935333252
+[36m(run_sample pid=436)[0m 3 samples in time = 159201.06211400032
+[36m(run_sample pid=73712)[0m 3 samples in time = 159228.121986866
+[36m(run_sample pid=540)[0m 3 samples in time = 159298.75868844986
+[36m(run_sample pid=73714)[0m 3 samples in time = 159304.5381374359
+[36m(run_sample pid=73713)[0m 3 samples in time = 159324.7117371559
+[36m(run_sample pid=73695)[0m 3 samples in time = 159367.08330249786
+[36m(run_sample pid=460)[0m 3 samples in time = 159374.86162638664
+[36m(run_sample pid=73687)[0m 3 samples in time = 159387.26963329315
+[36m(run_sample pid=513)[0m 3 samples in time = 159418.03442549706
+[36m(run_sample pid=73721)[0m 3 samples in time = 159441.44268155098
+[36m(run_sample pid=73722)[0m 3 samples in time = 159565.60975933075
+[36m(run_sample pid=73718)[0m 3 samples in time = 159566.42757940292
+[36m(run_sample pid=73701)[0m 3 samples in time = 159603.5340399742
+[36m(run_sample pid=73699)[0m 3 samples in time = 159667.06042718887
+[36m(run_sample pid=73688)[0m 3 samples in time = 159679.04077482224
+[36m(run_sample pid=73703)[0m 3 samples in time = 159833.88597416878
+[36m(run_sample pid=73716)[0m 3 samples in time = 159888.2636024952
+[36m(run_sample pid=509)[0m 3 samples in time = 159924.44796085358
+[36m(run_sample pid=616)[0m 4 samples in time = 196948.16507196426
+[36m(run_sample pid=518)[0m 4 samples in time = 197077.8936970234
+[36m(run_sample pid=73720)[0m 4 samples in time = 197199.55557465553
+[36m(run_sample pid=544)[0m 4 samples in time = 197284.8163998127
+[36m(run_sample pid=73719)[0m 4 samples in time = 197349.57844305038
+[36m(run_sample pid=73715)[0m 4 samples in time = 197394.7087020874
+[36m(run_sample pid=517)[0m 4 samples in time = 197414.8114798069
+[36m(run_sample pid=516)[0m 4 samples in time = 197426.2363538742
+[36m(run_sample pid=73717)[0m 4 samples in time = 197435.76545071602
+[36m(run_sample pid=514)[0m 4 samples in time = 197558.12939357758
+[36m(run_sample pid=73708)[0m 4 samples in time = 197600.1396305561
+[36m(run_sample pid=537)[0m 4 samples in time = 197604.8827702999
+[36m(run_sample pid=521)[0m 4 samples in time = 197689.28192734718
+[36m(run_sample pid=545)[0m 4 samples in time = 197724.1210782528
+[36m(run_sample pid=515)[0m 4 samples in time = 197741.47522306442
+[36m(run_sample pid=643)[0m 4 samples in time = 197793.82977461815
+[36m(run_sample pid=639)[0m 4 samples in time = 197851.31097006798
+[36m(run_sample pid=641)[0m 4 samples in time = 197895.05195260048
+[36m(run_sample pid=512)[0m 4 samples in time = 197934.35854673386
+[36m(run_sample pid=519)[0m 4 samples in time = 197942.69981479645
+[36m(run_sample pid=73689)[0m 4 samples in time = 197972.45343446732[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=642)[0m 4 samples in time = 198017.24607110023
+[36m(run_sample pid=480)[0m 4 samples in time = 198066.3961737156
+[36m(run_sample pid=466)[0m 4 samples in time = 198104.24821782112
+[36m(run_sample pid=474)[0m 4 samples in time = 198114.0474641323
+[36m(run_sample pid=73696)[0m 4 samples in time = 198167.09310531616
+[36m(run_sample pid=640)[0m 4 samples in time = 198191.46871566772
+[36m(run_sample pid=493)[0m 4 samples in time = 198253.6800789833
+[36m(run_sample pid=73690)[0m 4 samples in time = 198260.46574759483
+[36m(run_sample pid=459)[0m 4 samples in time = 198285.90993404388
+[36m(run_sample pid=606)[0m 4 samples in time = 198287.26654410362
+[36m(run_sample pid=554)[0m 4 samples in time = 198331.9344780445
+[36m(run_sample pid=637)[0m 4 samples in time = 198335.76160430908
+[36m(run_sample pid=620)[0m 4 samples in time = 198360.00271964073
+[36m(run_sample pid=73709)[0m 4 samples in time = 198379.10704636574
+[36m(run_sample pid=638)[0m 4 samples in time = 198387.25564670563
+[36m(run_sample pid=73694)[0m 4 samples in time = 198402.35551714897
+[36m(run_sample pid=520)[0m 4 samples in time = 198503.65280008316[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73691)[0m 4 samples in time = 198552.37342524529[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=462)[0m 4 samples in time = 198576.91157460213
+[36m(run_sample pid=456)[0m 4 samples in time = 198584.0792348385
+[36m(run_sample pid=73693)[0m 4 samples in time = 198682.01662015915
+[36m(run_sample pid=450)[0m 4 samples in time = 198708.73355555534
+[36m(run_sample pid=73692)[0m 4 samples in time = 198713.92980885506[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73700)[0m 4 samples in time = 198733.76844620705
+[36m(run_sample pid=451)[0m 4 samples in time = 198759.82600474358
+[36m(run_sample pid=73711)[0m 4 samples in time = 198775.80635166168
+[36m(run_sample pid=73704)[0m 4 samples in time = 198791.36663341522
+[36m(run_sample pid=461)[0m 4 samples in time = 198802.05119991302
+[36m(run_sample pid=436)[0m 4 samples in time = 198848.33807063103
+[36m(run_sample pid=73710)[0m 4 samples in time = 198933.37866020203
+[36m(run_sample pid=540)[0m 4 samples in time = 198946.050760746
+[36m(run_sample pid=73712)[0m 4 samples in time = 198999.88775587082
+[36m(run_sample pid=73714)[0m 4 samples in time = 199048.4510319233
+[36m(run_sample pid=73695)[0m 4 samples in time = 199084.96666812897
+[36m(run_sample pid=460)[0m 4 samples in time = 199091.18190050125
+[36m(run_sample pid=73721)[0m 4 samples in time = 199185.69553542137[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=513)[0m 4 samples in time = 199238.07159495354
+[36m(run_sample pid=73699)[0m 4 samples in time = 199334.31433296204
+[36m(run_sample pid=73722)[0m 4 samples in time = 199353.2730126381
+[36m(run_sample pid=73718)[0m 4 samples in time = 199378.60044813156
+[36m(run_sample pid=73701)[0m 4 samples in time = 199405.97488904
+[36m(run_sample pid=73688)[0m 4 samples in time = 199420.27256393433
+[36m(run_sample pid=73703)[0m 4 samples in time = 199563.0883936882
+[36m(run_sample pid=509)[0m 4 samples in time = 199697.52858519554
+[36m(run_sample pid=73716)[0m 4 samples in time = 199754.05823493004
+[36m(run_sample pid=616)[0m 5 samples in time = 236224.6015470028
+[36m(run_sample pid=518)[0m 5 samples in time = 236386.0999941826
+[36m(run_sample pid=73720)[0m 5 samples in time = 236431.55529665947
+[36m(run_sample pid=544)[0m 5 samples in time = 236734.05717778206
+[36m(run_sample pid=73715)[0m 5 samples in time = 236760.5643222332
+[36m(run_sample pid=73719)[0m 5 samples in time = 236801.18878650665
+[36m(run_sample pid=517)[0m 5 samples in time = 236805.32592844963
+[36m(run_sample pid=73717)[0m 5 samples in time = 236877.50357413292
+[36m(run_sample pid=516)[0m 5 samples in time = 236893.7442164421
+[36m(run_sample pid=514)[0m 5 samples in time = 236990.31042265892
+[36m(run_sample pid=537)[0m 5 samples in time = 237008.81528162956
+[36m(run_sample pid=73708)[0m 5 samples in time = 237088.19921016693
+[36m(run_sample pid=521)[0m 5 samples in time = 237106.3547077179
+[36m(run_sample pid=643)[0m 5 samples in time = 237188.20767450333
+[36m(run_sample pid=545)[0m 5 samples in time = 237226.5825433731
+[36m(run_sample pid=515)[0m 5 samples in time = 237245.28111624718
+[36m(run_sample pid=442)[0m 5 samples in time = 237363.0293917656
+[36m(run_sample pid=641)[0m 5 samples in time = 237385.59793686867
+[36m(run_sample pid=512)[0m 5 samples in time = 237402.76566696167
+[36m(run_sample pid=519)[0m 5 samples in time = 237422.50181913376
+[36m(run_sample pid=639)[0m 5 samples in time = 237460.79164004326
+[36m(run_sample pid=73689)[0m 5 samples in time = 237531.35245728493
+[36m(run_sample pid=642)[0m 5 samples in time = 237561.1130039692
+[36m(run_sample pid=480)[0m 5 samples in time = 237648.80178427696
+[36m(run_sample pid=474)[0m 5 samples in time = 237670.6695315838
+[36m(run_sample pid=640)[0m 5 samples in time = 237679.97182774544
+[36m(run_sample pid=466)[0m 5 samples in time = 237697.7031838894
+[36m(run_sample pid=73690)[0m 5 samples in time = 237721.53569674492
+[36m(run_sample pid=493)[0m 5 samples in time = 237731.40210294724
+[36m(run_sample pid=73696)[0m 5 samples in time = 237763.87142014503
+[36m(run_sample pid=637)[0m 5 samples in time = 237809.33751487732
+[36m(run_sample pid=606)[0m 5 samples in time = 237851.99936580658
+[36m(run_sample pid=554)[0m 5 samples in time = 237858.837184906
+[36m(run_sample pid=73709)[0m 5 samples in time = 237885.8431084156
+[36m(run_sample pid=459)[0m 5 samples in time = 237942.91066241264
+[36m(run_sample pid=620)[0m 5 samples in time = 237977.0093357563
+[36m(run_sample pid=73697)[0m 5 samples in time = 238030.92013144493
+[36m(run_sample pid=73694)[0m 5 samples in time = 238044.72220611572
+[36m(run_sample pid=638)[0m 5 samples in time = 238072.3521718979
+[36m(run_sample pid=73702)[0m 5 samples in time = 238113.764275074
+[36m(run_sample pid=73691)[0m 5 samples in time = 238160.45348262787
+[36m(run_sample pid=462)[0m 5 samples in time = 238180.403591156
+[36m(run_sample pid=456)[0m 5 samples in time = 238182.5190050602
+[36m(run_sample pid=520)[0m 5 samples in time = 238224.62010216713
+[36m(run_sample pid=73693)[0m 5 samples in time = 238302.02297210693
+[36m(run_sample pid=73700)[0m 5 samples in time = 238327.97843670845
+[36m(run_sample pid=73692)[0m 5 samples in time = 238329.09892225266
+[36m(run_sample pid=73711)[0m 5 samples in time = 238358.56200170517
+[36m(run_sample pid=451)[0m 5 samples in time = 238402.12717700005
+[36m(run_sample pid=461)[0m 5 samples in time = 238446.92022752762[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=450)[0m 5 samples in time = 238467.8241569996
+[36m(run_sample pid=436)[0m 5 samples in time = 238475.0819747448
+[36m(run_sample pid=73704)[0m 5 samples in time = 238540.96988105774
+[36m(run_sample pid=540)[0m 5 samples in time = 238543.26778531075
+[36m(run_sample pid=73710)[0m 5 samples in time = 238595.79352211952
+[36m(run_sample pid=73714)[0m 5 samples in time = 238655.08725738525
+[36m(run_sample pid=73712)[0m 5 samples in time = 238702.58508110046
+[36m(run_sample pid=73713)[0m 5 samples in time = 238734.0055654049
+[36m(run_sample pid=73695)[0m 5 samples in time = 238783.72544646263[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73721)[0m 5 samples in time = 238833.96934628487
+[36m(run_sample pid=460)[0m 5 samples in time = 238882.20007658005
+[36m(run_sample pid=513)[0m 5 samples in time = 238947.88950824738
+[36m(run_sample pid=73699)[0m 5 samples in time = 239053.46553850174
+[36m(run_sample pid=73722)[0m 5 samples in time = 239083.02875685692
+[36m(run_sample pid=73688)[0m 5 samples in time = 239097.2690050602
+[36m(run_sample pid=73701)[0m 5 samples in time = 239161.77333068848
+[36m(run_sample pid=73718)[0m 5 samples in time = 239186.22496056557
+[36m(run_sample pid=73703)[0m 5 samples in time = 239357.02064323425
+[36m(run_sample pid=73716)[0m 5 samples in time = 239558.27098345757
+[36m(run_sample pid=509)[0m 5 samples in time = 239577.24440574646
+[36m(run_sample pid=616)[0m 6 samples in time = 275465.2681310177
+[36m(run_sample pid=73720)[0m 6 samples in time = 275740.4581890106
+[36m(run_sample pid=518)[0m 6 samples in time = 275782.8561615944
+[36m(run_sample pid=73715)[0m 6 samples in time = 276083.10189175606
+[36m(run_sample pid=517)[0m 6 samples in time = 276119.0089430809
+[36m(run_sample pid=544)[0m 6 samples in time = 276157.5854780674
+[36m(run_sample pid=73719)[0m 6 samples in time = 276186.86744976044
+[36m(run_sample pid=73717)[0m 6 samples in time = 276325.2241780758
+[36m(run_sample pid=516)[0m 6 samples in time = 276393.9888730049
+[36m(run_sample pid=514)[0m 6 samples in time = 276403.90000367165
+[36m(run_sample pid=537)[0m 6 samples in time = 276429.5694000721
+[36m(run_sample pid=521)[0m 6 samples in time = 276461.06559467316
+[36m(run_sample pid=73708)[0m 6 samples in time = 276522.70555734634
+[36m(run_sample pid=515)[0m 6 samples in time = 276626.6805663109
+[36m(run_sample pid=643)[0m 6 samples in time = 276696.00347805023
+[36m(run_sample pid=545)[0m 6 samples in time = 276763.1629476547
+[36m(run_sample pid=442)[0m 6 samples in time = 276825.3979115486
+[36m(run_sample pid=519)[0m 6 samples in time = 276911.7961258888
+[36m(run_sample pid=641)[0m 6 samples in time = 276938.51660847664
+[36m(run_sample pid=639)[0m 6 samples in time = 276978.0385696888[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=642)[0m 6 samples in time = 277019.634172678
+[36m(run_sample pid=73689)[0m 6 samples in time = 277155.7238767147
+[36m(run_sample pid=474)[0m 6 samples in time = 277218.26181578636
+[36m(run_sample pid=73690)[0m 6 samples in time = 277236.79331588745
+[36m(run_sample pid=480)[0m 6 samples in time = 277258.3379025459
+[36m(run_sample pid=640)[0m 6 samples in time = 277271.1051809788
+[36m(run_sample pid=466)[0m 6 samples in time = 277281.38133859634
+[36m(run_sample pid=493)[0m 6 samples in time = 277290.73474001884
+[36m(run_sample pid=637)[0m 6 samples in time = 277296.82797527313
+[36m(run_sample pid=73696)[0m 6 samples in time = 277304.8632366657
+[36m(run_sample pid=73709)[0m 6 samples in time = 277409.1015639305
+[36m(run_sample pid=606)[0m 6 samples in time = 277421.1318888664
+[36m(run_sample pid=554)[0m 6 samples in time = 277505.6730339527
+[36m(run_sample pid=459)[0m 6 samples in time = 277542.0691654682
+[36m(run_sample pid=638)[0m 6 samples in time = 277583.719039917
+[36m(run_sample pid=73694)[0m 6 samples in time = 277621.4041173458
+[36m(run_sample pid=620)[0m 6 samples in time = 277638.6218352318
+[36m(run_sample pid=73697)[0m 6 samples in time = 277656.523927927
+[36m(run_sample pid=73691)[0m 6 samples in time = 277746.62475681305
+[36m(run_sample pid=73702)[0m 6 samples in time = 277788.7147035599
+[36m(run_sample pid=520)[0m 6 samples in time = 277796.1808691025
+[36m(run_sample pid=462)[0m 6 samples in time = 277809.6710486412
+[36m(run_sample pid=456)[0m 6 samples in time = 277843.09696149826
+[36m(run_sample pid=73692)[0m 6 samples in time = 277952.363353014
+[36m(run_sample pid=73700)[0m 6 samples in time = 278013.4657714367[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73711)[0m 6 samples in time = 278065.9699225426
+[36m(run_sample pid=451)[0m 6 samples in time = 278104.8354361057
+[36m(run_sample pid=450)[0m 6 samples in time = 278120.0828728676
+[36m(run_sample pid=540)[0m 6 samples in time = 278121.0277302265
+[36m(run_sample pid=461)[0m 6 samples in time = 278134.2825343609
+[36m(run_sample pid=436)[0m 6 samples in time = 278137.0865345001
+[36m(run_sample pid=73698)[0m 6 samples in time = 278187.20951390266
+[36m(run_sample pid=73704)[0m 6 samples in time = 278235.81195759773
+[36m(run_sample pid=73710)[0m 6 samples in time = 278311.7777006626
+[36m(run_sample pid=73695)[0m 6 samples in time = 278345.25703907013
+[36m(run_sample pid=73712)[0m 6 samples in time = 278357.6176764965
+[36m(run_sample pid=73714)[0m 6 samples in time = 278382.6132864952
+[36m(run_sample pid=73687)[0m 6 samples in time = 278416.90735793114
+[36m(run_sample pid=73713)[0m 6 samples in time = 278481.62301301956
+[36m(run_sample pid=73721)[0m 6 samples in time = 278553.3946928978
+[36m(run_sample pid=513)[0m 6 samples in time = 278619.2990233898
+[36m(run_sample pid=460)[0m 6 samples in time = 278666.0713670254
+[36m(run_sample pid=73688)[0m 6 samples in time = 278861.4696223736
+[36m(run_sample pid=73701)[0m 6 samples in time = 278880.60794496536
+[36m(run_sample pid=73699)[0m 6 samples in time = 278891.4735651016
+[36m(run_sample pid=73718)[0m 6 samples in time = 278923.8147633076
+[36m(run_sample pid=73722)[0m 6 samples in time = 279002.64914536476
+[36m(run_sample pid=73703)[0m 6 samples in time = 279086.45716786385
+[36m(run_sample pid=73716)[0m 6 samples in time = 279336.08569192886
+[36m(run_sample pid=509)[0m 6 samples in time = 279422.5552613735
+[36m(run_sample pid=616)[0m 7 samples in time = 314796.1485168934
+[36m(run_sample pid=518)[0m 7 samples in time = 315061.0340600014
+[36m(run_sample pid=73720)[0m 7 samples in time = 315113.1527056694
+[36m(run_sample pid=73715)[0m 7 samples in time = 315393.5213468075
+[36m(run_sample pid=73719)[0m 7 samples in time = 315487.76346087456
+[36m(run_sample pid=517)[0m 7 samples in time = 315506.9138393402
+[36m(run_sample pid=544)[0m 7 samples in time = 315614.959751606
+[36m(run_sample pid=73717)[0m 7 samples in time = 315719.215375185
+[36m(run_sample pid=514)[0m 7 samples in time = 315784.9473249912
+[36m(run_sample pid=537)[0m 7 samples in time = 315794.7263548374
+[36m(run_sample pid=516)[0m 7 samples in time = 315852.24722385406
+[36m(run_sample pid=521)[0m 7 samples in time = 315863.3385050297
+[36m(run_sample pid=73708)[0m 7 samples in time = 315907.88112831116
+[36m(run_sample pid=515)[0m 7 samples in time = 316125.84969210625
+[36m(run_sample pid=643)[0m 7 samples in time = 316182.1410741806
+[36m(run_sample pid=545)[0m 7 samples in time = 316278.7618339062
+[36m(run_sample pid=519)[0m 7 samples in time = 316381.1995751858
+[36m(run_sample pid=641)[0m 7 samples in time = 316417.9577229023[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=512)[0m 7 samples in time = 316428.90602612495
+[36m(run_sample pid=639)[0m 7 samples in time = 316642.1992895603
+[36m(run_sample pid=73690)[0m 7 samples in time = 316659.464738369
+[36m(run_sample pid=642)[0m 7 samples in time = 316668.3504843712
+[36m(run_sample pid=493)[0m 7 samples in time = 316708.3376326561
+[36m(run_sample pid=480)[0m 7 samples in time = 316713.98272132874
+[36m(run_sample pid=73689)[0m 7 samples in time = 316741.24672961235
+[36m(run_sample pid=640)[0m 7 samples in time = 316756.92529153824
+[36m(run_sample pid=73696)[0m 7 samples in time = 316809.56936120987[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=637)[0m 7 samples in time = 316872.25480151176
+[36m(run_sample pid=466)[0m 7 samples in time = 316912.13015937805
+[36m(run_sample pid=554)[0m 7 samples in time = 317038.29367637634
+[36m(run_sample pid=606)[0m 7 samples in time = 317083.82524204254
+[36m(run_sample pid=459)[0m 7 samples in time = 317095.76984882355
+[36m(run_sample pid=73697)[0m 7 samples in time = 317151.0817580223
+[36m(run_sample pid=620)[0m 7 samples in time = 317186.16839313507
+[36m(run_sample pid=73694)[0m 7 samples in time = 317187.07572317123
+[36m(run_sample pid=638)[0m 7 samples in time = 317194.42118263245
+[36m(run_sample pid=462)[0m 7 samples in time = 317436.4478085041
+[36m(run_sample pid=73691)[0m 7 samples in time = 317461.30800008774[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73702)[0m 7 samples in time = 317472.6623854637
+[36m(run_sample pid=456)[0m 7 samples in time = 317504.7709312439
+[36m(run_sample pid=73693)[0m 7 samples in time = 317556.89307689667
+[36m(run_sample pid=73711)[0m 7 samples in time = 317620.0485391617
+[36m(run_sample pid=73700)[0m 7 samples in time = 317696.1408700943
+[36m(run_sample pid=73692)[0m 7 samples in time = 317705.60838627815
+[36m(run_sample pid=540)[0m 7 samples in time = 317714.40548586845[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=451)[0m 7 samples in time = 317767.62455534935
+[36m(run_sample pid=73698)[0m 7 samples in time = 317829.62039875984
+[36m(run_sample pid=461)[0m 7 samples in time = 317857.79233431816
+[36m(run_sample pid=73704)[0m 7 samples in time = 317915.1759252548
+[36m(run_sample pid=436)[0m 7 samples in time = 317930.13850712776
+[36m(run_sample pid=73712)[0m 7 samples in time = 318006.0407323837
+[36m(run_sample pid=73714)[0m 7 samples in time = 318061.6543586254
+[36m(run_sample pid=73710)[0m 7 samples in time = 318074.86009430885
+[36m(run_sample pid=73687)[0m 7 samples in time = 318087.0702264309
+[36m(run_sample pid=73695)[0m 7 samples in time = 318089.2540717125
+[36m(run_sample pid=73713)[0m 7 samples in time = 318150.78948807716
+[36m(run_sample pid=73721)[0m 7 samples in time = 318324.13000154495
+[36m(run_sample pid=460)[0m 7 samples in time = 318344.9042568207
+[36m(run_sample pid=513)[0m 7 samples in time = 318462.8402824402
+[36m(run_sample pid=73701)[0m 7 samples in time = 318571.19959044456
+[36m(run_sample pid=73718)[0m 7 samples in time = 318602.9277627468
+[36m(run_sample pid=73699)[0m 7 samples in time = 318621.7441306114
+[36m(run_sample pid=73688)[0m 7 samples in time = 318729.5853359699
+[36m(run_sample pid=73703)[0m 7 samples in time = 318812.10544490814
+[36m(run_sample pid=73722)[0m 7 samples in time = 318887.7002661228
+[36m(run_sample pid=509)[0m 7 samples in time = 319123.9117949009
+[36m(run_sample pid=73716)[0m 7 samples in time = 319149.76578879356
+[36m(run_sample pid=616)[0m 8 samples in time = 354213.2989358902
+[36m(run_sample pid=518)[0m 8 samples in time = 354446.746686697
+[36m(run_sample pid=73720)[0m 8 samples in time = 354473.65635585785
+[36m(run_sample pid=73715)[0m 8 samples in time = 354788.3179843426
+[36m(run_sample pid=73719)[0m 8 samples in time = 354853.50846648216
+[36m(run_sample pid=517)[0m 8 samples in time = 354861.24406433105
+[36m(run_sample pid=544)[0m 8 samples in time = 355084.95917344093
+[36m(run_sample pid=73717)[0m 8 samples in time = 355100.2086837292
+[36m(run_sample pid=514)[0m 8 samples in time = 355174.5655479431
+[36m(run_sample pid=537)[0m 8 samples in time = 355235.83359742165
+[36m(run_sample pid=521)[0m 8 samples in time = 355258.3776922226
+[36m(run_sample pid=516)[0m 8 samples in time = 355300.03840351105
+[36m(run_sample pid=73708)[0m 8 samples in time = 355356.1365766525
+[36m(run_sample pid=515)[0m 8 samples in time = 355598.0287384987
+[36m(run_sample pid=643)[0m 8 samples in time = 355646.6543095112
+[36m(run_sample pid=545)[0m 8 samples in time = 355685.23772263527
+[36m(run_sample pid=641)[0m 8 samples in time = 355831.01683306694
+[36m(run_sample pid=519)[0m 8 samples in time = 355858.41598534584
+[36m(run_sample pid=442)[0m 8 samples in time = 355994.96582102776
+[36m(run_sample pid=512)[0m 8 samples in time = 356055.3825993538
+[36m(run_sample pid=639)[0m 8 samples in time = 356105.00829958916
+[36m(run_sample pid=73690)[0m 8 samples in time = 356144.03975367546
+[36m(run_sample pid=493)[0m 8 samples in time = 356159.27168416977
+[36m(run_sample pid=642)[0m 8 samples in time = 356202.9796900749
+[36m(run_sample pid=480)[0m 8 samples in time = 356224.3033208847[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=637)[0m 8 samples in time = 356326.9794588089
+[36m(run_sample pid=73709)[0m 8 samples in time = 356346.1638381481
+[36m(run_sample pid=640)[0m 8 samples in time = 356356.0737323761
+[36m(run_sample pid=73696)[0m 8 samples in time = 356374.78907465935
+[36m(run_sample pid=474)[0m 8 samples in time = 356422.71634435654
+[36m(run_sample pid=466)[0m 8 samples in time = 356486.50671577454
+[36m(run_sample pid=73697)[0m 8 samples in time = 356641.02386307716
+[36m(run_sample pid=459)[0m 8 samples in time = 356679.94145560265
+[36m(run_sample pid=554)[0m 8 samples in time = 356761.77962350845
+[36m(run_sample pid=606)[0m 8 samples in time = 356769.489644289
+[36m(run_sample pid=73694)[0m 8 samples in time = 356775.4124479294
+[36m(run_sample pid=638)[0m 8 samples in time = 356809.97272372246
+[36m(run_sample pid=620)[0m 8 samples in time = 356884.02768564224
+[36m(run_sample pid=73691)[0m 8 samples in time = 357008.98084950447
+[36m(run_sample pid=462)[0m 8 samples in time = 357054.6702032089
+[36m(run_sample pid=520)[0m 8 samples in time = 357055.8634881973
+[36m(run_sample pid=73702)[0m 8 samples in time = 357083.6745121479
+[36m(run_sample pid=456)[0m 8 samples in time = 357141.1430490017
+[36m(run_sample pid=73711)[0m 8 samples in time = 357280.13199591637
+[36m(run_sample pid=540)[0m 8 samples in time = 357293.76666522026
+[36m(run_sample pid=73693)[0m 8 samples in time = 357329.2483048439
+[36m(run_sample pid=451)[0m 8 samples in time = 357409.80247426033
+[36m(run_sample pid=73692)[0m 8 samples in time = 357445.3428964615
+[36m(run_sample pid=450)[0m 8 samples in time = 357469.2080409527
+[36m(run_sample pid=73698)[0m 8 samples in time = 357559.1972088814[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73704)[0m 8 samples in time = 357586.2965362072
+[36m(run_sample pid=461)[0m 8 samples in time = 357633.8376555443
+[36m(run_sample pid=73695)[0m 8 samples in time = 357687.5302937031
+[36m(run_sample pid=436)[0m 8 samples in time = 357703.55715203285
+[36m(run_sample pid=73712)[0m 8 samples in time = 357718.1513388157
+[36m(run_sample pid=73714)[0m 8 samples in time = 357769.26876068115
+[36m(run_sample pid=73710)[0m 8 samples in time = 357774.96908402443
+[36m(run_sample pid=73687)[0m 8 samples in time = 357935.00520181656
+[36m(run_sample pid=73721)[0m 8 samples in time = 357972.6256649494
+[36m(run_sample pid=73713)[0m 8 samples in time = 357979.90966939926
+[36m(run_sample pid=513)[0m 8 samples in time = 358094.39353871346
+[36m(run_sample pid=460)[0m 8 samples in time = 358137.8311457634
+[36m(run_sample pid=73718)[0m 8 samples in time = 358347.1625275612
+[36m(run_sample pid=73699)[0m 8 samples in time = 358359.8508486748
+[36m(run_sample pid=73688)[0m 8 samples in time = 358405.7792825699[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73722)[0m 8 samples in time = 358568.9987618923
+[36m(run_sample pid=73703)[0m 8 samples in time = 358584.0007853508
+[36m(run_sample pid=73716)[0m 8 samples in time = 358819.78129434586
+[36m(run_sample pid=509)[0m 8 samples in time = 358866.3403275013
+[36m(run_sample pid=616)[0m 9 samples in time = 393498.43931412697
+[36m(run_sample pid=518)[0m 9 samples in time = 393742.9637672901
+[36m(run_sample pid=73720)[0m 9 samples in time = 393821.83092832565
+[36m(run_sample pid=73715)[0m 9 samples in time = 394160.7214179039
+[36m(run_sample pid=517)[0m 9 samples in time = 394190.23994135857
+[36m(run_sample pid=73719)[0m 9 samples in time = 394201.0317862034
+[36m(run_sample pid=544)[0m 9 samples in time = 394507.83272099495
+[36m(run_sample pid=73717)[0m 9 samples in time = 394545.3612091541
+[36m(run_sample pid=514)[0m 9 samples in time = 394618.5326399803
+[36m(run_sample pid=521)[0m 9 samples in time = 394708.7688829899
+[36m(run_sample pid=516)[0m 9 samples in time = 394742.78511571884[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73708)[0m 9 samples in time = 394828.3508219719
+[36m(run_sample pid=515)[0m 9 samples in time = 395045.13800787926
+[36m(run_sample pid=643)[0m 9 samples in time = 395108.4805800915
+[36m(run_sample pid=545)[0m 9 samples in time = 395238.16534614563
+[36m(run_sample pid=641)[0m 9 samples in time = 395414.2528550625
+[36m(run_sample pid=519)[0m 9 samples in time = 395420.0339858532
+[36m(run_sample pid=442)[0m 9 samples in time = 395553.1956899166
+[36m(run_sample pid=512)[0m 9 samples in time = 395637.63023257256
+[36m(run_sample pid=493)[0m 9 samples in time = 395655.682379961
+[36m(run_sample pid=73690)[0m 9 samples in time = 395658.52771139145
+[36m(run_sample pid=639)[0m 9 samples in time = 395693.94369101524[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=480)[0m 9 samples in time = 395744.8668818474
+[36m(run_sample pid=73689)[0m 9 samples in time = 395761.8750798702
+[36m(run_sample pid=637)[0m 9 samples in time = 395804.81229281425
+[36m(run_sample pid=640)[0m 9 samples in time = 395856.4979739189
+[36m(run_sample pid=73696)[0m 9 samples in time = 395885.16988921165
+[36m(run_sample pid=73709)[0m 9 samples in time = 395934.1799764633
+[36m(run_sample pid=474)[0m 9 samples in time = 395970.5825457573
+[36m(run_sample pid=466)[0m 9 samples in time = 395996.7808995247
+[36m(run_sample pid=459)[0m 9 samples in time = 396226.893982172
+[36m(run_sample pid=73697)[0m 9 samples in time = 396267.1098232269
+[36m(run_sample pid=554)[0m 9 samples in time = 396345.6012260914
+[36m(run_sample pid=73694)[0m 9 samples in time = 396373.6250388622
+[36m(run_sample pid=620)[0m 9 samples in time = 396439.7974805832
+[36m(run_sample pid=638)[0m 9 samples in time = 396460.8836479187
+[36m(run_sample pid=606)[0m 9 samples in time = 396518.67067074776
+[36m(run_sample pid=73691)[0m 9 samples in time = 396606.76097512245
+[36m(run_sample pid=462)[0m 9 samples in time = 396625.68999290466
+[36m(run_sample pid=520)[0m 9 samples in time = 396680.72456645966
+[36m(run_sample pid=73702)[0m 9 samples in time = 396706.2232527733
+[36m(run_sample pid=456)[0m 9 samples in time = 396806.31290102005
+[36m(run_sample pid=540)[0m 9 samples in time = 396888.22486805916
+[36m(run_sample pid=73693)[0m 9 samples in time = 396956.25121998787
+[36m(run_sample pid=73711)[0m 9 samples in time = 397003.86113524437
+[36m(run_sample pid=450)[0m 9 samples in time = 397048.62900209427
+[36m(run_sample pid=451)[0m 9 samples in time = 397108.47187685966
+[36m(run_sample pid=73692)[0m 9 samples in time = 397122.9581890106
+[36m(run_sample pid=73700)[0m 9 samples in time = 397139.6680817604
+[36m(run_sample pid=73698)[0m 9 samples in time = 397255.46765351295
+[36m(run_sample pid=73704)[0m 9 samples in time = 397294.316880703
+[36m(run_sample pid=73695)[0m 9 samples in time = 397383.8546175957
+[36m(run_sample pid=436)[0m 9 samples in time = 397399.45038866997
+[36m(run_sample pid=461)[0m 9 samples in time = 397409.9419503212
+[36m(run_sample pid=73712)[0m 9 samples in time = 397425.27441239357
+[36m(run_sample pid=73714)[0m 9 samples in time = 397455.5139348507
+[36m(run_sample pid=73710)[0m 9 samples in time = 397611.98424577713
+[36m(run_sample pid=73721)[0m 9 samples in time = 397636.58147883415
+[36m(run_sample pid=73713)[0m 9 samples in time = 397732.71251511574
+[36m(run_sample pid=73687)[0m 9 samples in time = 397851.0652294159
+[36m(run_sample pid=460)[0m 9 samples in time = 397929.81489753723
+[36m(run_sample pid=513)[0m 9 samples in time = 397952.22236418724
+[36m(run_sample pid=73701)[0m 9 samples in time = 398103.5648698807
+[36m(run_sample pid=73718)[0m 9 samples in time = 398138.4185912609
+[36m(run_sample pid=73699)[0m 9 samples in time = 398181.4455907345[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73703)[0m 9 samples in time = 398373.66089200974
+[36m(run_sample pid=73722)[0m 9 samples in time = 398376.33506917953
+[36m(run_sample pid=73716)[0m 9 samples in time = 398611.8529689312
+[36m(run_sample pid=509)[0m 9 samples in time = 398845.0960006714
+[36m(run_sample pid=616)[0m 10 samples in time = 432734.2873620987
+[36m(run_sample pid=518)[0m 10 samples in time = 433006.3931787014
+[36m(run_sample pid=73720)[0m 10 samples in time = 433150.39936614037
+[36m(run_sample pid=517)[0m 10 samples in time = 433556.70872092247
+[36m(run_sample pid=73715)[0m 10 samples in time = 433605.2453649044
+[36m(run_sample pid=73719)[0m 10 samples in time = 433640.9024538994
+[36m(run_sample pid=544)[0m 10 samples in time = 433906.84973835945
+[36m(run_sample pid=73717)[0m 10 samples in time = 433999.17232990265
+[36m(run_sample pid=514)[0m 10 samples in time = 434028.18550109863
+[36m(run_sample pid=521)[0m 10 samples in time = 434106.304656744
+[36m(run_sample pid=537)[0m 10 samples in time = 434173.3192150593
+[36m(run_sample pid=516)[0m 10 samples in time = 434223.4386970997
+[36m(run_sample pid=73708)[0m 10 samples in time = 434257.2652618885
+[36m(run_sample pid=515)[0m 10 samples in time = 434542.3616538048
+[36m(run_sample pid=643)[0m 10 samples in time = 434596.81032013893
+[36m(run_sample pid=545)[0m 10 samples in time = 434791.7971429825
+[36m(run_sample pid=641)[0m 10 samples in time = 434910.32679486275
+[36m(run_sample pid=519)[0m 10 samples in time = 434923.09383559227
+[36m(run_sample pid=442)[0m 10 samples in time = 435133.50764870644
+[36m(run_sample pid=73690)[0m 10 samples in time = 435146.51620721817
+[36m(run_sample pid=493)[0m 10 samples in time = 435165.24621891975
+[36m(run_sample pid=480)[0m 10 samples in time = 435229.1199889183
+[36m(run_sample pid=512)[0m 10 samples in time = 435239.4582760334
+[36m(run_sample pid=639)[0m 10 samples in time = 435242.2512407303
+[36m(run_sample pid=642)[0m 10 samples in time = 435255.41061115265[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=640)[0m 10 samples in time = 435319.76497220993
+[36m(run_sample pid=73696)[0m 10 samples in time = 435334.0328383446
+[36m(run_sample pid=73689)[0m 10 samples in time = 435342.93773150444
+[36m(run_sample pid=73709)[0m 10 samples in time = 435466.8606827259
+[36m(run_sample pid=474)[0m 10 samples in time = 435497.0843195915
+[36m(run_sample pid=466)[0m 10 samples in time = 435581.9555261135
+[36m(run_sample pid=459)[0m 10 samples in time = 435739.9141590595
+[36m(run_sample pid=554)[0m 10 samples in time = 435883.9987561703
+[36m(run_sample pid=73697)[0m 10 samples in time = 435925.96609568596
+[36m(run_sample pid=638)[0m 10 samples in time = 436000.90191841125
+[36m(run_sample pid=73694)[0m 10 samples in time = 436023.5427868366
+[36m(run_sample pid=620)[0m 10 samples in time = 436035.8335568905
+[36m(run_sample pid=462)[0m 10 samples in time = 436166.4399137497
+[36m(run_sample pid=606)[0m 10 samples in time = 436191.4765560627
+[36m(run_sample pid=73691)[0m 10 samples in time = 436219.8594071865
+[36m(run_sample pid=73702)[0m 10 samples in time = 436290.067207098
+[36m(run_sample pid=520)[0m 10 samples in time = 436353.0735361576
+[36m(run_sample pid=540)[0m 10 samples in time = 436383.370711565
+[36m(run_sample pid=456)[0m 10 samples in time = 436508.03752565384
+[36m(run_sample pid=73693)[0m 10 samples in time = 436630.9257223606
+[36m(run_sample pid=450)[0m 10 samples in time = 436653.78798413277
+[36m(run_sample pid=73711)[0m 10 samples in time = 436683.6383981705
+[36m(run_sample pid=73692)[0m 10 samples in time = 436766.4071865082
+[36m(run_sample pid=451)[0m 10 samples in time = 436814.6379210949
+[36m(run_sample pid=73700)[0m 10 samples in time = 436862.10229182243
+[36m(run_sample pid=73698)[0m 10 samples in time = 436981.8280310631
+[36m(run_sample pid=73704)[0m 10 samples in time = 436994.49444937706
+[36m(run_sample pid=461)[0m 10 samples in time = 437066.5430841446
+[36m(run_sample pid=73695)[0m 10 samples in time = 437088.0753777027
+[36m(run_sample pid=436)[0m 10 samples in time = 437093.05500388145
+[36m(run_sample pid=73712)[0m 10 samples in time = 437101.26370692253
+[36m(run_sample pid=73714)[0m 10 samples in time = 437184.64572143555
+[36m(run_sample pid=73721)[0m 10 samples in time = 437291.82633829117
+[36m(run_sample pid=73713)[0m 10 samples in time = 437379.903298378
+[36m(run_sample pid=73710)[0m 10 samples in time = 437485.01156020164
+[36m(run_sample pid=73687)[0m 10 samples in time = 437603.6336810589
+[36m(run_sample pid=460)[0m 10 samples in time = 437661.21448946
+[36m(run_sample pid=513)[0m 10 samples in time = 437807.50169324875
+[36m(run_sample pid=73688)[0m 10 samples in time = 437838.1079888344
+[36m(run_sample pid=73718)[0m 10 samples in time = 437857.0645916462
+[36m(run_sample pid=73701)[0m 10 samples in time = 437901.3048245907
+[36m(run_sample pid=73699)[0m 10 samples in time = 437924.80251812935
+[36m(run_sample pid=73722)[0m 10 samples in time = 438153.58632946014
+[36m(run_sample pid=73703)[0m 10 samples in time = 438317.51184773445
+[36m(run_sample pid=73716)[0m 10 samples in time = 438490.39852809906
+[36m(run_sample pid=509)[0m 10 samples in time = 438801.66204977036
+[36m(run_sample pid=616)[0m 11 samples in time = 471975.9955947399
+[36m(run_sample pid=518)[0m 11 samples in time = 472338.5366089344
+[36m(run_sample pid=73720)[0m 11 samples in time = 472478.6231780052
+[36m(run_sample pid=517)[0m 11 samples in time = 473003.72932362556
+[36m(run_sample pid=73715)[0m 11 samples in time = 473059.7291030884
+[36m(run_sample pid=73719)[0m 11 samples in time = 473087.8995950222
+[36m(run_sample pid=73717)[0m 11 samples in time = 473309.41723155975
+[36m(run_sample pid=544)[0m 11 samples in time = 473363.1937408447
+[36m(run_sample pid=514)[0m 11 samples in time = 473483.36312150955
+[36m(run_sample pid=537)[0m 11 samples in time = 473669.26999378204
+[36m(run_sample pid=521)[0m 11 samples in time = 473677.05715227127
+[36m(run_sample pid=516)[0m 11 samples in time = 473681.3727452755
+[36m(run_sample pid=73708)[0m 11 samples in time = 473754.1313548088
+[36m(run_sample pid=515)[0m 11 samples in time = 474045.99349594116
+[36m(run_sample pid=643)[0m 11 samples in time = 474063.8232316971
+[36m(run_sample pid=545)[0m 11 samples in time = 474347.0130469799
+[36m(run_sample pid=519)[0m 11 samples in time = 474365.6941111088
+[36m(run_sample pid=641)[0m 11 samples in time = 474432.0273144245
+[36m(run_sample pid=442)[0m 11 samples in time = 474619.8186223507
+[36m(run_sample pid=493)[0m 11 samples in time = 474686.81740927696
+[36m(run_sample pid=512)[0m 11 samples in time = 474769.2305831909[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=639)[0m 11 samples in time = 474811.48596811295
+[36m(run_sample pid=640)[0m 11 samples in time = 474828.8443570137
+[36m(run_sample pid=637)[0m 11 samples in time = 474837.34232831
+[36m(run_sample pid=642)[0m 11 samples in time = 474845.307723999
+[36m(run_sample pid=73689)[0m 11 samples in time = 474871.0983145237
+[36m(run_sample pid=480)[0m 11 samples in time = 474873.84295606613
+[36m(run_sample pid=73709)[0m 11 samples in time = 475090.85404634476[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=466)[0m 11 samples in time = 475183.9299004078
+[36m(run_sample pid=474)[0m 11 samples in time = 475203.6537928581
+[36m(run_sample pid=459)[0m 11 samples in time = 475282.38884806633
+[36m(run_sample pid=554)[0m 11 samples in time = 475400.0253312588
+[36m(run_sample pid=73697)[0m 11 samples in time = 475560.189845562
+[36m(run_sample pid=638)[0m 11 samples in time = 475631.2249267101
+[36m(run_sample pid=73694)[0m 11 samples in time = 475653.32358789444
+[36m(run_sample pid=620)[0m 11 samples in time = 475719.0317082405
+[36m(run_sample pid=606)[0m 11 samples in time = 475848.5361688137
+[36m(run_sample pid=73691)[0m 11 samples in time = 475879.2081155777
+[36m(run_sample pid=462)[0m 11 samples in time = 475905.0563778877
+[36m(run_sample pid=540)[0m 11 samples in time = 476009.8761138916
+[36m(run_sample pid=520)[0m 11 samples in time = 476056.45364427567
+[36m(run_sample pid=73702)[0m 11 samples in time = 476094.6505408287
+[36m(run_sample pid=456)[0m 11 samples in time = 476180.3624331951
+[36m(run_sample pid=450)[0m 11 samples in time = 476279.2691383362
+[36m(run_sample pid=73693)[0m 11 samples in time = 476288.4928584099
+[36m(run_sample pid=73711)[0m 11 samples in time = 476332.6600060463
+[36m(run_sample pid=73692)[0m 11 samples in time = 476425.204144001
+[36m(run_sample pid=451)[0m 11 samples in time = 476477.836963892
+[36m(run_sample pid=73698)[0m 11 samples in time = 476675.2097263336[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73704)[0m 11 samples in time = 476683.4195370674
+[36m(run_sample pid=73712)[0m 11 samples in time = 476712.3598999977
+[36m(run_sample pid=461)[0m 11 samples in time = 476794.28673529625
+[36m(run_sample pid=73695)[0m 11 samples in time = 476852.2432665825
+[36m(run_sample pid=73714)[0m 11 samples in time = 476858.8316247463
+[36m(run_sample pid=436)[0m 11 samples in time = 476886.70629167557
+[36m(run_sample pid=73721)[0m 11 samples in time = 476945.29104304314
+[36m(run_sample pid=73713)[0m 11 samples in time = 477056.0037777424
+[36m(run_sample pid=73710)[0m 11 samples in time = 477171.69169306755
+[36m(run_sample pid=73687)[0m 11 samples in time = 477304.71985816956
+[36m(run_sample pid=460)[0m 11 samples in time = 477330.4781553745
+[36m(run_sample pid=73688)[0m 11 samples in time = 477592.48135876656
+[36m(run_sample pid=513)[0m 11 samples in time = 477597.4947810173
+[36m(run_sample pid=73718)[0m 11 samples in time = 477603.73240208626
+[36m(run_sample pid=73701)[0m 11 samples in time = 477740.6440536976
+[36m(run_sample pid=73699)[0m 11 samples in time = 477758.41690588
+[36m(run_sample pid=73722)[0m 11 samples in time = 477955.4631755352
+[36m(run_sample pid=73703)[0m 11 samples in time = 478178.9154243469
+[36m(run_sample pid=73716)[0m 11 samples in time = 478334.87862706184
+[36m(run_sample pid=509)[0m 11 samples in time = 478687.0948779583
+[36m(run_sample pid=616)[0m 12 samples in time = 511223.3934698105
+[36m(run_sample pid=518)[0m 12 samples in time = 511798.8578739166
+[36m(run_sample pid=73720)[0m 12 samples in time = 511946.3404316902
+[36m(run_sample pid=517)[0m 12 samples in time = 512319.4793102741
+[36m(run_sample pid=73719)[0m 12 samples in time = 512448.2370378971
+[36m(run_sample pid=73715)[0m 12 samples in time = 512455.62719511986
+[36m(run_sample pid=73717)[0m 12 samples in time = 512774.42269039154
+[36m(run_sample pid=544)[0m 12 samples in time = 512832.9869747162
+[36m(run_sample pid=514)[0m 12 samples in time = 512924.1683189869
+[36m(run_sample pid=516)[0m 12 samples in time = 513138.36204624176
+[36m(run_sample pid=73708)[0m 12 samples in time = 513269.56442952156[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=643)[0m 12 samples in time = 513527.061037302
+[36m(run_sample pid=515)[0m 12 samples in time = 513677.75430583954
+[36m(run_sample pid=519)[0m 12 samples in time = 513834.1930568218
+[36m(run_sample pid=641)[0m 12 samples in time = 513895.08462691307
+[36m(run_sample pid=545)[0m 12 samples in time = 513909.6019625664
+[36m(run_sample pid=442)[0m 12 samples in time = 514185.18018722534
+[36m(run_sample pid=493)[0m 12 samples in time = 514274.5981450081
+[36m(run_sample pid=73690)[0m 12 samples in time = 514302.56350302696
+[36m(run_sample pid=637)[0m 12 samples in time = 514345.4914751053
+[36m(run_sample pid=639)[0m 12 samples in time = 514356.18914437294
+[36m(run_sample pid=640)[0m 12 samples in time = 514372.3437588215[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=642)[0m 12 samples in time = 514382.78163027763
+[36m(run_sample pid=73696)[0m 12 samples in time = 514399.4574728012
+[36m(run_sample pid=480)[0m 12 samples in time = 514407.28246831894
+[36m(run_sample pid=73689)[0m 12 samples in time = 514421.15458226204
+[36m(run_sample pid=474)[0m 12 samples in time = 514708.826744318
+[36m(run_sample pid=466)[0m 12 samples in time = 514762.99491000175
+[36m(run_sample pid=73709)[0m 12 samples in time = 514807.90615677834
+[36m(run_sample pid=459)[0m 12 samples in time = 514870.4136068821
+[36m(run_sample pid=554)[0m 12 samples in time = 514998.914686203
+[36m(run_sample pid=73697)[0m 12 samples in time = 515101.96241378784
+[36m(run_sample pid=638)[0m 12 samples in time = 515225.80080485344
+[36m(run_sample pid=73694)[0m 12 samples in time = 515287.98859739304
+[36m(run_sample pid=620)[0m 12 samples in time = 515303.00234889984
+[36m(run_sample pid=606)[0m 12 samples in time = 515463.79361224174
+[36m(run_sample pid=462)[0m 12 samples in time = 515590.04773020744
+[36m(run_sample pid=73691)[0m 12 samples in time = 515591.93019485474
+[36m(run_sample pid=520)[0m 12 samples in time = 515656.05527091026
+[36m(run_sample pid=540)[0m 12 samples in time = 515705.21797680855
+[36m(run_sample pid=73702)[0m 12 samples in time = 515750.50625634193
+[36m(run_sample pid=456)[0m 12 samples in time = 515871.64174461365
+[36m(run_sample pid=73693)[0m 12 samples in time = 515929.2413613796
+[36m(run_sample pid=450)[0m 12 samples in time = 515982.1809813976
+[36m(run_sample pid=73711)[0m 12 samples in time = 516012.4068119526
+[36m(run_sample pid=73692)[0m 12 samples in time = 516117.6407043934
+[36m(run_sample pid=73700)[0m 12 samples in time = 516215.249417305
+[36m(run_sample pid=451)[0m 12 samples in time = 516284.20564484596
+[36m(run_sample pid=73698)[0m 12 samples in time = 516292.7716612816
+[36m(run_sample pid=73712)[0m 12 samples in time = 516398.63839936256
+[36m(run_sample pid=73704)[0m 12 samples in time = 516458.9417040348
+[36m(run_sample pid=461)[0m 12 samples in time = 516519.5680639744
+[36m(run_sample pid=73714)[0m 12 samples in time = 516556.7566690445
+[36m(run_sample pid=436)[0m 12 samples in time = 516616.02997231483
+[36m(run_sample pid=73721)[0m 12 samples in time = 516668.5548186302
+[36m(run_sample pid=73695)[0m 12 samples in time = 516689.1878159046
+[36m(run_sample pid=73713)[0m 12 samples in time = 516879.1018230915
+[36m(run_sample pid=73710)[0m 12 samples in time = 516914.10726451874
+[36m(run_sample pid=460)[0m 12 samples in time = 517094.3545985222
+[36m(run_sample pid=73687)[0m 12 samples in time = 517116.09277272224
+[36m(run_sample pid=73718)[0m 12 samples in time = 517374.8328988552
+[36m(run_sample pid=513)[0m 12 samples in time = 517377.90230202675
+[36m(run_sample pid=73688)[0m 12 samples in time = 517405.9215118885
+[36m(run_sample pid=73701)[0m 12 samples in time = 517424.4668889046
+[36m(run_sample pid=73699)[0m 12 samples in time = 517470.7230043411
+[36m(run_sample pid=73722)[0m 12 samples in time = 517668.9665834904
+[36m(run_sample pid=73703)[0m 12 samples in time = 518035.55118727684
+[36m(run_sample pid=73716)[0m 12 samples in time = 518133.8569428921
+[36m(run_sample pid=509)[0m 12 samples in time = 518307.8928337097
+[36m(run_sample pid=616)[0m 13 samples in time = 550571.188107729
+[36m(run_sample pid=518)[0m 13 samples in time = 551151.7708358765
+[36m(run_sample pid=73720)[0m 13 samples in time = 551396.7228658199
+[36m(run_sample pid=517)[0m 13 samples in time = 551628.451621294
+[36m(run_sample pid=73715)[0m 13 samples in time = 551823.1098592281
+[36m(run_sample pid=73719)[0m 13 samples in time = 551845.1412899494
+[36m(run_sample pid=73717)[0m 13 samples in time = 552183.2823462486
+[36m(run_sample pid=514)[0m 13 samples in time = 552228.70373559
+[36m(run_sample pid=544)[0m 13 samples in time = 552283.5914342403
+[36m(run_sample pid=537)[0m 13 samples in time = 552569.0028977394
+[36m(run_sample pid=516)[0m 13 samples in time = 552609.768684864
+[36m(run_sample pid=521)[0m 13 samples in time = 552672.7015416622
+[36m(run_sample pid=73708)[0m 13 samples in time = 552763.3090360165
+[36m(run_sample pid=643)[0m 13 samples in time = 552929.3782114983
+[36m(run_sample pid=519)[0m 13 samples in time = 553291.0985665321
+[36m(run_sample pid=515)[0m 13 samples in time = 553313.8432469368
+[36m(run_sample pid=641)[0m 13 samples in time = 553390.7599701881
+[36m(run_sample pid=545)[0m 13 samples in time = 553486.3930602074
+[36m(run_sample pid=442)[0m 13 samples in time = 553813.8183243275
+[36m(run_sample pid=642)[0m 13 samples in time = 553854.1255745888
+[36m(run_sample pid=493)[0m 13 samples in time = 553878.7094419003
+[36m(run_sample pid=73690)[0m 13 samples in time = 553917.7475764751
+[36m(run_sample pid=512)[0m 13 samples in time = 553942.8713963032
+[36m(run_sample pid=640)[0m 13 samples in time = 553949.9296329021
+[36m(run_sample pid=637)[0m 13 samples in time = 553961.9437687397
+[36m(run_sample pid=639)[0m 13 samples in time = 553971.322480917[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73689)[0m 13 samples in time = 554032.2163507938
+[36m(run_sample pid=480)[0m 13 samples in time = 554043.1321179867
+[36m(run_sample pid=474)[0m 13 samples in time = 554324.3079314232
+[36m(run_sample pid=466)[0m 13 samples in time = 554335.3474826813
+[36m(run_sample pid=459)[0m 13 samples in time = 554407.2801594734
+[36m(run_sample pid=73709)[0m 13 samples in time = 554549.2286295891
+[36m(run_sample pid=73697)[0m 13 samples in time = 554662.975965023
+[36m(run_sample pid=554)[0m 13 samples in time = 554688.343154192
+[36m(run_sample pid=638)[0m 13 samples in time = 554694.6990728378
+[36m(run_sample pid=73694)[0m 13 samples in time = 554848.602864027
+[36m(run_sample pid=620)[0m 13 samples in time = 554917.5896775723
+[36m(run_sample pid=73691)[0m 13 samples in time = 555083.4180693626
+[36m(run_sample pid=606)[0m 13 samples in time = 555143.5300056934
+[36m(run_sample pid=462)[0m 13 samples in time = 555239.2243895531
+[36m(run_sample pid=540)[0m 13 samples in time = 555349.913977623
+[36m(run_sample pid=520)[0m 13 samples in time = 555412.2309091091
+[36m(run_sample pid=456)[0m 13 samples in time = 555445.9783985615
+[36m(run_sample pid=73693)[0m 13 samples in time = 555502.5854902267
+[36m(run_sample pid=450)[0m 13 samples in time = 555664.5289251804[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73711)[0m 13 samples in time = 555675.756939888
+[36m(run_sample pid=73692)[0m 13 samples in time = 555765.2649281025
+[36m(run_sample pid=73700)[0m 13 samples in time = 555976.0605077744
+[36m(run_sample pid=73698)[0m 13 samples in time = 555986.959631443
+[36m(run_sample pid=451)[0m 13 samples in time = 555995.6085247993
+[36m(run_sample pid=73704)[0m 13 samples in time = 556094.1967906952
+[36m(run_sample pid=73712)[0m 13 samples in time = 556129.245276928
+[36m(run_sample pid=461)[0m 13 samples in time = 556223.5386853218
+[36m(run_sample pid=73714)[0m 13 samples in time = 556242.2009546757
+[36m(run_sample pid=73721)[0m 13 samples in time = 556382.3548681736
+[36m(run_sample pid=436)[0m 13 samples in time = 556403.9229750633
+[36m(run_sample pid=73695)[0m 13 samples in time = 556433.2385311127
+[36m(run_sample pid=73713)[0m 13 samples in time = 556621.7601933479
+[36m(run_sample pid=73710)[0m 13 samples in time = 556636.2420637608
+[36m(run_sample pid=460)[0m 13 samples in time = 556852.1095721722
+[36m(run_sample pid=73687)[0m 13 samples in time = 557013.093606472
+[36m(run_sample pid=73718)[0m 13 samples in time = 557091.9480109215
+[36m(run_sample pid=513)[0m 13 samples in time = 557111.9055511951
+[36m(run_sample pid=73701)[0m 13 samples in time = 557300.7057416439
+[36m(run_sample pid=73699)[0m 13 samples in time = 557316.8251333237
+[36m(run_sample pid=73688)[0m 13 samples in time = 557396.9013957977
+[36m(run_sample pid=73722)[0m 13 samples in time = 557405.0267930031
+[36m(run_sample pid=73703)[0m 13 samples in time = 557792.4864022732
+[36m(run_sample pid=73716)[0m 13 samples in time = 557920.3472130299
+[36m(run_sample pid=509)[0m 13 samples in time = 558043.3842236996
+[36m(run_sample pid=616)[0m 14 samples in time = 589873.5925700665
+[36m(run_sample pid=518)[0m 14 samples in time = 590407.021365881
+[36m(run_sample pid=73720)[0m 14 samples in time = 590822.2616856098
+[36m(run_sample pid=517)[0m 14 samples in time = 590897.2812337875
+[36m(run_sample pid=73715)[0m 14 samples in time = 591094.1901562214
+[36m(run_sample pid=73719)[0m 14 samples in time = 591227.2401282787
+[36m(run_sample pid=73717)[0m 14 samples in time = 591580.27835989
+[36m(run_sample pid=514)[0m 14 samples in time = 591621.6329033375
+[36m(run_sample pid=544)[0m 14 samples in time = 591663.8295381069
+[36m(run_sample pid=537)[0m 14 samples in time = 592020.3235754967
+[36m(run_sample pid=516)[0m 14 samples in time = 592084.4310469627
+[36m(run_sample pid=73708)[0m 14 samples in time = 592158.0327734947
+[36m(run_sample pid=521)[0m 14 samples in time = 592220.4050574303
+[36m(run_sample pid=643)[0m 14 samples in time = 592472.9621036053
+[36m(run_sample pid=641)[0m 14 samples in time = 592829.6403872967
+[36m(run_sample pid=519)[0m 14 samples in time = 592843.5427002907
+[36m(run_sample pid=515)[0m 14 samples in time = 592919.149592638
+[36m(run_sample pid=545)[0m 14 samples in time = 593000.7291169167
+[36m(run_sample pid=442)[0m 14 samples in time = 593326.7710342407
+[36m(run_sample pid=493)[0m 14 samples in time = 593399.7601420879[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=639)[0m 14 samples in time = 593441.2989208698
+[36m(run_sample pid=512)[0m 14 samples in time = 593456.6107664108
+[36m(run_sample pid=73690)[0m 14 samples in time = 593523.6692352295[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73696)[0m 14 samples in time = 593529.9924032688
+[36m(run_sample pid=640)[0m 14 samples in time = 593588.8228588104
+[36m(run_sample pid=73689)[0m 14 samples in time = 593629.8445210457
+[36m(run_sample pid=480)[0m 14 samples in time = 593643.851845026
+[36m(run_sample pid=474)[0m 14 samples in time = 593834.3638892174
+[36m(run_sample pid=459)[0m 14 samples in time = 593949.0610911846
+[36m(run_sample pid=466)[0m 14 samples in time = 593962.8723614216
+[36m(run_sample pid=73709)[0m 14 samples in time = 594206.2777290344
+[36m(run_sample pid=638)[0m 14 samples in time = 594244.1272516251
+[36m(run_sample pid=73697)[0m 14 samples in time = 594280.7418837547
+[36m(run_sample pid=554)[0m 14 samples in time = 594294.1441681385
+[36m(run_sample pid=620)[0m 14 samples in time = 594466.15041852
+[36m(run_sample pid=73694)[0m 14 samples in time = 594488.6936700344
+[36m(run_sample pid=73691)[0m 14 samples in time = 594808.4335153103
+[36m(run_sample pid=606)[0m 14 samples in time = 594840.649613142
+[36m(run_sample pid=462)[0m 14 samples in time = 594935.7873704433
+[36m(run_sample pid=540)[0m 14 samples in time = 594986.1418786049
+[36m(run_sample pid=73693)[0m 14 samples in time = 595122.5782184601
+[36m(run_sample pid=456)[0m 14 samples in time = 595152.162330389
+[36m(run_sample pid=73702)[0m 14 samples in time = 595257.9675052166
+[36m(run_sample pid=520)[0m 14 samples in time = 595276.3891148567
+[36m(run_sample pid=73711)[0m 14 samples in time = 595343.5048182011
+[36m(run_sample pid=450)[0m 14 samples in time = 595425.8918015957
+[36m(run_sample pid=73692)[0m 14 samples in time = 595519.2077248096
+[36m(run_sample pid=73698)[0m 14 samples in time = 595662.6298847198
+[36m(run_sample pid=73704)[0m 14 samples in time = 595725.8320908546
+[36m(run_sample pid=73712)[0m 14 samples in time = 595731.5660500526[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=451)[0m 14 samples in time = 595744.975566864
+[36m(run_sample pid=461)[0m 14 samples in time = 595914.0688064098
+[36m(run_sample pid=73714)[0m 14 samples in time = 595935.3908276558
+[36m(run_sample pid=436)[0m 14 samples in time = 596034.7137064934
+[36m(run_sample pid=73721)[0m 14 samples in time = 596098.9417631626
+[36m(run_sample pid=73695)[0m 14 samples in time = 596200.3492136002
+[36m(run_sample pid=73710)[0m 14 samples in time = 596265.5234260559
+[36m(run_sample pid=73713)[0m 14 samples in time = 596332.9978141785
+[36m(run_sample pid=460)[0m 14 samples in time = 596531.4866919518
+[36m(run_sample pid=73687)[0m 14 samples in time = 596767.8047862053
+[36m(run_sample pid=73718)[0m 14 samples in time = 596800.9148378372
+[36m(run_sample pid=513)[0m 14 samples in time = 596850.8373074532
+[36m(run_sample pid=73701)[0m 14 samples in time = 597037.8329372406
+[36m(run_sample pid=73699)[0m 14 samples in time = 597055.8585736752
+[36m(run_sample pid=73722)[0m 14 samples in time = 597101.0439479351
+[36m(run_sample pid=73688)[0m 14 samples in time = 597165.2148923874
+[36m(run_sample pid=73703)[0m 14 samples in time = 597598.4573304653
+[36m(run_sample pid=73716)[0m 14 samples in time = 597764.2142748833
+[36m(run_sample pid=509)[0m 14 samples in time = 597873.860686779
+[36m(run_sample pid=616)[0m 15 samples in time = 629160.5501482487
+[36m(run_sample pid=616)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=616)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f275f97d0d0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f26908309e0>, t=<yastn.tensor.Tensor object at 0x7f2690832c60>, tr=<yastn.tensor.Tensor object at 0x7f2690832870>, r=<yastn.tensor.Tensor object at 0x7f26908316a0>, br=<yastn.tensor.Tensor object at 0x7f2690832a80>, b=<yastn.tensor.Tensor object at 0x7f26908335c0>, bl=<yastn.tensor.Tensor object at 0x7f2690831d60>, l=<yastn.tensor.Tensor object at 0x7f26908315b0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2690830710>, t=<yastn.tensor.Tensor object at 0x7f2690831be0>, tr=<yastn.tensor.Tensor object at 0x7f2690832420>, r=<yastn.tensor.Tensor object at 0x7f2690831a60>, br=<yastn.tensor.Tensor object at 0x7f2690833050>, b=<yastn.tensor.Tensor object at 0x7f2690830e00>, bl=<yastn.tensor.Tensor object at 0x7f2690832ff0>, l=<yastn.tensor.Tensor object at 0x7f2690833560>)})
+[36m(run_sample pid=518)[0m 15 samples in time = 629694.2555360794
+[36m(run_sample pid=518)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=518)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fd0d78d6480>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fd008626ba0>, t=<yastn.tensor.Tensor object at 0x7fd008625ee0>, tr=<yastn.tensor.Tensor object at 0x7fd008625b20>, r=<yastn.tensor.Tensor object at 0x7fd008626c30>, br=<yastn.tensor.Tensor object at 0x7fd0086246e0>, b=<yastn.tensor.Tensor object at 0x7fd0086262a0>, bl=<yastn.tensor.Tensor object at 0x7fd008626480>, l=<yastn.tensor.Tensor object at 0x7fd0086273e0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fd00866c5f0>, t=<yastn.tensor.Tensor object at 0x7fd00866c950>, tr=<yastn.tensor.Tensor object at 0x7fd00866eb10>, r=<yastn.tensor.Tensor object at 0x7fd00866f8c0>, br=<yastn.tensor.Tensor object at 0x7fd00866f980>, b=<yastn.tensor.Tensor object at 0x7fd00866e9c0>, bl=<yastn.tensor.Tensor object at 0x7fd00866e1e0>, l=<yastn.tensor.Tensor object at 0x7fd00866e4e0>)})
+[36m(run_sample pid=73720)[0m 15 samples in time = 630177.8889331818
+[36m(run_sample pid=73720)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73720)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f1a3831a570>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ef3e859ca70>, t=<yastn.tensor.Tensor object at 0x7ef3e859e660>, tr=<yastn.tensor.Tensor object at 0x7ef3e859ce00>, r=<yastn.tensor.Tensor object at 0x7ef3e859e4b0>, br=<yastn.tensor.Tensor object at 0x7ef3e859ebd0>, b=<yastn.tensor.Tensor object at 0x7ef3e859c4a0>, bl=<yastn.tensor.Tensor object at 0x7ef3e859cf20>, l=<yastn.tensor.Tensor object at 0x7ef3e859ed80>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ef3e859fda0>, t=<yastn.tensor.Tensor object at 0x7ef3e859ee10>, tr=<yastn.tensor.Tensor object at 0x7ef3e859e360>, r=<yastn.tensor.Tensor object at 0x7ef3e859e450>, br=<yastn.tensor.Tensor object at 0x7ef3e859c740>, b=<yastn.tensor.Tensor object at 0x7ef3e859f200>, bl=<yastn.tensor.Tensor object at 0x7ef3e859c860>, l=<yastn.tensor.Tensor object at 0x7ef3e859ff50>)})
+[36m(run_sample pid=517)[0m 15 samples in time = 630309.9887166023
+[36m(run_sample pid=517)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=517)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f797a4ee3f0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f78d07521e0>, t=<yastn.tensor.Tensor object at 0x7f78d0752b10>, tr=<yastn.tensor.Tensor object at 0x7f78d0752ff0>, r=<yastn.tensor.Tensor object at 0x7f78d0753680>, br=<yastn.tensor.Tensor object at 0x7f78d0751af0>, b=<yastn.tensor.Tensor object at 0x7f78d0752f90>, bl=<yastn.tensor.Tensor object at 0x7f78d0752600>, l=<yastn.tensor.Tensor object at 0x7f78d0752e10>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f78d0753ef0>, t=<yastn.tensor.Tensor object at 0x7f78d0753f80>, tr=<yastn.tensor.Tensor object at 0x7f78d0753aa0>, r=<yastn.tensor.Tensor object at 0x7f78b0131550>, br=<yastn.tensor.Tensor object at 0x7f78d0753e00>, b=<yastn.tensor.Tensor object at 0x7f78b01309b0>, bl=<yastn.tensor.Tensor object at 0x7f78d07538f0>, l=<yastn.tensor.Tensor object at 0x7f78b0132270>)})
+[36m(run_sample pid=73715)[0m 15 samples in time = 630430.6579153538
+[36m(run_sample pid=73715)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73715)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fa34a5fd100>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fa2c00daa80>, t=<yastn.tensor.Tensor object at 0x7fa2c00dbda0>, tr=<yastn.tensor.Tensor object at 0x7fa2c00da930>, r=<yastn.tensor.Tensor object at 0x7fa2c00daf60>, br=<yastn.tensor.Tensor object at 0x7fa2c00d9640>, b=<yastn.tensor.Tensor object at 0x7fa2c00d9c40>, bl=<yastn.tensor.Tensor object at 0x7fa2c00d9a30>, l=<yastn.tensor.Tensor object at 0x7fa2c00daea0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fa2c00d9610>, t=<yastn.tensor.Tensor object at 0x7fa2c00da1e0>, tr=<yastn.tensor.Tensor object at 0x7fa2c00d89e0>, r=<yastn.tensor.Tensor object at 0x7fa2c00d9e50>, br=<yastn.tensor.Tensor object at 0x7fa2c00d8290>, b=<yastn.tensor.Tensor object at 0x7fa2c00d8d70>, bl=<yastn.tensor.Tensor object at 0x7fa2c00da540>, l=<yastn.tensor.Tensor object at 0x7fa2c00dbb00>)})
+[36m(run_sample pid=73719)[0m 15 samples in time = 630643.6885528564
+[36m(run_sample pid=73719)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73719)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f86fdcae690>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f86585f3560>, t=<yastn.tensor.Tensor object at 0x7f86585f2cc0>, tr=<yastn.tensor.Tensor object at 0x7f86585f2810>, r=<yastn.tensor.Tensor object at 0x7f86585f2ea0>, br=<yastn.tensor.Tensor object at 0x7f86585f35f0>, b=<yastn.tensor.Tensor object at 0x7f86585f0b30>, bl=<yastn.tensor.Tensor object at 0x7f86585f3ec0>, l=<yastn.tensor.Tensor object at 0x7f86585f3710>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f86585f37d0>, t=<yastn.tensor.Tensor object at 0x7f86380f5730>, tr=<yastn.tensor.Tensor object at 0x7f86585f0830>, r=<yastn.tensor.Tensor object at 0x7f86380f7050>, br=<yastn.tensor.Tensor object at 0x7f86380f53d0>, b=<yastn.tensor.Tensor object at 0x7f86380f6210>, bl=<yastn.tensor.Tensor object at 0x7f86585f3d10>, l=<yastn.tensor.Tensor object at 0x7f86380f4d10>)})
+[36m(run_sample pid=73717)[0m 15 samples in time = 630946.5714473724
+[36m(run_sample pid=73717)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73717)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f1c7010fc80>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ef61b632570>, t=<yastn.tensor.Tensor object at 0x7ef61b631af0>, tr=<yastn.tensor.Tensor object at 0x7ef61b632d80>, r=<yastn.tensor.Tensor object at 0x7ef61b6309b0>, br=<yastn.tensor.Tensor object at 0x7ef61b633b00>, b=<yastn.tensor.Tensor object at 0x7ef61b632450>, bl=<yastn.tensor.Tensor object at 0x7ef61b6300e0>, l=<yastn.tensor.Tensor object at 0x7ef61b631d00>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ef61b633e60>, t=<yastn.tensor.Tensor object at 0x7ef61b6302c0>, tr=<yastn.tensor.Tensor object at 0x7ef61b6328d0>, r=<yastn.tensor.Tensor object at 0x7ef61b631a60>, br=<yastn.tensor.Tensor object at 0x7ef61b633bf0>, b=<yastn.tensor.Tensor object at 0x7ef61b633da0>, bl=<yastn.tensor.Tensor object at 0x7ef61b631070>, l=<yastn.tensor.Tensor object at 0x7ef61b632510>)})
+[36m(run_sample pid=544)[0m 15 samples in time = 631044.5607557297
+[36m(run_sample pid=544)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=544)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f528ceae450>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2c2c209040>, t=<yastn.tensor.Tensor object at 0x7f2c2c20a330>, tr=<yastn.tensor.Tensor object at 0x7f2c2c208bc0>, r=<yastn.tensor.Tensor object at 0x7f2c2c20b2c0>, br=<yastn.tensor.Tensor object at 0x7f2c2c209520>, b=<yastn.tensor.Tensor object at 0x7f2c2c20a510>, bl=<yastn.tensor.Tensor object at 0x7f2c2c209010>, l=<yastn.tensor.Tensor object at 0x7f2c2c209ac0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2c2c20bc50>, t=<yastn.tensor.Tensor object at 0x7f2c2c20af90>, tr=<yastn.tensor.Tensor object at 0x7f2c2c209700>, r=<yastn.tensor.Tensor object at 0x7f2c2c20b3b0>, br=<yastn.tensor.Tensor object at 0x7f2c2c209430>, b=<yastn.tensor.Tensor object at 0x7f2c2c20bdd0>, bl=<yastn.tensor.Tensor object at 0x7f2c2c209730>, l=<yastn.tensor.Tensor object at 0x7f2c2c20a8a0>)})
+[36m(run_sample pid=514)[0m 15 samples in time = 631099.9096155167
+[36m(run_sample pid=514)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=514)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fc3cc0d7c20>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f9e14597da0>, t=<yastn.tensor.Tensor object at 0x7f9e18766ae0>, tr=<yastn.tensor.Tensor object at 0x7f9e145969c0>, r=<yastn.tensor.Tensor object at 0x7f9e18767ec0>, br=<yastn.tensor.Tensor object at 0x7f9e18766990>, b=<yastn.tensor.Tensor object at 0x7f9e18767aa0>, bl=<yastn.tensor.Tensor object at 0x7f9e14596f60>, l=<yastn.tensor.Tensor object at 0x7f9e18764d10>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f9e18767d70>, t=<yastn.tensor.Tensor object at 0x7f9e187653a0>, tr=<yastn.tensor.Tensor object at 0x7f9e18767770>, r=<yastn.tensor.Tensor object at 0x7f9e18765b20>, br=<yastn.tensor.Tensor object at 0x7f9e187671a0>, b=<yastn.tensor.Tensor object at 0x7f9e18766210>, bl=<yastn.tensor.Tensor object at 0x7f9e18767a10>, l=<yastn.tensor.Tensor object at 0x7f9e18766420>)})
+[36m(run_sample pid=73708)[0m 15 samples in time = 631472.1104354858
+[36m(run_sample pid=73708)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73708)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f701e78af30>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f6f940f8230>, t=<yastn.tensor.Tensor object at 0x7f6f940f8290>, tr=<yastn.tensor.Tensor object at 0x7f6f940fa5a0>, r=<yastn.tensor.Tensor object at 0x7f6f940fb590>, br=<yastn.tensor.Tensor object at 0x7f6f940fa9f0>, b=<yastn.tensor.Tensor object at 0x7f6f940fad20>, bl=<yastn.tensor.Tensor object at 0x7f6f940fa180>, l=<yastn.tensor.Tensor object at 0x7f6f940f97f0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f6f940fa600>, t=<yastn.tensor.Tensor object at 0x7f6f940fb6b0>, tr=<yastn.tensor.Tensor object at 0x7f6f940fb0b0>, r=<yastn.tensor.Tensor object at 0x7f6f94205100>, br=<yastn.tensor.Tensor object at 0x7f6f940fade0>, b=<yastn.tensor.Tensor object at 0x7f6f94207410>, bl=<yastn.tensor.Tensor object at 0x7f6f940fbe60>, l=<yastn.tensor.Tensor object at 0x7f6f94204e00>)})
+[36m(run_sample pid=537)[0m 15 samples in time = 631486.7828969955
+[36m(run_sample pid=537)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=537)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f209c8e6d80>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2000348b30>, t=<yastn.tensor.Tensor object at 0x7f2000348560>, tr=<yastn.tensor.Tensor object at 0x7f2000349670>, r=<yastn.tensor.Tensor object at 0x7f20003695e0>, br=<yastn.tensor.Tensor object at 0x7f2000348d70>, b=<yastn.tensor.Tensor object at 0x7f200036aa80>, bl=<yastn.tensor.Tensor object at 0x7f2000348710>, l=<yastn.tensor.Tensor object at 0x7f2000348350>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f20003680e0>, t=<yastn.tensor.Tensor object at 0x7f2000368cb0>, tr=<yastn.tensor.Tensor object at 0x7f2000369e50>, r=<yastn.tensor.Tensor object at 0x7f2000369f40>, br=<yastn.tensor.Tensor object at 0x7f20003693a0>, b=<yastn.tensor.Tensor object at 0x7f200036a8d0>, bl=<yastn.tensor.Tensor object at 0x7f2000368ce0>, l=<yastn.tensor.Tensor object at 0x7f200036b380>)})
+[36m(run_sample pid=516)[0m 15 samples in time = 631531.1802704334
+[36m(run_sample pid=516)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=516)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fdd2c0eaab0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fdc9c0888c0>, t=<yastn.tensor.Tensor object at 0x7fdc9c088a70>, tr=<yastn.tensor.Tensor object at 0x7fdc9c08a8d0>, r=<yastn.tensor.Tensor object at 0x7fdc60a958e0>, br=<yastn.tensor.Tensor object at 0x7fdc9c08b230>, b=<yastn.tensor.Tensor object at 0x7fdc60a97ef0>, bl=<yastn.tensor.Tensor object at 0x7fdc9c08bc80>, l=<yastn.tensor.Tensor object at 0x7fdc60a97470>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fdc60a95e20>, t=<yastn.tensor.Tensor object at 0x7fdc60a95700>, tr=<yastn.tensor.Tensor object at 0x7fdc60a952b0>, r=<yastn.tensor.Tensor object at 0x7fdc60a94b30>, br=<yastn.tensor.Tensor object at 0x7fdc60a94f20>, b=<yastn.tensor.Tensor object at 0x7fdc60a95c70>, bl=<yastn.tensor.Tensor object at 0x7fdc60a97c20>, l=<yastn.tensor.Tensor object at 0x7fdc60a971d0>)})
+[36m(run_sample pid=521)[0m 15 samples in time = 631778.7769334316
+[36m(run_sample pid=521)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=521)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fbe241b4800>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fbe1c579340>, t=<yastn.tensor.Tensor object at 0x7fbe1c57ba70>, tr=<yastn.tensor.Tensor object at 0x7fbe1c57be60>, r=<yastn.tensor.Tensor object at 0x7fbe1c579eb0>, br=<yastn.tensor.Tensor object at 0x7fbe1c578f50>, b=<yastn.tensor.Tensor object at 0x7fbe1c57aba0>, bl=<yastn.tensor.Tensor object at 0x7fbe1c578a70>, l=<yastn.tensor.Tensor object at 0x7fbe1c57b0b0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fbe1c578e90>, t=<yastn.tensor.Tensor object at 0x7fbe1c57b6b0>, tr=<yastn.tensor.Tensor object at 0x7fbe1c578050>, r=<yastn.tensor.Tensor object at 0x7fbe1c5781d0>, br=<yastn.tensor.Tensor object at 0x7fbe1c578110>, b=<yastn.tensor.Tensor object at 0x7fbe1c578950>, bl=<yastn.tensor.Tensor object at 0x7fbe1c5783e0>, l=<yastn.tensor.Tensor object at 0x7fbe1c57ac90>)})
+[36m(run_sample pid=643)[0m 15 samples in time = 631968.005081892
+[36m(run_sample pid=643)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=643)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f925fb3e780>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f91907b8d70>, t=<yastn.tensor.Tensor object at 0x7f91907b82c0>, tr=<yastn.tensor.Tensor object at 0x7f91907b9fd0>, r=<yastn.tensor.Tensor object at 0x7f91907b9be0>, br=<yastn.tensor.Tensor object at 0x7f91907b9430>, b=<yastn.tensor.Tensor object at 0x7f91907bab40>, bl=<yastn.tensor.Tensor object at 0x7f91907bbf20>, l=<yastn.tensor.Tensor object at 0x7f91907ba120>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f91907ba3c0>, t=<yastn.tensor.Tensor object at 0x7f91907bb410>, tr=<yastn.tensor.Tensor object at 0x7f91907b9340>, r=<yastn.tensor.Tensor object at 0x7f91907b9220>, br=<yastn.tensor.Tensor object at 0x7f91907b97c0>, b=<yastn.tensor.Tensor object at 0x7f91907b9130>, bl=<yastn.tensor.Tensor object at 0x7f91907b87a0>, l=<yastn.tensor.Tensor object at 0x7f91907bbc50>)})
+[36m(run_sample pid=641)[0m 15 samples in time = 632254.3424348831
+[36m(run_sample pid=641)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=641)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f9d24bbef90>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f9c884485f0>, t=<yastn.tensor.Tensor object at 0x7f9c88449220>, tr=<yastn.tensor.Tensor object at 0x7f9c88449d00>, r=<yastn.tensor.Tensor object at 0x7f9c8844a360>, br=<yastn.tensor.Tensor object at 0x7f9c88449d90>, b=<yastn.tensor.Tensor object at 0x7f9c884499d0>, bl=<yastn.tensor.Tensor object at 0x7f9c8844b7d0>, l=<yastn.tensor.Tensor object at 0x7f9c88449760>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f9c8844a690>, t=<yastn.tensor.Tensor object at 0x7f9c8844a930>, tr=<yastn.tensor.Tensor object at 0x7f9c8844a330>, r=<yastn.tensor.Tensor object at 0x7f9c8849ba70>, br=<yastn.tensor.Tensor object at 0x7f9c8844b080>, b=<yastn.tensor.Tensor object at 0x7f9c8849aa50>, bl=<yastn.tensor.Tensor object at 0x7f9c8844ae10>, l=<yastn.tensor.Tensor object at 0x7f9c88499c10>)})
+[36m(run_sample pid=519)[0m 15 samples in time = 632316.4019856453
+[36m(run_sample pid=519)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=519)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f33d821dd30>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f33d821c080>, t=<yastn.tensor.Tensor object at 0x7f33d823f230>, tr=<yastn.tensor.Tensor object at 0x7f33d821c350>, r=<yastn.tensor.Tensor object at 0x7f33d80a3d70>, br=<yastn.tensor.Tensor object at 0x7f33d821f440>, b=<yastn.tensor.Tensor object at 0x7f33d80a1880>, bl=<yastn.tensor.Tensor object at 0x7f33d821c620>, l=<yastn.tensor.Tensor object at 0x7f33d80a27b0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f33d80a3950>, t=<yastn.tensor.Tensor object at 0x7f33d80a12e0>, tr=<yastn.tensor.Tensor object at 0x7f33d80a3320>, r=<yastn.tensor.Tensor object at 0x7f33d80212e0>, br=<yastn.tensor.Tensor object at 0x7f33d80a2e40>, b=<yastn.tensor.Tensor object at 0x7f33d8021a60>, bl=<yastn.tensor.Tensor object at 0x7f33d80a24e0>, l=<yastn.tensor.Tensor object at 0x7f33d8020380>)})
+[36m(run_sample pid=515)[0m 15 samples in time = 632431.4103183746
+[36m(run_sample pid=515)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=515)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f8155c512e0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f80b455f710>, t=<yastn.tensor.Tensor object at 0x7f80b4599430>, tr=<yastn.tensor.Tensor object at 0x7f80b455db50>, r=<yastn.tensor.Tensor object at 0x7f80b4599d60>, br=<yastn.tensor.Tensor object at 0x7f80b4599850>, b=<yastn.tensor.Tensor object at 0x7f80b459b620>, bl=<yastn.tensor.Tensor object at 0x7f80b4599670>, l=<yastn.tensor.Tensor object at 0x7f80b45991c0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f80b4598ad0>, t=<yastn.tensor.Tensor object at 0x7f80b459be90>, tr=<yastn.tensor.Tensor object at 0x7f80b4599a90>, r=<yastn.tensor.Tensor object at 0x7f80b459aae0>, br=<yastn.tensor.Tensor object at 0x7f80b459b2c0>, b=<yastn.tensor.Tensor object at 0x7f80b4599d30>, bl=<yastn.tensor.Tensor object at 0x7f80b45994f0>, l=<yastn.tensor.Tensor object at 0x7f80b459a030>)})
+[36m(run_sample pid=545)[0m 15 samples in time = 632482.860722065
+[36m(run_sample pid=545)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=545)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f8a78522390>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f64a058aed0>, t=<yastn.tensor.Tensor object at 0x7f64a058b8f0>, tr=<yastn.tensor.Tensor object at 0x7f64a058b2f0>, r=<yastn.tensor.Tensor object at 0x7f64a058b620>, br=<yastn.tensor.Tensor object at 0x7f64a05896d0>, b=<yastn.tensor.Tensor object at 0x7f64a058b140>, bl=<yastn.tensor.Tensor object at 0x7f64a05881d0>, l=<yastn.tensor.Tensor object at 0x7f64a058aa50>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f64a058b410>, t=<yastn.tensor.Tensor object at 0x7f64a0588ce0>, tr=<yastn.tensor.Tensor object at 0x7f64a058b950>, r=<yastn.tensor.Tensor object at 0x7f64a03d51f0>, br=<yastn.tensor.Tensor object at 0x7f64a05889b0>, b=<yastn.tensor.Tensor object at 0x7f64a03d7e90>, bl=<yastn.tensor.Tensor object at 0x7f64a05894f0>, l=<yastn.tensor.Tensor object at 0x7f64a03d5130>)})
+[36m(run_sample pid=442)[0m 15 samples in time = 632865.556447506
+[36m(run_sample pid=442)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=442)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f2b6a4308f0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2ac0508740>, t=<yastn.tensor.Tensor object at 0x7f2ac0509d00>, tr=<yastn.tensor.Tensor object at 0x7f2ac05086b0>, r=<yastn.tensor.Tensor object at 0x7f2ac0508050>, br=<yastn.tensor.Tensor object at 0x7f2ac0509430>, b=<yastn.tensor.Tensor object at 0x7f2ac0508b30>, bl=<yastn.tensor.Tensor object at 0x7f2ac05095e0>, l=<yastn.tensor.Tensor object at 0x7f2ac050a780>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2ac0509ac0>, t=<yastn.tensor.Tensor object at 0x7f2ac050ad80>, tr=<yastn.tensor.Tensor object at 0x7f2ac0509910>, r=<yastn.tensor.Tensor object at 0x7f2ac0509b20>, br=<yastn.tensor.Tensor object at 0x7f2ac0508bf0>, b=<yastn.tensor.Tensor object at 0x7f2ac050b4d0>, bl=<yastn.tensor.Tensor object at 0x7f2ac0509ee0>, l=<yastn.tensor.Tensor object at 0x7f2ac0509280>)})
+[36m(run_sample pid=642)[0m 15 samples in time = 632926.1076171398
+[36m(run_sample pid=642)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=642)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fae8999ce60>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fade4405820>, t=<yastn.tensor.Tensor object at 0x7fade4404110>, tr=<yastn.tensor.Tensor object at 0x7fade4404050>, r=<yastn.tensor.Tensor object at 0x7fade4406e40>, br=<yastn.tensor.Tensor object at 0x7fade4407cb0>, b=<yastn.tensor.Tensor object at 0x7fade4407b90>, bl=<yastn.tensor.Tensor object at 0x7fade4406450>, l=<yastn.tensor.Tensor object at 0x7fade4404ce0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fade4405970>, t=<yastn.tensor.Tensor object at 0x7fade4405e80>, tr=<yastn.tensor.Tensor object at 0x7fade4406d20>, r=<yastn.tensor.Tensor object at 0x7fade4406300>, br=<yastn.tensor.Tensor object at 0x7fade44047d0>, b=<yastn.tensor.Tensor object at 0x7fade4404830>, bl=<yastn.tensor.Tensor object at 0x7fade4406870>, l=<yastn.tensor.Tensor object at 0x7fade4406780>)})
+[36m(run_sample pid=639)[0m 15 samples in time = 632943.0036461353
+[36m(run_sample pid=639)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=639)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f795081d250>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f78b42be720>, t=<yastn.tensor.Tensor object at 0x7f78b4358cb0>, tr=<yastn.tensor.Tensor object at 0x7f78b42bef30>, r=<yastn.tensor.Tensor object at 0x7f78b435ab10>, br=<yastn.tensor.Tensor object at 0x7f78b4367320>, b=<yastn.tensor.Tensor object at 0x7f78b4359d30>, bl=<yastn.tensor.Tensor object at 0x7f78b42bf980>, l=<yastn.tensor.Tensor object at 0x7f78b435a5a0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f78b435ac00>, t=<yastn.tensor.Tensor object at 0x7f78b435bef0>, tr=<yastn.tensor.Tensor object at 0x7f78b43581a0>, r=<yastn.tensor.Tensor object at 0x7f78b4359ac0>, br=<yastn.tensor.Tensor object at 0x7f78b435af60>, b=<yastn.tensor.Tensor object at 0x7f78b4359670>, bl=<yastn.tensor.Tensor object at 0x7f78b435a000>, l=<yastn.tensor.Tensor object at 0x7f78b435b410>)})
+[36m(run_sample pid=493)[0m 15 samples in time = 632962.3898413181
+[36m(run_sample pid=493)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=493)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f26ba9923f0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f260c4d41d0>, t=<yastn.tensor.Tensor object at 0x7f260c20bec0>, tr=<yastn.tensor.Tensor object at 0x7f260c4d66c0>, r=<yastn.tensor.Tensor object at 0x7f260c2083e0>, br=<yastn.tensor.Tensor object at 0x7f260c208380>, b=<yastn.tensor.Tensor object at 0x7f260c208290>, bl=<yastn.tensor.Tensor object at 0x7f260c4d4710>, l=<yastn.tensor.Tensor object at 0x7f260c20bce0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f260c2096d0>, t=<yastn.tensor.Tensor object at 0x7f260c2084a0>, tr=<yastn.tensor.Tensor object at 0x7f260c20b380>, r=<yastn.tensor.Tensor object at 0x7f260c4052b0>, br=<yastn.tensor.Tensor object at 0x7f260c2085f0>, b=<yastn.tensor.Tensor object at 0x7f260c20b1d0>, bl=<yastn.tensor.Tensor object at 0x7f260c209610>, l=<yastn.tensor.Tensor object at 0x7f260c2095b0>)})
+[36m(run_sample pid=73690)[0m 15 samples in time = 632965.8068346977
+[36m(run_sample pid=73690)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73690)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f4b9eae25d0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4b0f8d8260>, t=<yastn.tensor.Tensor object at 0x7f4b0f8d81d0>, tr=<yastn.tensor.Tensor object at 0x7f4b0f8da240>, r=<yastn.tensor.Tensor object at 0x7f4b0f72e090>, br=<yastn.tensor.Tensor object at 0x7f4b0f8d91f0>, b=<yastn.tensor.Tensor object at 0x7f4b0f72d850>, bl=<yastn.tensor.Tensor object at 0x7f4b0f8d9fd0>, l=<yastn.tensor.Tensor object at 0x7f4b0f72f350>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4b0f814c80>, t=<yastn.tensor.Tensor object at 0x7f4b0f817b90>, tr=<yastn.tensor.Tensor object at 0x7f4b0f814440>, r=<yastn.tensor.Tensor object at 0x7f4b0f8145c0>, br=<yastn.tensor.Tensor object at 0x7f4b0f815b50>, b=<yastn.tensor.Tensor object at 0x7f4b0f815c40>, bl=<yastn.tensor.Tensor object at 0x7f4b0f814650>, l=<yastn.tensor.Tensor object at 0x7f4b0f8154c0>)})
+[36m(run_sample pid=512)[0m 15 samples in time = 632972.8736441135
+[36m(run_sample pid=512)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=512)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f2a88375580>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2a88376c60>, t=<yastn.tensor.Tensor object at 0x7f2a883767e0>, tr=<yastn.tensor.Tensor object at 0x7f2a88377470>, r=<yastn.tensor.Tensor object at 0x7f2a88377da0>, br=<yastn.tensor.Tensor object at 0x7f2a88377080>, b=<yastn.tensor.Tensor object at 0x7f2a88377980>, bl=<yastn.tensor.Tensor object at 0x7f2a88377110>, l=<yastn.tensor.Tensor object at 0x7f2a88377350>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2a88374500>, t=<yastn.tensor.Tensor object at 0x7f2a883779b0>, tr=<yastn.tensor.Tensor object at 0x7f2a88374c20>, r=<yastn.tensor.Tensor object at 0x7f2a88374410>, br=<yastn.tensor.Tensor object at 0x7f2a88376f60>, b=<yastn.tensor.Tensor object at 0x7f2a88376c90>, bl=<yastn.tensor.Tensor object at 0x7f2a883761b0>, l=<yastn.tensor.Tensor object at 0x7f2a88377ef0>)})
+[36m(run_sample pid=73696)[0m 15 samples in time = 633044.234451294
+[36m(run_sample pid=73696)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73696)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7eff702e20f0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7eff70388590>, t=<yastn.tensor.Tensor object at 0x7eff70388fb0>, tr=<yastn.tensor.Tensor object at 0x7eff70388ce0>, r=<yastn.tensor.Tensor object at 0x7eff70317290>, br=<yastn.tensor.Tensor object at 0x7eff7038b0e0>, b=<yastn.tensor.Tensor object at 0x7eff703899d0>, bl=<yastn.tensor.Tensor object at 0x7eff70389cd0>, l=<yastn.tensor.Tensor object at 0x7eff7038ba10>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7eff70317c80>, t=<yastn.tensor.Tensor object at 0x7eff70316e70>, tr=<yastn.tensor.Tensor object at 0x7eff70317e00>, r=<yastn.tensor.Tensor object at 0x7eff702f0f50>, br=<yastn.tensor.Tensor object at 0x7eff703168d0>, b=<yastn.tensor.Tensor object at 0x7eff702f1130>, bl=<yastn.tensor.Tensor object at 0x7eff703163f0>, l=<yastn.tensor.Tensor object at 0x7eff70317cb0>)})
+[36m(run_sample pid=637)[0m 15 samples in time = 633058.4350447655
+[36m(run_sample pid=637)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=637)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f5da5907260>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f5d0036c890>, t=<yastn.tensor.Tensor object at 0x7f5d0036d370>, tr=<yastn.tensor.Tensor object at 0x7f5d0036d1f0>, r=<yastn.tensor.Tensor object at 0x7f5d0036c500>, br=<yastn.tensor.Tensor object at 0x7f5d0036d5e0>, b=<yastn.tensor.Tensor object at 0x7f5d0036e9c0>, bl=<yastn.tensor.Tensor object at 0x7f5d0036f0b0>, l=<yastn.tensor.Tensor object at 0x7f5d0036f800>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f5d0036c470>, t=<yastn.tensor.Tensor object at 0x7f5d0036ff50>, tr=<yastn.tensor.Tensor object at 0x7f5d0036f9b0>, r=<yastn.tensor.Tensor object at 0x7f5d0036ca70>, br=<yastn.tensor.Tensor object at 0x7f5d0036f110>, b=<yastn.tensor.Tensor object at 0x7f5d0036d340>, bl=<yastn.tensor.Tensor object at 0x7f5d0036f860>, l=<yastn.tensor.Tensor object at 0x7f5d0036d580>)})
+[36m(run_sample pid=640)[0m 15 samples in time = 633100.4755575657
+[36m(run_sample pid=640)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=640)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7ff2968d6870>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ff1e81f9490>, t=<yastn.tensor.Tensor object at 0x7ff1e8315ac0>, tr=<yastn.tensor.Tensor object at 0x7ff1e81fb140>, r=<yastn.tensor.Tensor object at 0x7ff1e8317680>, br=<yastn.tensor.Tensor object at 0x7ff1e81f8950>, b=<yastn.tensor.Tensor object at 0x7ff1e83141a0>, bl=<yastn.tensor.Tensor object at 0x7ff1e81fb5c0>, l=<yastn.tensor.Tensor object at 0x7ff1e8314170>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ff1e8315df0>, t=<yastn.tensor.Tensor object at 0x7ff1e83153a0>, tr=<yastn.tensor.Tensor object at 0x7ff1e8315cd0>, r=<yastn.tensor.Tensor object at 0x7ff1e8317ef0>, br=<yastn.tensor.Tensor object at 0x7ff1e8316180>, b=<yastn.tensor.Tensor object at 0x7ff1e8317b00>, bl=<yastn.tensor.Tensor object at 0x7ff1e8317050>, l=<yastn.tensor.Tensor object at 0x7ff1e8315010>)})
+[36m(run_sample pid=73689)[0m 15 samples in time = 633139.4800481796
+[36m(run_sample pid=73689)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73689)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f5f444f54c0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f39303abc50>, t=<yastn.tensor.Tensor object at 0x7f39303f3020>, tr=<yastn.tensor.Tensor object at 0x7f39303a9b50>, r=<yastn.tensor.Tensor object at 0x7f39303f0080>, br=<yastn.tensor.Tensor object at 0x7f39303aa1e0>, b=<yastn.tensor.Tensor object at 0x7f39303f2750>, bl=<yastn.tensor.Tensor object at 0x7f39303a9220>, l=<yastn.tensor.Tensor object at 0x7f39303f2fc0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f39303f26f0>, t=<yastn.tensor.Tensor object at 0x7f393030cec0>, tr=<yastn.tensor.Tensor object at 0x7f39303f0920>, r=<yastn.tensor.Tensor object at 0x7f393030df70>, br=<yastn.tensor.Tensor object at 0x7f39303f3500>, b=<yastn.tensor.Tensor object at 0x7f393030d100>, bl=<yastn.tensor.Tensor object at 0x7f39303f3ad0>, l=<yastn.tensor.Tensor object at 0x7f393030d490>)})
+[36m(run_sample pid=480)[0m 15 samples in time = 633192.1729092598
+[36m(run_sample pid=480)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=480)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7ff89072eb70>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ff8908133b0>, t=<yastn.tensor.Tensor object at 0x7ff8906ae3f0>, tr=<yastn.tensor.Tensor object at 0x7ff8908128d0>, r=<yastn.tensor.Tensor object at 0x7ff8908a6510>, br=<yastn.tensor.Tensor object at 0x7ff8906add00>, b=<yastn.tensor.Tensor object at 0x7ff8906ae600>, bl=<yastn.tensor.Tensor object at 0x7ff890810a70>, l=<yastn.tensor.Tensor object at 0x7ff8906ae810>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ff8908a5760>, t=<yastn.tensor.Tensor object at 0x7ff8908a4140>, tr=<yastn.tensor.Tensor object at 0x7ff8908a6300>, r=<yastn.tensor.Tensor object at 0x7ff8908a4c80>, br=<yastn.tensor.Tensor object at 0x7ff8908a7f50>, b=<yastn.tensor.Tensor object at 0x7ff8908a6330>, bl=<yastn.tensor.Tensor object at 0x7ff8908a6d20>, l=<yastn.tensor.Tensor object at 0x7ff8908a7830>)})
+[36m(run_sample pid=474)[0m 15 samples in time = 633313.85790658
+[36m(run_sample pid=474)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=474)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fe163932ff0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe0d4068d40>, t=<yastn.tensor.Tensor object at 0x7fe0d40694c0>, tr=<yastn.tensor.Tensor object at 0x7fe0d4068050>, r=<yastn.tensor.Tensor object at 0x7fe0d406b170>, br=<yastn.tensor.Tensor object at 0x7fe0d406b680>, b=<yastn.tensor.Tensor object at 0x7fe0d4069f10>, bl=<yastn.tensor.Tensor object at 0x7fe0d406b440>, l=<yastn.tensor.Tensor object at 0x7fe0d4069160>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe0d4069550>, t=<yastn.tensor.Tensor object at 0x7fe0d4069bb0>, tr=<yastn.tensor.Tensor object at 0x7fe0d4069880>, r=<yastn.tensor.Tensor object at 0x7fe0902196a0>, br=<yastn.tensor.Tensor object at 0x7fe0d406acc0>, b=<yastn.tensor.Tensor object at 0x7fe0d406b4d0>, bl=<yastn.tensor.Tensor object at 0x7fe0d40698b0>, l=<yastn.tensor.Tensor object at 0x7fe0d4069e80>)})
+[36m(run_sample pid=459)[0m 15 samples in time = 633540.8614084721
+[36m(run_sample pid=459)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=459)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f3201eb1310>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f318017aab0>, t=<yastn.tensor.Tensor object at 0x7f3180179100>, tr=<yastn.tensor.Tensor object at 0x7f31801799a0>, r=<yastn.tensor.Tensor object at 0x7f318017b350>, br=<yastn.tensor.Tensor object at 0x7f318017b530>, b=<yastn.tensor.Tensor object at 0x7f318017a450>, bl=<yastn.tensor.Tensor object at 0x7f3180178140>, l=<yastn.tensor.Tensor object at 0x7f318017a690>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f3180179bb0>, t=<yastn.tensor.Tensor object at 0x7f318017a4e0>, tr=<yastn.tensor.Tensor object at 0x7f3180178d40>, r=<yastn.tensor.Tensor object at 0x7f318017ab40>, br=<yastn.tensor.Tensor object at 0x7f318017a990>, b=<yastn.tensor.Tensor object at 0x7f318017b770>, bl=<yastn.tensor.Tensor object at 0x7f31801797f0>, l=<yastn.tensor.Tensor object at 0x7f3180178dd0>)})
+[36m(run_sample pid=466)[0m 15 samples in time = 633556.0005867481
+[36m(run_sample pid=466)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=466)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f8245c51160>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f81a055a150>, t=<yastn.tensor.Tensor object at 0x7f81a055bb00>, tr=<yastn.tensor.Tensor object at 0x7f81a0559d90>, r=<yastn.tensor.Tensor object at 0x7f81a05589b0>, br=<yastn.tensor.Tensor object at 0x7f81a0559880>, b=<yastn.tensor.Tensor object at 0x7f81a055b590>, bl=<yastn.tensor.Tensor object at 0x7f81a0559670>, l=<yastn.tensor.Tensor object at 0x7f81a0558f80>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f81a055b740>, t=<yastn.tensor.Tensor object at 0x7f81a04d3560>, tr=<yastn.tensor.Tensor object at 0x7f81a0559d00>, r=<yastn.tensor.Tensor object at 0x7f81a04d3fb0>, br=<yastn.tensor.Tensor object at 0x7f81a055a240>, b=<yastn.tensor.Tensor object at 0x7f81a04d1ca0>, bl=<yastn.tensor.Tensor object at 0x7f81a0558680>, l=<yastn.tensor.Tensor object at 0x7f81a04d3b90>)})
+[36m(run_sample pid=638)[0m 15 samples in time = 633842.1900069714
+[36m(run_sample pid=638)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=638)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f4af01aaba0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4acc740500>, t=<yastn.tensor.Tensor object at 0x7f4acc742870>, tr=<yastn.tensor.Tensor object at 0x7f4acc743d10>, r=<yastn.tensor.Tensor object at 0x7f4acc7da4b0>, br=<yastn.tensor.Tensor object at 0x7f4acc741f70>, b=<yastn.tensor.Tensor object at 0x7f4acc5cb8c0>, bl=<yastn.tensor.Tensor object at 0x7f4acc740230>, l=<yastn.tensor.Tensor object at 0x7f4acc5cb7a0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4acc7da9c0>, t=<yastn.tensor.Tensor object at 0x7f4acc7d8200>, tr=<yastn.tensor.Tensor object at 0x7f4acc7db4a0>, r=<yastn.tensor.Tensor object at 0x7f4acc7dafc0>, br=<yastn.tensor.Tensor object at 0x7f4acc7d94c0>, b=<yastn.tensor.Tensor object at 0x7f4acc7d8e60>, bl=<yastn.tensor.Tensor object at 0x7f4acc7d88c0>, l=<yastn.tensor.Tensor object at 0x7f4acc7d9940>)})
+[36m(run_sample pid=73697)[0m 15 samples in time = 633864.2355618477[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73709)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73709)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7faf0ac1ac00>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fae846bbe90>, t=<yastn.tensor.Tensor object at 0x7fae846b92b0>, tr=<yastn.tensor.Tensor object at 0x7fae846b9fd0>, r=<yastn.tensor.Tensor object at 0x7fae846bb2f0>, br=<yastn.tensor.Tensor object at 0x7fae846b8770>, b=<yastn.tensor.Tensor object at 0x7fae846b8b30>, bl=<yastn.tensor.Tensor object at 0x7fae846ba4e0>, l=<yastn.tensor.Tensor object at 0x7fae846b8500>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fae846ba000>, t=<yastn.tensor.Tensor object at 0x7fae846bb740>, tr=<yastn.tensor.Tensor object at 0x7fae846bbda0>, r=<yastn.tensor.Tensor object at 0x7fae846ba6f0>, br=<yastn.tensor.Tensor object at 0x7fae846b9cd0>, b=<yastn.tensor.Tensor object at 0x7fae846bbaa0>, bl=<yastn.tensor.Tensor object at 0x7fae846b9a30>, l=<yastn.tensor.Tensor object at 0x7fae846ba7b0>)})
+[36m(run_sample pid=73697)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73697)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f479d856510>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4720153a70>, t=<yastn.tensor.Tensor object at 0x7f4720152960>, tr=<yastn.tensor.Tensor object at 0x7f4720152f60>, r=<yastn.tensor.Tensor object at 0x7f46c81f5490>, br=<yastn.tensor.Tensor object at 0x7f4720151670>, b=<yastn.tensor.Tensor object at 0x7f4720151400>, bl=<yastn.tensor.Tensor object at 0x7f4720152120>, l=<yastn.tensor.Tensor object at 0x7f4720151430>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f46c81f4cb0>, t=<yastn.tensor.Tensor object at 0x7f46c81f4c80>, tr=<yastn.tensor.Tensor object at 0x7f46c81f6480>, r=<yastn.tensor.Tensor object at 0x7f46c81f5100>, br=<yastn.tensor.Tensor object at 0x7f46c81f4b30>, b=<yastn.tensor.Tensor object at 0x7f46c81f7ce0>, bl=<yastn.tensor.Tensor object at 0x7f46c81f4c20>, l=<yastn.tensor.Tensor object at 0x7f46c81f4410>)})
+[36m(run_sample pid=554)[0m 15 samples in time = 633871.5771400928
+[36m(run_sample pid=554)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=554)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fcd3d13aff0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fcca0606de0>, t=<yastn.tensor.Tensor object at 0x7fccc407e480>, tr=<yastn.tensor.Tensor object at 0x7fccc407ce90>, r=<yastn.tensor.Tensor object at 0x7fccc407f9e0>, br=<yastn.tensor.Tensor object at 0x7fccc407eae0>, b=<yastn.tensor.Tensor object at 0x7fccc407f680>, bl=<yastn.tensor.Tensor object at 0x7fccc407fd40>, l=<yastn.tensor.Tensor object at 0x7fccc407ea80>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fccc407c470>, t=<yastn.tensor.Tensor object at 0x7fccc407d610>, tr=<yastn.tensor.Tensor object at 0x7fccc407f500>, r=<yastn.tensor.Tensor object at 0x7fccc407c110>, br=<yastn.tensor.Tensor object at 0x7fccc407c170>, b=<yastn.tensor.Tensor object at 0x7fccc407dee0>, bl=<yastn.tensor.Tensor object at 0x7fccc407f3e0>, l=<yastn.tensor.Tensor object at 0x7fccc407f350>)})
+[36m(run_sample pid=620)[0m 15 samples in time = 634031.4114780426
+[36m(run_sample pid=620)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=620)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f7b8eaea6f0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f7ae051ce00>, t=<yastn.tensor.Tensor object at 0x7f7ae051cb90>, tr=<yastn.tensor.Tensor object at 0x7f7ae051c560>, r=<yastn.tensor.Tensor object at 0x7f7ae051c260>, br=<yastn.tensor.Tensor object at 0x7f7ae051c6e0>, b=<yastn.tensor.Tensor object at 0x7f7ae051f980>, bl=<yastn.tensor.Tensor object at 0x7f7ae051c770>, l=<yastn.tensor.Tensor object at 0x7f7ae051f800>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f7ae051dac0>, t=<yastn.tensor.Tensor object at 0x7f7ae051ed50>, tr=<yastn.tensor.Tensor object at 0x7f7ae051e9f0>, r=<yastn.tensor.Tensor object at 0x7f7ae051ef30>, br=<yastn.tensor.Tensor object at 0x7f7ae051f380>, b=<yastn.tensor.Tensor object at 0x7f7ae051c380>, bl=<yastn.tensor.Tensor object at 0x7f7ae051e330>, l=<yastn.tensor.Tensor object at 0x7f7ae051e300>)})
+[36m(run_sample pid=73694)[0m 15 samples in time = 634083.0345425606
+[36m(run_sample pid=73694)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73694)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fda207850a0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fd98c1f51f0>, t=<yastn.tensor.Tensor object at 0x7fd98c1f5c10>, tr=<yastn.tensor.Tensor object at 0x7fd98c1f62d0>, r=<yastn.tensor.Tensor object at 0x7fb3e0452fc0>, br=<yastn.tensor.Tensor object at 0x7fd98c1f4bf0>, b=<yastn.tensor.Tensor object at 0x7fb3e0453560>, bl=<yastn.tensor.Tensor object at 0x7fd98c1f4380>, l=<yastn.tensor.Tensor object at 0x7fd98c1f7020>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fb3e0453da0>, t=<yastn.tensor.Tensor object at 0x7fb3e049ddf0>, tr=<yastn.tensor.Tensor object at 0x7fb3e0451cd0>, r=<yastn.tensor.Tensor object at 0x7fd98c212570>, br=<yastn.tensor.Tensor object at 0x7fb3e049c8c0>, b=<yastn.tensor.Tensor object at 0x7fd98c211d60>, bl=<yastn.tensor.Tensor object at 0x7fb3e049d8e0>, l=<yastn.tensor.Tensor object at 0x7fb3e049eae0>)})
+[36m(run_sample pid=606)[0m 15 samples in time = 634458.7009913921
+[36m(run_sample pid=606)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=606)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fade05b6270>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fade0610050>, t=<yastn.tensor.Tensor object at 0x7fade0649e20>, tr=<yastn.tensor.Tensor object at 0x7fade0610410>, r=<yastn.tensor.Tensor object at 0x7fade064a9c0>, br=<yastn.tensor.Tensor object at 0x7fade06487d0>, b=<yastn.tensor.Tensor object at 0x7fade064a270>, bl=<yastn.tensor.Tensor object at 0x7fade0610620>, l=<yastn.tensor.Tensor object at 0x7fade064a1e0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fade064a210>, t=<yastn.tensor.Tensor object at 0x7fade064b410>, tr=<yastn.tensor.Tensor object at 0x7fade064bbf0>, r=<yastn.tensor.Tensor object at 0x7fade064bf80>, br=<yastn.tensor.Tensor object at 0x7fade064ab10>, b=<yastn.tensor.Tensor object at 0x7fade064b020>, bl=<yastn.tensor.Tensor object at 0x7fade064a690>, l=<yastn.tensor.Tensor object at 0x7fade064b710>)})
+[36m(run_sample pid=73691)[0m 15 samples in time = 634507.6507210732
+[36m(run_sample pid=73691)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73691)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fe437763050>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe36858ec00>, t=<yastn.tensor.Tensor object at 0x7fe36858c2c0>, tr=<yastn.tensor.Tensor object at 0x7fe36858c410>, r=<yastn.tensor.Tensor object at 0x7fe36858e720>, br=<yastn.tensor.Tensor object at 0x7fe36858f230>, b=<yastn.tensor.Tensor object at 0x7fe36858f6b0>, bl=<yastn.tensor.Tensor object at 0x7fe36858dbb0>, l=<yastn.tensor.Tensor object at 0x7fe36858e8a0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe36858d790>, t=<yastn.tensor.Tensor object at 0x7fe368592b70>, tr=<yastn.tensor.Tensor object at 0x7fe368590e30>, r=<yastn.tensor.Tensor object at 0x7fe368593290>, br=<yastn.tensor.Tensor object at 0x7fe368590140>, b=<yastn.tensor.Tensor object at 0x7fe368592630>, bl=<yastn.tensor.Tensor object at 0x7fe368590fb0>, l=<yastn.tensor.Tensor object at 0x7fe3685914f0>)})
+[36m(run_sample pid=462)[0m 15 samples in time = 634598.6806075573
+[36m(run_sample pid=462)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=462)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f6985646690>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f68e460b4d0>, t=<yastn.tensor.Tensor object at 0x7f68e4608140>, tr=<yastn.tensor.Tensor object at 0x7f68e4608770>, r=<yastn.tensor.Tensor object at 0x7f68e4609580>, br=<yastn.tensor.Tensor object at 0x7f68e4609040>, b=<yastn.tensor.Tensor object at 0x7f68e4608620>, bl=<yastn.tensor.Tensor object at 0x7f68e4609940>, l=<yastn.tensor.Tensor object at 0x7f68e460bf80>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f68e460bc20>, t=<yastn.tensor.Tensor object at 0x7f68e4740ec0>, tr=<yastn.tensor.Tensor object at 0x7f68e46085c0>, r=<yastn.tensor.Tensor object at 0x7f68e4741d00>, br=<yastn.tensor.Tensor object at 0x7f68e47420f0>, b=<yastn.tensor.Tensor object at 0x7f68e4740b00>, bl=<yastn.tensor.Tensor object at 0x7f68e4741340>, l=<yastn.tensor.Tensor object at 0x7f68e4743650>)})
+[36m(run_sample pid=540)[0m 15 samples in time = 634604.9959690571
+[36m(run_sample pid=540)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=540)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fcab0446990>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fcab03d9130>, t=<yastn.tensor.Tensor object at 0x7fcab064b9e0>, tr=<yastn.tensor.Tensor object at 0x7fcab03d8aa0>, r=<yastn.tensor.Tensor object at 0x7fcab064b0e0>, br=<yastn.tensor.Tensor object at 0x7fcab064bc20>, b=<yastn.tensor.Tensor object at 0x7fcab064b3e0>, bl=<yastn.tensor.Tensor object at 0x7fcab064bd10>, l=<yastn.tensor.Tensor object at 0x7fcab064b6e0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fcab064acf0>, t=<yastn.tensor.Tensor object at 0x7fcab064a5a0>, tr=<yastn.tensor.Tensor object at 0x7fcab064acc0>, r=<yastn.tensor.Tensor object at 0x7fcab0649ca0>, br=<yastn.tensor.Tensor object at 0x7fcab064a8a0>, b=<yastn.tensor.Tensor object at 0x7fcab0649fa0>, bl=<yastn.tensor.Tensor object at 0x7fcab064a8d0>, l=<yastn.tensor.Tensor object at 0x7fcab064a2a0>)})
+[36m(run_sample pid=456)[0m 15 samples in time = 634788.9940969944
+[36m(run_sample pid=456)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=456)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f1dfc6d1820>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f1da495d100>, t=<yastn.tensor.Tensor object at 0x7f1da495e1e0>, tr=<yastn.tensor.Tensor object at 0x7f1da495c800>, r=<yastn.tensor.Tensor object at 0x7f1da4a104d0>, br=<yastn.tensor.Tensor object at 0x7f1da495c0e0>, b=<yastn.tensor.Tensor object at 0x7f1da495e270>, bl=<yastn.tensor.Tensor object at 0x7f1da495c200>, l=<yastn.tensor.Tensor object at 0x7f1da495e4b0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f1da4a136b0>, t=<yastn.tensor.Tensor object at 0x7f1da4a10a70>, tr=<yastn.tensor.Tensor object at 0x7f1da4a12990>, r=<yastn.tensor.Tensor object at 0x7f1da4a12960>, br=<yastn.tensor.Tensor object at 0x7f1da4a133b0>, b=<yastn.tensor.Tensor object at 0x7f1da4a10bc0>, bl=<yastn.tensor.Tensor object at 0x7f1da4a122d0>, l=<yastn.tensor.Tensor object at 0x7f1da4a11d90>)})
+[36m(run_sample pid=73693)[0m 15 samples in time = 634840.3154704571
+[36m(run_sample pid=73693)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73693)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fbdcc43b3e0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fbdcc1b2b10>, t=<yastn.tensor.Tensor object at 0x7fbdcc1b1340>, tr=<yastn.tensor.Tensor object at 0x7fbdcc1b3770>, r=<yastn.tensor.Tensor object at 0x7fbdcc1b1880>, br=<yastn.tensor.Tensor object at 0x7fbdcc1b3500>, b=<yastn.tensor.Tensor object at 0x7fbdcc1b3fb0>, bl=<yastn.tensor.Tensor object at 0x7fbdcc1b1f10>, l=<yastn.tensor.Tensor object at 0x7fbdcc1b0ec0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fbdcc1b3800>, t=<yastn.tensor.Tensor object at 0x7fbdcc1fad80>, tr=<yastn.tensor.Tensor object at 0x7fbdcc1fa0f0>, r=<yastn.tensor.Tensor object at 0x7fbdcc1f8500>, br=<yastn.tensor.Tensor object at 0x7fbdcc1fb0b0>, b=<yastn.tensor.Tensor object at 0x7fbdcc1fb6e0>, bl=<yastn.tensor.Tensor object at 0x7fbdcc1fae40>, l=<yastn.tensor.Tensor object at 0x7fbdcc1f9e80>)})
+[36m(run_sample pid=73702)[0m 15 samples in time = 634891.6979708672
+[36m(run_sample pid=73702)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73702)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fa5f04434a0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fa5d47424b0>, t=<yastn.tensor.Tensor object at 0x7fa5d4741070>, tr=<yastn.tensor.Tensor object at 0x7fa5d47413d0>, r=<yastn.tensor.Tensor object at 0x7fa5d4742240>, br=<yastn.tensor.Tensor object at 0x7fa5d4742c30>, b=<yastn.tensor.Tensor object at 0x7fa5d47439b0>, bl=<yastn.tensor.Tensor object at 0x7fa5d4742ab0>, l=<yastn.tensor.Tensor object at 0x7fa5d4742b40>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fa5d47434a0>, t=<yastn.tensor.Tensor object at 0x7fa5d4740620>, tr=<yastn.tensor.Tensor object at 0x7fa5d4742f60>, r=<yastn.tensor.Tensor object at 0x7fa5f020dc10>, br=<yastn.tensor.Tensor object at 0x7fa5d4742750>, b=<yastn.tensor.Tensor object at 0x7fa5f020d0d0>, bl=<yastn.tensor.Tensor object at 0x7fa5d4740ad0>, l=<yastn.tensor.Tensor object at 0x7fa5f020e060>)})
+[36m(run_sample pid=73711)[0m 15 samples in time = 634986.7054891586
+[36m(run_sample pid=73711)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73711)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f116f384f80>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7eeb1c28edb0>, t=<yastn.tensor.Tensor object at 0x7eeb1c28eb40>, tr=<yastn.tensor.Tensor object at 0x7eeb1c28d4c0>, r=<yastn.tensor.Tensor object at 0x7eeb1c274590>, br=<yastn.tensor.Tensor object at 0x7eeb1c28d9d0>, b=<yastn.tensor.Tensor object at 0x7eeb1c275670>, bl=<yastn.tensor.Tensor object at 0x7eeb1c28f440>, l=<yastn.tensor.Tensor object at 0x7eeb1c276c00>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7eeb1c277cb0>, t=<yastn.tensor.Tensor object at 0x7eeb1c277c80>, tr=<yastn.tensor.Tensor object at 0x7eeb1c275bb0>, r=<yastn.tensor.Tensor object at 0x7f10a80ad3d0>, br=<yastn.tensor.Tensor object at 0x7eeb1c275dc0>, b=<yastn.tensor.Tensor object at 0x7f10a80ac650>, bl=<yastn.tensor.Tensor object at 0x7eeb1c274530>, l=<yastn.tensor.Tensor object at 0x7f10a80ac7d0>)})
+[36m(run_sample pid=520)[0m 15 samples in time = 634994.096748352
+[36m(run_sample pid=520)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=520)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f636aded280>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f6290597d70>, t=<yastn.tensor.Tensor object at 0x7f6290595010>, tr=<yastn.tensor.Tensor object at 0x7f6290596660>, r=<yastn.tensor.Tensor object at 0x7f6290597e60>, br=<yastn.tensor.Tensor object at 0x7f6290595e80>, b=<yastn.tensor.Tensor object at 0x7f6290594620>, bl=<yastn.tensor.Tensor object at 0x7f62905978f0>, l=<yastn.tensor.Tensor object at 0x7f6290595040>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f62905955b0>, t=<yastn.tensor.Tensor object at 0x7f6290595850>, tr=<yastn.tensor.Tensor object at 0x7f6290595160>, r=<yastn.tensor.Tensor object at 0x7f62bc656750>, br=<yastn.tensor.Tensor object at 0x7f6290596060>, b=<yastn.tensor.Tensor object at 0x7f62bc656990>, bl=<yastn.tensor.Tensor object at 0x7f6290595af0>, l=<yastn.tensor.Tensor object at 0x7f62905977d0>)})
+[36m(run_sample pid=450)[0m 15 samples in time = 635097.6529660225
+[36m(run_sample pid=450)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=450)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f1e80f112b0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f1da81505f0>, t=<yastn.tensor.Tensor object at 0x7f1da817d9d0>, tr=<yastn.tensor.Tensor object at 0x7f1da8151e50>, r=<yastn.tensor.Tensor object at 0x7f1e082131a0>, br=<yastn.tensor.Tensor object at 0x7f1da817df70>, b=<yastn.tensor.Tensor object at 0x7f1e08211160>, bl=<yastn.tensor.Tensor object at 0x7f1da8153770>, l=<yastn.tensor.Tensor object at 0x7f1e082109e0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f1e082129c0>, t=<yastn.tensor.Tensor object at 0x7f1e08213560>, tr=<yastn.tensor.Tensor object at 0x7f1e08212a20>, r=<yastn.tensor.Tensor object at 0x7f1e08210f20>, br=<yastn.tensor.Tensor object at 0x7f1e082114c0>, b=<yastn.tensor.Tensor object at 0x7f1e08211a60>, bl=<yastn.tensor.Tensor object at 0x7f1e082130e0>, l=<yastn.tensor.Tensor object at 0x7f1e082112e0>)})
+[36m(run_sample pid=73692)[0m 15 samples in time = 635225.1059811115
+[36m(run_sample pid=73692)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73692)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fdcde0830b0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fdc5c205a00>, t=<yastn.tensor.Tensor object at 0x7fdc5c206c00>, tr=<yastn.tensor.Tensor object at 0x7fdc5c206780>, r=<yastn.tensor.Tensor object at 0x7fdc5c207680>, br=<yastn.tensor.Tensor object at 0x7fdc5c2041d0>, b=<yastn.tensor.Tensor object at 0x7fdc5c206540>, bl=<yastn.tensor.Tensor object at 0x7fdc5c2078f0>, l=<yastn.tensor.Tensor object at 0x7fdc5c2063f0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fdc5c2069f0>, t=<yastn.tensor.Tensor object at 0x7fdc5c206bd0>, tr=<yastn.tensor.Tensor object at 0x7fdc5c207da0>, r=<yastn.tensor.Tensor object at 0x7fdc5c205df0>, br=<yastn.tensor.Tensor object at 0x7fdc5c204830>, b=<yastn.tensor.Tensor object at 0x7fdc5c204b90>, bl=<yastn.tensor.Tensor object at 0x7fdc5c204d70>, l=<yastn.tensor.Tensor object at 0x7fdc5c206870>)})
+[36m(run_sample pid=73704)[0m 15 samples in time = 635241.1590602398
+[36m(run_sample pid=73704)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73704)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f4b543dd100>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4b541f0740>, t=<yastn.tensor.Tensor object at 0x7f4b541f0ad0>, tr=<yastn.tensor.Tensor object at 0x7f4b541f0ec0>, r=<yastn.tensor.Tensor object at 0x7f4b541f1be0>, br=<yastn.tensor.Tensor object at 0x7f4b541f16d0>, b=<yastn.tensor.Tensor object at 0x7f4b541f1880>, bl=<yastn.tensor.Tensor object at 0x7f4b541f3740>, l=<yastn.tensor.Tensor object at 0x7f4b541f22d0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4b541f2d50>, t=<yastn.tensor.Tensor object at 0x7f4b541f0da0>, tr=<yastn.tensor.Tensor object at 0x7f4b541f09e0>, r=<yastn.tensor.Tensor object at 0x7f4b541f1f40>, br=<yastn.tensor.Tensor object at 0x7f4b541f2030>, b=<yastn.tensor.Tensor object at 0x7f4b541f07a0>, bl=<yastn.tensor.Tensor object at 0x7f4b541f3890>, l=<yastn.tensor.Tensor object at 0x7f4b541f3a70>)})
+[36m(run_sample pid=73698)[0m 15 samples in time = 635342.7511589527
+[36m(run_sample pid=73698)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73698)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fee98772ab0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fedfc0403b0>, t=<yastn.tensor.Tensor object at 0x7fedfc040f80>, tr=<yastn.tensor.Tensor object at 0x7fedfc0410a0>, r=<yastn.tensor.Tensor object at 0x7fedfc0301a0>, br=<yastn.tensor.Tensor object at 0x7fedfc0416d0>, b=<yastn.tensor.Tensor object at 0x7fedfc030560>, bl=<yastn.tensor.Tensor object at 0x7fedfc0419d0>, l=<yastn.tensor.Tensor object at 0x7fedfc040140>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fedfc0330b0>, t=<yastn.tensor.Tensor object at 0x7fedfc032510>, tr=<yastn.tensor.Tensor object at 0x7fedfc030c20>, r=<yastn.tensor.Tensor object at 0x7fedfc033b30>, br=<yastn.tensor.Tensor object at 0x7fedfc0300e0>, b=<yastn.tensor.Tensor object at 0x7fedfc031ac0>, bl=<yastn.tensor.Tensor object at 0x7fedfc033d40>, l=<yastn.tensor.Tensor object at 0x7fedfc031f70>)})
+[36m(run_sample pid=73712)[0m 15 samples in time = 635406.243432045
+[36m(run_sample pid=73712)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73712)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f66384fb3e0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f663852b1a0>, t=<yastn.tensor.Tensor object at 0x7f6638528290>, tr=<yastn.tensor.Tensor object at 0x7f6638529dc0>, r=<yastn.tensor.Tensor object at 0x7f663852b530>, br=<yastn.tensor.Tensor object at 0x7f663852a750>, b=<yastn.tensor.Tensor object at 0x7f6638529010>, bl=<yastn.tensor.Tensor object at 0x7f6638528680>, l=<yastn.tensor.Tensor object at 0x7f6638529ac0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f663852a4e0>, t=<yastn.tensor.Tensor object at 0x7f6638495790>, tr=<yastn.tensor.Tensor object at 0x7f6638495a30>, r=<yastn.tensor.Tensor object at 0x7f66383a7200>, br=<yastn.tensor.Tensor object at 0x7f66384978f0>, b=<yastn.tensor.Tensor object at 0x7f66383a7350>, bl=<yastn.tensor.Tensor object at 0x7f6638494320>, l=<yastn.tensor.Tensor object at 0x7f6638497f80>)})
+[36m(run_sample pid=73700)[0m 15 samples in time = 635473.5669465065
+[36m(run_sample pid=73700)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73700)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7efd87051220>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7efcc414a0f0>, t=<yastn.tensor.Tensor object at 0x7efcc414bbf0>, tr=<yastn.tensor.Tensor object at 0x7efcc414a3c0>, r=<yastn.tensor.Tensor object at 0x7efcc4149550>, br=<yastn.tensor.Tensor object at 0x7efcc414b8c0>, b=<yastn.tensor.Tensor object at 0x7efcc4148fb0>, bl=<yastn.tensor.Tensor object at 0x7efcc414a240>, l=<yastn.tensor.Tensor object at 0x7efcc414a120>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7efcc414b0b0>, t=<yastn.tensor.Tensor object at 0x7efcc4148380>, tr=<yastn.tensor.Tensor object at 0x7efcc414bd70>, r=<yastn.tensor.Tensor object at 0x7efcc4126000>, br=<yastn.tensor.Tensor object at 0x7efcc4149b50>, b=<yastn.tensor.Tensor object at 0x7efcc4125220>, bl=<yastn.tensor.Tensor object at 0x7efcc4149520>, l=<yastn.tensor.Tensor object at 0x7efcc4148830>)})
+[36m(run_sample pid=451)[0m 15 samples in time = 635547.063107729
+[36m(run_sample pid=451)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=451)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7ffb67bbd400>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ffa9884adb0>, t=<yastn.tensor.Tensor object at 0x7ffa98848bc0>, tr=<yastn.tensor.Tensor object at 0x7ffa9884b620>, r=<yastn.tensor.Tensor object at 0x7ffa98848f80>, br=<yastn.tensor.Tensor object at 0x7ffa98848d40>, b=<yastn.tensor.Tensor object at 0x7ffa98848170>, bl=<yastn.tensor.Tensor object at 0x7ffa98849a90>, l=<yastn.tensor.Tensor object at 0x7ffa988498b0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7ffa98849bb0>, t=<yastn.tensor.Tensor object at 0x7ffa988e4140>, tr=<yastn.tensor.Tensor object at 0x7ffa9884a690>, r=<yastn.tensor.Tensor object at 0x7ffa988e6a20>, br=<yastn.tensor.Tensor object at 0x7ffa988e7380>, b=<yastn.tensor.Tensor object at 0x7ffa988e6d20>, bl=<yastn.tensor.Tensor object at 0x7ffa988e4770>, l=<yastn.tensor.Tensor object at 0x7ffa988e7020>)})
+[36m(run_sample pid=461)[0m 15 samples in time = 635596.3988318443
+[36m(run_sample pid=461)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=461)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f7906a1aae0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f78582b5dc0>, t=<yastn.tensor.Tensor object at 0x7f78582b64e0>, tr=<yastn.tensor.Tensor object at 0x7f78582b7050>, r=<yastn.tensor.Tensor object at 0x7f78582b7890>, br=<yastn.tensor.Tensor object at 0x7f78582b6d20>, b=<yastn.tensor.Tensor object at 0x7f78582b6570>, bl=<yastn.tensor.Tensor object at 0x7f78582b4650>, l=<yastn.tensor.Tensor object at 0x7f78582b5fd0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f78582b5010>, t=<yastn.tensor.Tensor object at 0x7f78583063f0>, tr=<yastn.tensor.Tensor object at 0x7f78583061e0>, r=<yastn.tensor.Tensor object at 0x7f78583068a0>, br=<yastn.tensor.Tensor object at 0x7f7858306990>, b=<yastn.tensor.Tensor object at 0x7f7858305790>, bl=<yastn.tensor.Tensor object at 0x7f7858307fe0>, l=<yastn.tensor.Tensor object at 0x7f78583067b0>)})
+[36m(run_sample pid=73714)[0m 15 samples in time = 635639.3705391884
+[36m(run_sample pid=73714)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73714)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f12c2729070>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f11f82ad3d0>, t=<yastn.tensor.Tensor object at 0x7f1238174da0>, tr=<yastn.tensor.Tensor object at 0x7f1238177a10>, r=<yastn.tensor.Tensor object at 0x7f1238175550>, br=<yastn.tensor.Tensor object at 0x7f1238174fe0>, b=<yastn.tensor.Tensor object at 0x7f1238175640>, bl=<yastn.tensor.Tensor object at 0x7f1238175be0>, l=<yastn.tensor.Tensor object at 0x7f1238174050>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f12381742f0>, t=<yastn.tensor.Tensor object at 0x7f1238174bc0>, tr=<yastn.tensor.Tensor object at 0x7f12381775c0>, r=<yastn.tensor.Tensor object at 0x7f1238174a70>, br=<yastn.tensor.Tensor object at 0x7f1238177800>, b=<yastn.tensor.Tensor object at 0x7f1238176c60>, bl=<yastn.tensor.Tensor object at 0x7f1238176930>, l=<yastn.tensor.Tensor object at 0x7f1238176870>)})
+[36m(run_sample pid=436)[0m 15 samples in time = 635669.4675104618
+[36m(run_sample pid=436)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=436)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fe47d2fe7e0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe3e059fe60>, t=<yastn.tensor.Tensor object at 0x7fe3e03f2300>, tr=<yastn.tensor.Tensor object at 0x7fe3e059da00>, r=<yastn.tensor.Tensor object at 0x7fe3e03f3c50>, br=<yastn.tensor.Tensor object at 0x7fe3e03f2540>, b=<yastn.tensor.Tensor object at 0x7fe3e03f36b0>, bl=<yastn.tensor.Tensor object at 0x7fe3e03f0260>, l=<yastn.tensor.Tensor object at 0x7fe3e03f2d20>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe3e03f20f0>, t=<yastn.tensor.Tensor object at 0x7fe3e03f2990>, tr=<yastn.tensor.Tensor object at 0x7fe3e03f22a0>, r=<yastn.tensor.Tensor object at 0x7fe3e03f3b60>, br=<yastn.tensor.Tensor object at 0x7fe3e03f3f50>, b=<yastn.tensor.Tensor object at 0x7fe3e03f3dd0>, bl=<yastn.tensor.Tensor object at 0x7fe3e03f1850>, l=<yastn.tensor.Tensor object at 0x7fe3e03f2a50>)})
+[36m(run_sample pid=73721)[0m 15 samples in time = 635783.3555846214
+[36m(run_sample pid=73721)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73721)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fe2903be3f0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe2702f47d0>, t=<yastn.tensor.Tensor object at 0x7fe2702f7740>, tr=<yastn.tensor.Tensor object at 0x7fe2702f44a0>, r=<yastn.tensor.Tensor object at 0x7fe2702f6f30>, br=<yastn.tensor.Tensor object at 0x7fe2702f46b0>, b=<yastn.tensor.Tensor object at 0x7fe2702f6450>, bl=<yastn.tensor.Tensor object at 0x7fe2702f40b0>, l=<yastn.tensor.Tensor object at 0x7fe2702f6ea0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fe2702f4230>, t=<yastn.tensor.Tensor object at 0x7fe2702f51c0>, tr=<yastn.tensor.Tensor object at 0x7fe2702f4110>, r=<yastn.tensor.Tensor object at 0x7fe2702f4800>, br=<yastn.tensor.Tensor object at 0x7fe2702f5130>, b=<yastn.tensor.Tensor object at 0x7fe2702f48c0>, bl=<yastn.tensor.Tensor object at 0x7fe2702f67b0>, l=<yastn.tensor.Tensor object at 0x7fe2702f7140>)})
+[36m(run_sample pid=73695)[0m 15 samples in time = 635837.7893106937
+[36m(run_sample pid=73695)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73695)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f566ac22810>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f55cc63fb30>, t=<yastn.tensor.Tensor object at 0x7f55cc63d1f0>, tr=<yastn.tensor.Tensor object at 0x7f55cc63c170>, r=<yastn.tensor.Tensor object at 0x7f55cc4a1a00>, br=<yastn.tensor.Tensor object at 0x7f55cc63f110>, b=<yastn.tensor.Tensor object at 0x7f55cc63c320>, bl=<yastn.tensor.Tensor object at 0x7f55cc63ffb0>, l=<yastn.tensor.Tensor object at 0x7f55cc63d580>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f55cc4a0860>, t=<yastn.tensor.Tensor object at 0x7f55cc4a0080>, tr=<yastn.tensor.Tensor object at 0x7f55cc4a2b40>, r=<yastn.tensor.Tensor object at 0x7f55cc4a3980>, br=<yastn.tensor.Tensor object at 0x7f55cc4a2750>, b=<yastn.tensor.Tensor object at 0x7f55cc4a0260>, bl=<yastn.tensor.Tensor object at 0x7f55cc4a2f30>, l=<yastn.tensor.Tensor object at 0x7f55cc4a24b0>)})
+[36m(run_sample pid=73710)[0m 15 samples in time = 635859.308804512
+[36m(run_sample pid=73710)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73710)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f15205ba390>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f152032ef00>, t=<yastn.tensor.Tensor object at 0x7f152032d880>, tr=<yastn.tensor.Tensor object at 0x7f152032c5f0>, r=<yastn.tensor.Tensor object at 0x7f152032e8d0>, br=<yastn.tensor.Tensor object at 0x7f152032e210>, b=<yastn.tensor.Tensor object at 0x7f152032d220>, bl=<yastn.tensor.Tensor object at 0x7f152032e480>, l=<yastn.tensor.Tensor object at 0x7f152032e450>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f152032f3e0>, t=<yastn.tensor.Tensor object at 0x7f152032cfe0>, tr=<yastn.tensor.Tensor object at 0x7f152032c440>, r=<yastn.tensor.Tensor object at 0x7f152032f230>, br=<yastn.tensor.Tensor object at 0x7f152032d400>, b=<yastn.tensor.Tensor object at 0x7f152032f9b0>, bl=<yastn.tensor.Tensor object at 0x7f152032f710>, l=<yastn.tensor.Tensor object at 0x7f152032e390>)})
+[36m(run_sample pid=73713)[0m 15 samples in time = 636093.8037302494
+[36m(run_sample pid=73713)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73713)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f8300662ff0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f82a43b6960>, t=<yastn.tensor.Tensor object at 0x7f82a42087a0>, tr=<yastn.tensor.Tensor object at 0x7f82a43b6a20>, r=<yastn.tensor.Tensor object at 0x7f82a42097f0>, br=<yastn.tensor.Tensor object at 0x7f82a4208200>, b=<yastn.tensor.Tensor object at 0x7f82a4208ef0>, bl=<yastn.tensor.Tensor object at 0x7f82a43b7350>, l=<yastn.tensor.Tensor object at 0x7f82a420bb00>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f82a4209310>, t=<yastn.tensor.Tensor object at 0x7f82a4209c40>, tr=<yastn.tensor.Tensor object at 0x7f82a4208440>, r=<yastn.tensor.Tensor object at 0x7f82a420b560>, br=<yastn.tensor.Tensor object at 0x7f82a4209730>, b=<yastn.tensor.Tensor object at 0x7f82a4209a60>, bl=<yastn.tensor.Tensor object at 0x7f82a420b230>, l=<yastn.tensor.Tensor object at 0x7f82a42095e0>)})
+[36m(run_sample pid=460)[0m 15 samples in time = 636332.9852449894
+[36m(run_sample pid=460)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=460)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f229c6631d0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f224421ed80>, t=<yastn.tensor.Tensor object at 0x7f224421e5a0>, tr=<yastn.tensor.Tensor object at 0x7f224421e8a0>, r=<yastn.tensor.Tensor object at 0x7f2244417170>, br=<yastn.tensor.Tensor object at 0x7f224421c560>, b=<yastn.tensor.Tensor object at 0x7f2244414e90>, bl=<yastn.tensor.Tensor object at 0x7f224421e3c0>, l=<yastn.tensor.Tensor object at 0x7f2244415d60>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2244415820>, t=<yastn.tensor.Tensor object at 0x7f2244415d90>, tr=<yastn.tensor.Tensor object at 0x7f2244414e30>, r=<yastn.tensor.Tensor object at 0x7f2244414350>, br=<yastn.tensor.Tensor object at 0x7f22444159d0>, b=<yastn.tensor.Tensor object at 0x7f2244415040>, bl=<yastn.tensor.Tensor object at 0x7f2244416420>, l=<yastn.tensor.Tensor object at 0x7f2244417050>)})
+[36m(run_sample pid=513)[0m 15 samples in time = 636592.5121986866
+[36m(run_sample pid=513)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=513)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f2f46d79310>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2e985a3650>, t=<yastn.tensor.Tensor object at 0x7f2e985a1a00>, tr=<yastn.tensor.Tensor object at 0x7f2e985a3860>, r=<yastn.tensor.Tensor object at 0x7f2e985a05c0>, br=<yastn.tensor.Tensor object at 0x7f2e985a2f90>, b=<yastn.tensor.Tensor object at 0x7f2e985a3050>, bl=<yastn.tensor.Tensor object at 0x7f2e985a0f50>, l=<yastn.tensor.Tensor object at 0x7f2e985a1070>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f2e985a1d30>, t=<yastn.tensor.Tensor object at 0x7f2e9869be30>, tr=<yastn.tensor.Tensor object at 0x7f2e985a2f60>, r=<yastn.tensor.Tensor object at 0x7f2e9869aab0>, br=<yastn.tensor.Tensor object at 0x7f2e985a0ce0>, b=<yastn.tensor.Tensor object at 0x7f2e9869b3e0>, bl=<yastn.tensor.Tensor object at 0x7f2e985a2d20>, l=<yastn.tensor.Tensor object at 0x7f2e9869bda0>)})
+[36m(run_sample pid=73718)[0m 15 samples in time = 636613.6615839005
+[36m(run_sample pid=73718)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73718)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fc901002540>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fc8601462a0>, t=<yastn.tensor.Tensor object at 0x7fc860147860>, tr=<yastn.tensor.Tensor object at 0x7fc8601466c0>, r=<yastn.tensor.Tensor object at 0x7fc860147aa0>, br=<yastn.tensor.Tensor object at 0x7fc860147d40>, b=<yastn.tensor.Tensor object at 0x7fc8601474a0>, bl=<yastn.tensor.Tensor object at 0x7fc8601467e0>, l=<yastn.tensor.Tensor object at 0x7fc8601475f0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fc8601476b0>, t=<yastn.tensor.Tensor object at 0x7fc860145a00>, tr=<yastn.tensor.Tensor object at 0x7fc8601452e0>, r=<yastn.tensor.Tensor object at 0x7fc86023fe30>, br=<yastn.tensor.Tensor object at 0x7fc860145a30>, b=<yastn.tensor.Tensor object at 0x7fc86023d940>, bl=<yastn.tensor.Tensor object at 0x7fc860147c80>, l=<yastn.tensor.Tensor object at 0x7fc86023f590>)})
+[36m(run_sample pid=73687)[0m 15 samples in time = 636650.1139099598
+[36m(run_sample pid=73687)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73687)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f84125f2510>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f838407d760>, t=<yastn.tensor.Tensor object at 0x7f838407c170>, tr=<yastn.tensor.Tensor object at 0x7f838407fc80>, r=<yastn.tensor.Tensor object at 0x7f838407ef60>, br=<yastn.tensor.Tensor object at 0x7f838407ec90>, b=<yastn.tensor.Tensor object at 0x7f838407ea50>, bl=<yastn.tensor.Tensor object at 0x7f838407e720>, l=<yastn.tensor.Tensor object at 0x7f838407dca0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f838407f4d0>, t=<yastn.tensor.Tensor object at 0x7f838407f440>, tr=<yastn.tensor.Tensor object at 0x7f838407f200>, r=<yastn.tensor.Tensor object at 0x7f83841118b0>, br=<yastn.tensor.Tensor object at 0x7f838407eb40>, b=<yastn.tensor.Tensor object at 0x7f8384110d70>, bl=<yastn.tensor.Tensor object at 0x7f838407e900>, l=<yastn.tensor.Tensor object at 0x7f8384112c90>)})
+[36m(run_sample pid=73699)[0m 15 samples in time = 636798.004535675
+[36m(run_sample pid=73699)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73699)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f403034b980>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f4030348e60>, t=<yastn.tensor.Tensor object at 0x7f40303493d0>, tr=<yastn.tensor.Tensor object at 0x7f4030348cb0>, r=<yastn.tensor.Tensor object at 0x7f4030349cd0>, br=<yastn.tensor.Tensor object at 0x7f40303490d0>, b=<yastn.tensor.Tensor object at 0x7f40303499d0>, bl=<yastn.tensor.Tensor object at 0x7f4030349280>, l=<yastn.tensor.Tensor object at 0x7f40303496d0>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f403034a2a0>, t=<yastn.tensor.Tensor object at 0x7f403034aab0>, tr=<yastn.tensor.Tensor object at 0x7f403034a0f0>, r=<yastn.tensor.Tensor object at 0x7f4030348230>, br=<yastn.tensor.Tensor object at 0x7f403034a510>, b=<yastn.tensor.Tensor object at 0x7f403034b6b0>, bl=<yastn.tensor.Tensor object at 0x7f403034a6c0>, l=<yastn.tensor.Tensor object at 0x7f403034b0b0>)})
+[36m(run_sample pid=73688)[0m 15 samples in time = 636816.2891373634
+[36m(run_sample pid=73688)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73688)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fadd4277c20>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fadcc374d10>, t=<yastn.tensor.Tensor object at 0x7fadcc374a10>, tr=<yastn.tensor.Tensor object at 0x7fadcc377770>, r=<yastn.tensor.Tensor object at 0x7fadcc375e20>, br=<yastn.tensor.Tensor object at 0x7fadcc376f30>, b=<yastn.tensor.Tensor object at 0x7fadcc375ee0>, bl=<yastn.tensor.Tensor object at 0x7fadcc377590>, l=<yastn.tensor.Tensor object at 0x7fadcc376a50>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fadcc376cc0>, t=<yastn.tensor.Tensor object at 0x7fadcc32fb00>, tr=<yastn.tensor.Tensor object at 0x7fadcc32f2f0>, r=<yastn.tensor.Tensor object at 0x7fadcc32e030>, br=<yastn.tensor.Tensor object at 0x7fadcc32c740>, b=<yastn.tensor.Tensor object at 0x7fadcc32e5a0>, bl=<yastn.tensor.Tensor object at 0x7fadcc32d0d0>, l=<yastn.tensor.Tensor object at 0x7fadcc32ea50>)})
+[36m(run_sample pid=73701)[0m 15 samples in time = 636852.1730151176
+[36m(run_sample pid=73701)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73701)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fc5d09b6510>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fc53d13b230>, t=<yastn.tensor.Tensor object at 0x7fc53d13a7b0>, tr=<yastn.tensor.Tensor object at 0x7fc53d13a270>, r=<yastn.tensor.Tensor object at 0x7fc54c103a10>, br=<yastn.tensor.Tensor object at 0x7fc53d13bc20>, b=<yastn.tensor.Tensor object at 0x7fc54c103d70>, bl=<yastn.tensor.Tensor object at 0x7fc53d13adb0>, l=<yastn.tensor.Tensor object at 0x7fc54c103a40>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fc54c103590>, t=<yastn.tensor.Tensor object at 0x7fc54c101880>, tr=<yastn.tensor.Tensor object at 0x7fc54c102450>, r=<yastn.tensor.Tensor object at 0x7fc54c102ab0>, br=<yastn.tensor.Tensor object at 0x7fc54c100aa0>, b=<yastn.tensor.Tensor object at 0x7fc54c1034a0>, bl=<yastn.tensor.Tensor object at 0x7fc54c101af0>, l=<yastn.tensor.Tensor object at 0x7fc54c1004a0>)})
+[36m(run_sample pid=73722)[0m 15 samples in time = 636909.8005092144
+[36m(run_sample pid=73722)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73722)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f6c5500e6c0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f6bdc0b4410>, t=<yastn.tensor.Tensor object at 0x7f6bdc2bb260>, tr=<yastn.tensor.Tensor object at 0x7f6bdc0b49e0>, r=<yastn.tensor.Tensor object at 0x7f6bdc2b8950>, br=<yastn.tensor.Tensor object at 0x7f6bdc2bbcb0>, b=<yastn.tensor.Tensor object at 0x7f6bdc2b8da0>, bl=<yastn.tensor.Tensor object at 0x7f6bdc0b7710>, l=<yastn.tensor.Tensor object at 0x7f6bdc2ba960>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f6bdc2ba930>, t=<yastn.tensor.Tensor object at 0x7f6bdc2b8290>, tr=<yastn.tensor.Tensor object at 0x7f6bdc2bb830>, r=<yastn.tensor.Tensor object at 0x7f6bdc2bbaa0>, br=<yastn.tensor.Tensor object at 0x7f6bdc2baae0>, b=<yastn.tensor.Tensor object at 0x7f6bdc2ba330>, bl=<yastn.tensor.Tensor object at 0x7f6bdc2bb680>, l=<yastn.tensor.Tensor object at 0x7f6bdc2baa20>)})
+[36m(run_sample pid=73703)[0m 15 samples in time = 637318.861823082
+[36m(run_sample pid=73703)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73703)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7fd20689a7b0>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fd170112a50>, t=<yastn.tensor.Tensor object at 0x7fd170110b00>, tr=<yastn.tensor.Tensor object at 0x7fd170111430>, r=<yastn.tensor.Tensor object at 0x7fabcc462a20>, br=<yastn.tensor.Tensor object at 0x7fd170110200>, b=<yastn.tensor.Tensor object at 0x7fd17038e2d0>, bl=<yastn.tensor.Tensor object at 0x7fd170110a70>, l=<yastn.tensor.Tensor object at 0x7fd17038d340>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7fabcc463170>, t=<yastn.tensor.Tensor object at 0x7fabcc4619a0>, tr=<yastn.tensor.Tensor object at 0x7fabcc463da0>, r=<yastn.tensor.Tensor object at 0x7fabcc3d3590>, br=<yastn.tensor.Tensor object at 0x7fabcc460560>, b=<yastn.tensor.Tensor object at 0x7fabcc463980>, bl=<yastn.tensor.Tensor object at 0x7fabcc461ac0>, l=<yastn.tensor.Tensor object at 0x7fabcc462300>)})
+[36m(run_sample pid=73716)[0m 15 samples in time = 637607.9479148388
+[36m(run_sample pid=73716)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=73716)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f3364141820>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f3330105520>, t=<yastn.tensor.Tensor object at 0x7f3330105d90>, tr=<yastn.tensor.Tensor object at 0x7f3330105d60>, r=<yastn.tensor.Tensor object at 0x7f3330106a20>, br=<yastn.tensor.Tensor object at 0x7f33301074d0>, b=<yastn.tensor.Tensor object at 0x7f33301056d0>, bl=<yastn.tensor.Tensor object at 0x7f33301044d0>, l=<yastn.tensor.Tensor object at 0x7f3330106780>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f33301057c0>, t=<yastn.tensor.Tensor object at 0x7f3330105490>, tr=<yastn.tensor.Tensor object at 0x7f3330104c50>, r=<yastn.tensor.Tensor object at 0x7f3330106120>, br=<yastn.tensor.Tensor object at 0x7f3330107a10>, b=<yastn.tensor.Tensor object at 0x7f33301079e0>, bl=<yastn.tensor.Tensor object at 0x7f3330107560>, l=<yastn.tensor.Tensor object at 0x7f33301042f0>)})
+[36m(run_sample pid=509)[0m 15 samples in time = 637700.3484861851
+[36m(run_sample pid=509)[0m dict_keys(['class', 'psi', 'data', 'info'])
+[36m(run_sample pid=509)[0m Peps(geometry=<yastn.tn.fpeps._geometry.CheckerboardLattice object at 0x7f0c193f5310>, tensors={0: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f0b7c17f2f0>, t=<yastn.tensor.Tensor object at 0x7f0b7c17e180>, tr=<yastn.tensor.Tensor object at 0x7f0b7c17e810>, r=<yastn.tensor.Tensor object at 0x7f0b7c17cd10>, br=<yastn.tensor.Tensor object at 0x7f0b7c17e480>, b=<yastn.tensor.Tensor object at 0x7f0b7c17d670>, bl=<yastn.tensor.Tensor object at 0x7f0b7c17d040>, l=<yastn.tensor.Tensor object at 0x7f0b7c17dc10>), 1: EnvCTM_local(tl=<yastn.tensor.Tensor object at 0x7f0b7c17c5f0>, t=<yastn.tensor.Tensor object at 0x7ee5c470be60>, tr=<yastn.tensor.Tensor object at 0x7f0b7c267500>, r=<yastn.tensor.Tensor object at 0x7ee5c470a9c0>, br=<yastn.tensor.Tensor object at 0x7ee5c470aa80>, b=<yastn.tensor.Tensor object at 0x7ee5c4708920>, bl=<yastn.tensor.Tensor object at 0x7f0b7c2640e0>, l=<yastn.tensor.Tensor object at 0x7ee5c4709520>)})
+[36m(run_sample pid=616)[0m 0 samples in time = 39522.43498182297
+[36m(run_sample pid=518)[0m 0 samples in time = 39490.80332303047
+[36m(run_sample pid=73720)[0m 0 samples in time = 39615.63088417053
+[36m(run_sample pid=517)[0m 0 samples in time = 39693.41971039772
+[36m(run_sample pid=73715)[0m 0 samples in time = 39590.49251174927
+[36m(run_sample pid=73719)[0m 0 samples in time = 39633.17277765274
+[36m(run_sample pid=73717)[0m 0 samples in time = 39573.1379199028
+[36m(run_sample pid=514)[0m 0 samples in time = 39615.97815608978
+[36m(run_sample pid=544)[0m 0 samples in time = 39674.863734960556
+[36m(run_sample pid=516)[0m 0 samples in time = 39498.75105881691
+[36m(run_sample pid=537)[0m 0 samples in time = 39657.42068815231
+[36m(run_sample pid=73708)[0m 0 samples in time = 39747.0025100708
+[36m(run_sample pid=521)[0m 0 samples in time = 39633.46013259888
+[36m(run_sample pid=643)[0m 0 samples in time = 39607.275039196014
+[36m(run_sample pid=519)[0m 0 samples in time = 39473.56565117836
+[36m(run_sample pid=641)[0m 0 samples in time = 39575.55235695839
+[36m(run_sample pid=545)[0m 0 samples in time = 39455.19836759567
+[36m(run_sample pid=515)[0m 0 samples in time = 39705.08807659149
+[36m(run_sample pid=442)[0m 0 samples in time = 39491.8134701252
+[36m(run_sample pid=493)[0m 0 samples in time = 39430.77215242386
+[36m(run_sample pid=642)[0m 0 samples in time = 39485.10897922516
+[36m(run_sample pid=73690)[0m 0 samples in time = 39473.955667734146
+[36m(run_sample pid=480)[0m 0 samples in time = 39298.273632764816
+[36m(run_sample pid=512)[0m 0 samples in time = 39525.193949222565
+[36m(run_sample pid=639)[0m 0 samples in time = 39572.03590416908
+[36m(run_sample pid=73689)[0m 0 samples in time = 39444.749383211136
+[36m(run_sample pid=474)[0m 0 samples in time = 39298.828181028366
+[36m(run_sample pid=73696)[0m 0 samples in time = 39584.35482263565
+[36m(run_sample pid=637)[0m 0 samples in time = 39612.860882759094
+[36m(run_sample pid=640)[0m 0 samples in time = 39577.23307943344
+[36m(run_sample pid=459)[0m 0 samples in time = 39408.99075174332
+[36m(run_sample pid=73709)[0m 0 samples in time = 39434.65700364113[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73697)[0m 0 samples in time = 39444.71608495712[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=638)[0m 0 samples in time = 39492.674854278564
+[36m(run_sample pid=620)[0m 0 samples in time = 39475.91124558449
+[36m(run_sample pid=73694)[0m 0 samples in time = 39446.66416287422
+[36m(run_sample pid=73691)[0m 0 samples in time = 39283.25727915764
+[36m(run_sample pid=462)[0m 0 samples in time = 39237.69094181061
+[36m(run_sample pid=606)[0m 0 samples in time = 39384.187683582306
+[36m(run_sample pid=540)[0m 0 samples in time = 39297.21734237671
+[36m(run_sample pid=456)[0m 0 samples in time = 39259.39721655846
+[36m(run_sample pid=73702)[0m 0 samples in time = 39266.48682284355
+[36m(run_sample pid=73693)[0m 0 samples in time = 39385.159568309784
+[36m(run_sample pid=520)[0m 0 samples in time = 39284.47782588005
+[36m(run_sample pid=73711)[0m 0 samples in time = 39311.23327875137
+[36m(run_sample pid=450)[0m 0 samples in time = 39390.772106170654
+[36m(run_sample pid=73704)[0m 0 samples in time = 39766.995855093
+[36m(run_sample pid=73712)[0m 0 samples in time = 39624.52449989319
+[36m(run_sample pid=73692)[0m 0 samples in time = 39876.406470537186
+[36m(run_sample pid=73698)[0m 0 samples in time = 39774.832218647
+[36m(run_sample pid=461)[0m 0 samples in time = 39672.94481873512
+[36m(run_sample pid=73700)[0m 0 samples in time = 39826.56658744812
+[36m(run_sample pid=451)[0m 0 samples in time = 39791.93631410599
+[36m(run_sample pid=73714)[0m 0 samples in time = 39722.218447208405
+[36m(run_sample pid=73721)[0m 0 samples in time = 39700.85119867325
+[36m(run_sample pid=436)[0m 0 samples in time = 39863.70270371437
+[36m(run_sample pid=73710)[0m 0 samples in time = 39684.43143963814
+[36m(run_sample pid=73695)[0m 0 samples in time = 39904.571353435516
+[36m(run_sample pid=73713)[0m 0 samples in time = 39666.60523700714
+[36m(run_sample pid=460)[0m 0 samples in time = 39711.32372689247
+[36m(run_sample pid=73687)[0m 0 samples in time = 39531.74900007248
+[36m(run_sample pid=513)[0m 0 samples in time = 39636.62852835655
+[36m(run_sample pid=73688)[0m 0 samples in time = 39554.191064834595
+[36m(run_sample pid=73718)[0m 0 samples in time = 39779.56966805458
+[36m(run_sample pid=73701)[0m 0 samples in time = 39574.884008169174
+[36m(run_sample pid=73722)[0m 0 samples in time = 39522.60132217407
+[36m(run_sample pid=73699)[0m 0 samples in time = 39750.8611164093
+[36m(run_sample pid=73703)[0m 0 samples in time = 39742.3628616333
+[36m(run_sample pid=73716)[0m 0 samples in time = 39603.311646938324
+[36m(run_sample pid=509)[0m 0 samples in time = 39638.16075921059
+[36m(run_sample pid=616)[0m 1 samples in time = 79108.2092974186
+[36m(run_sample pid=518)[0m 1 samples in time = 79118.46936678886
+[36m(run_sample pid=73720)[0m 1 samples in time = 79337.04404711723
+[36m(run_sample pid=73715)[0m 1 samples in time = 79241.15866184235
+[36m(run_sample pid=517)[0m 1 samples in time = 79375.5192220211
+[36m(run_sample pid=73719)[0m 1 samples in time = 79345.75976204872
+[36m(run_sample pid=544)[0m 1 samples in time = 79222.105230093
+[36m(run_sample pid=73717)[0m 1 samples in time = 79356.09663200378
+[36m(run_sample pid=514)[0m 1 samples in time = 79266.24528074265
+[36m(run_sample pid=516)[0m 1 samples in time = 79084.59426951408
+[36m(run_sample pid=537)[0m 1 samples in time = 79318.02473115921
+[36m(run_sample pid=73708)[0m 1 samples in time = 79499.18526744843
+[36m(run_sample pid=521)[0m 1 samples in time = 79380.24922347069
+[36m(run_sample pid=643)[0m 1 samples in time = 79197.31275725365
+[36m(run_sample pid=519)[0m 1 samples in time = 78943.29054307938
+[36m(run_sample pid=641)[0m 1 samples in time = 79133.62045502663
+[36m(run_sample pid=545)[0m 1 samples in time = 79051.58693814278
+[36m(run_sample pid=515)[0m 1 samples in time = 79317.02047610283
+[36m(run_sample pid=642)[0m 1 samples in time = 78929.7050819397
+[36m(run_sample pid=442)[0m 1 samples in time = 79023.46347975731
+[36m(run_sample pid=73690)[0m 1 samples in time = 78924.07627463341
+[36m(run_sample pid=480)[0m 1 samples in time = 78723.54881763458
+[36m(run_sample pid=474)[0m 1 samples in time = 78633.81767702103
+[36m(run_sample pid=493)[0m 1 samples in time = 79015.12956857681
+[36m(run_sample pid=73689)[0m 1 samples in time = 78872.81407737732
+[36m(run_sample pid=639)[0m 1 samples in time = 79151.48675060272
+[36m(run_sample pid=512)[0m 1 samples in time = 79159.3366074562
+[36m(run_sample pid=640)[0m 1 samples in time = 79103.5563492775
+[36m(run_sample pid=73696)[0m 1 samples in time = 79175.12326931953
+[36m(run_sample pid=459)[0m 1 samples in time = 78805.47986793518
+[36m(run_sample pid=637)[0m 1 samples in time = 79290.07703590393
+[36m(run_sample pid=466)[0m 1 samples in time = 78809.35405611992
+[36m(run_sample pid=73697)[0m 1 samples in time = 78749.03216028214
+[36m(run_sample pid=554)[0m 1 samples in time = 78754.84018945694
+[36m(run_sample pid=73709)[0m 1 samples in time = 78900.63526177406
+[36m(run_sample pid=638)[0m 1 samples in time = 79067.28667545319
+[36m(run_sample pid=73694)[0m 1 samples in time = 78880.74539375305
+[36m(run_sample pid=73691)[0m 1 samples in time = 78546.27183127403[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=540)[0m 1 samples in time = 78479.97918534279
+[36m(run_sample pid=462)[0m 1 samples in time = 78542.1773314476
+[36m(run_sample pid=606)[0m 1 samples in time = 78760.21037769318
+[36m(run_sample pid=456)[0m 1 samples in time = 78494.07254934311
+[36m(run_sample pid=73702)[0m 1 samples in time = 78494.45299649239
+[36m(run_sample pid=73693)[0m 1 samples in time = 78745.06421017647
+[36m(run_sample pid=73711)[0m 1 samples in time = 78617.84680819511
+[36m(run_sample pid=520)[0m 1 samples in time = 78623.55557465553
+[36m(run_sample pid=450)[0m 1 samples in time = 78780.32874155045
+[36m(run_sample pid=73712)[0m 1 samples in time = 79299.5969581604
+[36m(run_sample pid=73704)[0m 1 samples in time = 79569.88380098343
+[36m(run_sample pid=461)[0m 1 samples in time = 79295.44044446945
+[36m(run_sample pid=73692)[0m 1 samples in time = 79678.82722759247
+[36m(run_sample pid=73698)[0m 1 samples in time = 79607.48313736916
+[36m(run_sample pid=73700)[0m 1 samples in time = 79493.48785018921
+[36m(run_sample pid=451)[0m 1 samples in time = 79554.5361673832
+[36m(run_sample pid=73714)[0m 1 samples in time = 79487.43319392204
+[36m(run_sample pid=73721)[0m 1 samples in time = 79358.5520439148
+[36m(run_sample pid=73710)[0m 1 samples in time = 79522.37692904472
+[36m(run_sample pid=436)[0m 1 samples in time = 79713.90871620178
+[36m(run_sample pid=73713)[0m 1 samples in time = 79384.71431899071
+[36m(run_sample pid=73695)[0m 1 samples in time = 79663.68472099304
+[36m(run_sample pid=73687)[0m 1 samples in time = 79010.24340867996
+[36m(run_sample pid=460)[0m 1 samples in time = 79437.481061697
+[36m(run_sample pid=513)[0m 1 samples in time = 79296.66549515724
+[36m(run_sample pid=73688)[0m 1 samples in time = 79083.68853068352
+[36m(run_sample pid=73722)[0m 1 samples in time = 79015.1807653904
+[36m(run_sample pid=73701)[0m 1 samples in time = 79302.1619541645
+[36m(run_sample pid=73718)[0m 1 samples in time = 79561.14902567863
+[36m(run_sample pid=73699)[0m 1 samples in time = 79393.86019325256
+[36m(run_sample pid=73716)[0m 1 samples in time = 79134.48853802681
+[36m(run_sample pid=73703)[0m 1 samples in time = 79471.32461190224
+[36m(run_sample pid=509)[0m 1 samples in time = 79325.82634949684
+[36m(run_sample pid=616)[0m 2 samples in time = 118621.96435165405
+[36m(run_sample pid=518)[0m 2 samples in time = 118665.06702136993
+[36m(run_sample pid=73720)[0m 2 samples in time = 118945.63479089737
+[36m(run_sample pid=517)[0m 2 samples in time = 118996.3289964199
+[36m(run_sample pid=73715)[0m 2 samples in time = 118917.47790026665
+[36m(run_sample pid=73719)[0m 2 samples in time = 118975.1141281128
+[36m(run_sample pid=544)[0m 2 samples in time = 118828.29850769043
+[36m(run_sample pid=514)[0m 2 samples in time = 118917.83804321289
+[36m(run_sample pid=73717)[0m 2 samples in time = 119100.04083395004
+[36m(run_sample pid=516)[0m 2 samples in time = 118689.580545187
+[36m(run_sample pid=537)[0m 2 samples in time = 118886.29023241997
+[36m(run_sample pid=519)[0m 2 samples in time = 118386.20281362534
+[36m(run_sample pid=643)[0m 2 samples in time = 118804.71183180809
+[36m(run_sample pid=73708)[0m 2 samples in time = 119405.91266059875
+[36m(run_sample pid=521)[0m 2 samples in time = 119142.9161810875
+[36m(run_sample pid=641)[0m 2 samples in time = 118756.20169949532
+[36m(run_sample pid=545)[0m 2 samples in time = 118633.07626843452
+[36m(run_sample pid=474)[0m 2 samples in time = 117982.59224462509
+[36m(run_sample pid=480)[0m 2 samples in time = 118124.99493217468
+[36m(run_sample pid=515)[0m 2 samples in time = 118929.24984622002
+[36m(run_sample pid=442)[0m 2 samples in time = 118495.9874265194
+[36m(run_sample pid=642)[0m 2 samples in time = 118464.55716705322
+[36m(run_sample pid=73690)[0m 2 samples in time = 118437.60150837898
+[36m(run_sample pid=493)[0m 2 samples in time = 118495.19244933128
+[36m(run_sample pid=639)[0m 2 samples in time = 118602.24475479126
+[36m(run_sample pid=640)[0m 2 samples in time = 118558.1262307167[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=512)[0m 2 samples in time = 118691.53606462479
+[36m(run_sample pid=73696)[0m 2 samples in time = 118649.4796602726
+[36m(run_sample pid=459)[0m 2 samples in time = 118213.22116470337
+[36m(run_sample pid=466)[0m 2 samples in time = 118231.80749201775
+[36m(run_sample pid=554)[0m 2 samples in time = 118031.2849252224
+[36m(run_sample pid=73697)[0m 2 samples in time = 118086.31450390816
+[36m(run_sample pid=637)[0m 2 samples in time = 118992.77216243744
+[36m(run_sample pid=73691)[0m 2 samples in time = 117785.31107664108
+[36m(run_sample pid=73709)[0m 2 samples in time = 118471.38163995743
+[36m(run_sample pid=638)[0m 2 samples in time = 118475.02312111855
+[36m(run_sample pid=620)[0m 2 samples in time = 118343.9990234375
+[36m(run_sample pid=540)[0m 2 samples in time = 117783.22205924988
+[36m(run_sample pid=73694)[0m 2 samples in time = 118318.76724243164
+[36m(run_sample pid=462)[0m 2 samples in time = 117809.75346922874
+[36m(run_sample pid=606)[0m 2 samples in time = 118114.54762458801
+[36m(run_sample pid=456)[0m 2 samples in time = 117804.04029512405
+[36m(run_sample pid=73693)[0m 2 samples in time = 118018.5947060585[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73711)[0m 2 samples in time = 117887.7802824974
+[36m(run_sample pid=520)[0m 2 samples in time = 118006.64709568024
+[36m(run_sample pid=450)[0m 2 samples in time = 118111.49547147751
+[36m(run_sample pid=73712)[0m 2 samples in time = 118939.89804291725
+[36m(run_sample pid=461)[0m 2 samples in time = 119040.79012155533
+[36m(run_sample pid=73704)[0m 2 samples in time = 119402.32027435303
+[36m(run_sample pid=73692)[0m 2 samples in time = 119443.61266374588
+[36m(run_sample pid=73698)[0m 2 samples in time = 119354.89710831642
+[36m(run_sample pid=73700)[0m 2 samples in time = 119277.34092187881
+[36m(run_sample pid=73721)[0m 2 samples in time = 119067.17268943787
+[36m(run_sample pid=451)[0m 2 samples in time = 119313.75518512726
+[36m(run_sample pid=73714)[0m 2 samples in time = 119265.7343044281
+[36m(run_sample pid=73713)[0m 2 samples in time = 119057.58860683441
+[36m(run_sample pid=73710)[0m 2 samples in time = 119321.93476438522
+[36m(run_sample pid=73687)[0m 2 samples in time = 118588.96778297424
+[36m(run_sample pid=73695)[0m 2 samples in time = 119404.21996164322
+[36m(run_sample pid=436)[0m 2 samples in time = 119602.32890748978
+[36m(run_sample pid=73722)[0m 2 samples in time = 118512.49434566498
+[36m(run_sample pid=460)[0m 2 samples in time = 119143.65665078163
+[36m(run_sample pid=73688)[0m 2 samples in time = 118776.02352142334
+[36m(run_sample pid=513)[0m 2 samples in time = 119011.50098466873
+[36m(run_sample pid=73701)[0m 2 samples in time = 118859.77264094353
+[36m(run_sample pid=73718)[0m 2 samples in time = 119144.3905916214
+[36m(run_sample pid=73699)[0m 2 samples in time = 119107.45022535324
+[36m(run_sample pid=73716)[0m 2 samples in time = 118638.02242231369
+[36m(run_sample pid=73703)[0m 2 samples in time = 119004.86416387558
+[36m(run_sample pid=509)[0m 2 samples in time = 118943.12000608444
+[36m(run_sample pid=616)[0m 3 samples in time = 158239.76763629913
+[36m(run_sample pid=518)[0m 3 samples in time = 158249.805331707
+[36m(run_sample pid=517)[0m 3 samples in time = 158557.97583436966
+[36m(run_sample pid=73715)[0m 3 samples in time = 158494.32715916634
+[36m(run_sample pid=73720)[0m 3 samples in time = 158758.45490407944
+[36m(run_sample pid=73719)[0m 3 samples in time = 158549.00422382355
+[36m(run_sample pid=544)[0m 3 samples in time = 158436.1894683838
+[36m(run_sample pid=514)[0m 3 samples in time = 158479.64814662933
+[36m(run_sample pid=73717)[0m 3 samples in time = 158773.24132156372
+[36m(run_sample pid=537)[0m 3 samples in time = 158310.0247118473
+[36m(run_sample pid=516)[0m 3 samples in time = 158321.59694504738
+[36m(run_sample pid=643)[0m 3 samples in time = 158270.94530200958
+[36m(run_sample pid=519)[0m 3 samples in time = 157963.67391085625
+[36m(run_sample pid=521)[0m 3 samples in time = 158753.2623617649
+[36m(run_sample pid=480)[0m 3 samples in time = 157430.12011408806
+[36m(run_sample pid=641)[0m 3 samples in time = 158390.47365999222
+[36m(run_sample pid=474)[0m 3 samples in time = 157339.5470662117
+[36m(run_sample pid=545)[0m 3 samples in time = 158176.03049898148[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=442)[0m 3 samples in time = 157987.74343323708
+[36m(run_sample pid=493)[0m 3 samples in time = 157904.65508317947
+[36m(run_sample pid=642)[0m 3 samples in time = 157975.55856752396
+[36m(run_sample pid=73690)[0m 3 samples in time = 157987.43171191216
+[36m(run_sample pid=73689)[0m 3 samples in time = 157861.90947532654
+[36m(run_sample pid=515)[0m 3 samples in time = 158570.56899785995
+[36m(run_sample pid=639)[0m 3 samples in time = 158076.7899222374
+[36m(run_sample pid=459)[0m 3 samples in time = 157504.8093767166
+[36m(run_sample pid=640)[0m 3 samples in time = 157951.22828125954
+[36m(run_sample pid=512)[0m 3 samples in time = 158168.47084879875
+[36m(run_sample pid=466)[0m 3 samples in time = 157621.4345471859
+[36m(run_sample pid=73696)[0m 3 samples in time = 158159.89399528503
+[36m(run_sample pid=554)[0m 3 samples in time = 157341.14807248116
+[36m(run_sample pid=73697)[0m 3 samples in time = 157373.31514120102
+[36m(run_sample pid=540)[0m 3 samples in time = 157007.59286260605
+[36m(run_sample pid=462)[0m 3 samples in time = 157067.02998209
+[36m(run_sample pid=73691)[0m 3 samples in time = 157175.5853857994
+[36m(run_sample pid=637)[0m 3 samples in time = 158636.4531571865
+[36m(run_sample pid=638)[0m 3 samples in time = 157892.58149194717[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=620)[0m 3 samples in time = 157755.7244336605
+[36m(run_sample pid=456)[0m 3 samples in time = 156998.2735733986
+[36m(run_sample pid=73702)[0m 3 samples in time = 156929.7986717224
+[36m(run_sample pid=73694)[0m 3 samples in time = 157766.34741568565
+[36m(run_sample pid=606)[0m 3 samples in time = 157438.0101428032
+[36m(run_sample pid=73693)[0m 3 samples in time = 157288.24081492424
+[36m(run_sample pid=73711)[0m 3 samples in time = 157195.40055012703
+[36m(run_sample pid=520)[0m 3 samples in time = 157328.2734091282
+[36m(run_sample pid=450)[0m 3 samples in time = 157396.54283475876
+[36m(run_sample pid=73712)[0m 3 samples in time = 158769.53820967674
+[36m(run_sample pid=73698)[0m 3 samples in time = 158981.57173228264
+[36m(run_sample pid=73692)[0m 3 samples in time = 159160.66585969925
+[36m(run_sample pid=73704)[0m 3 samples in time = 159204.5819261074
+[36m(run_sample pid=461)[0m 3 samples in time = 158856.77427053452
+[36m(run_sample pid=73700)[0m 3 samples in time = 159016.74698114395
+[36m(run_sample pid=451)[0m 3 samples in time = 159097.672164917
+[36m(run_sample pid=73714)[0m 3 samples in time = 159033.12932896614
+[36m(run_sample pid=73721)[0m 3 samples in time = 158904.26267194748
+[36m(run_sample pid=73713)[0m 3 samples in time = 158757.75603175163
+[36m(run_sample pid=73710)[0m 3 samples in time = 159007.13447880745
+[36m(run_sample pid=73722)[0m 3 samples in time = 158007.52764964104
+[36m(run_sample pid=73687)[0m 3 samples in time = 158333.93061971664
+[36m(run_sample pid=73695)[0m 3 samples in time = 159159.51723885536
+[36m(run_sample pid=460)[0m 3 samples in time = 158757.40716075897
+[36m(run_sample pid=73688)[0m 3 samples in time = 158422.3319170475[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=513)[0m 3 samples in time = 158705.74645662308
+[36m(run_sample pid=73701)[0m 3 samples in time = 158539.57888507843
+[36m(run_sample pid=73699)[0m 3 samples in time = 158690.58460712433
+[36m(run_sample pid=73718)[0m 3 samples in time = 158905.4816699028
+[36m(run_sample pid=73716)[0m 3 samples in time = 158191.88369464874
+[36m(run_sample pid=73703)[0m 3 samples in time = 158535.6871547699
+[36m(run_sample pid=509)[0m 3 samples in time = 158516.9425675869
+[36m(run_sample pid=616)[0m 4 samples in time = 197836.4106566906
+[36m(run_sample pid=518)[0m 4 samples in time = 197909.56130099297
+[36m(run_sample pid=73715)[0m 4 samples in time = 198037.50573468208
+[36m(run_sample pid=517)[0m 4 samples in time = 198268.3753361702
+[36m(run_sample pid=73720)[0m 4 samples in time = 198407.05963730812
+[36m(run_sample pid=73719)[0m 4 samples in time = 198291.6283800602
+[36m(run_sample pid=544)[0m 4 samples in time = 198054.53708600998
+[36m(run_sample pid=514)[0m 4 samples in time = 198064.02893948555
+[36m(run_sample pid=537)[0m 4 samples in time = 197823.36833834648
+[36m(run_sample pid=516)[0m 4 samples in time = 197866.750967741
+[36m(run_sample pid=73717)[0m 4 samples in time = 198488.48390936852
+[36m(run_sample pid=643)[0m 4 samples in time = 197811.15575528145
+[36m(run_sample pid=519)[0m 4 samples in time = 197468.8003435135
+[36m(run_sample pid=480)[0m 4 samples in time = 196738.160279274
+[36m(run_sample pid=474)[0m 4 samples in time = 196701.63712215424
+[36m(run_sample pid=545)[0m 4 samples in time = 197581.22160816193
+[36m(run_sample pid=521)[0m 4 samples in time = 198396.921759367
+[36m(run_sample pid=641)[0m 4 samples in time = 197967.86244249344
+[36m(run_sample pid=73708)[0m 4 samples in time = 198806.56126189232
+[36m(run_sample pid=493)[0m 4 samples in time = 197333.186750412
+[36m(run_sample pid=442)[0m 4 samples in time = 197460.49036335945
+[36m(run_sample pid=642)[0m 4 samples in time = 197415.77600765228
+[36m(run_sample pid=459)[0m 4 samples in time = 196821.85104632378
+[36m(run_sample pid=73689)[0m 4 samples in time = 197252.8635764122
+[36m(run_sample pid=73690)[0m 4 samples in time = 197447.49980664253
+[36m(run_sample pid=554)[0m 4 samples in time = 196613.2091088295
+[36m(run_sample pid=73697)[0m 4 samples in time = 196731.760532856
+[36m(run_sample pid=466)[0m 4 samples in time = 197048.21102452278
+[36m(run_sample pid=515)[0m 4 samples in time = 198179.9349679947
+[36m(run_sample pid=640)[0m 4 samples in time = 197525.39775323868
+[36m(run_sample pid=639)[0m 4 samples in time = 197684.203915596
+[36m(run_sample pid=512)[0m 4 samples in time = 197709.71063423157
+[36m(run_sample pid=73696)[0m 4 samples in time = 197743.83318161964
+[36m(run_sample pid=540)[0m 4 samples in time = 196218.94568181038
+[36m(run_sample pid=462)[0m 4 samples in time = 196247.7809329033
+[36m(run_sample pid=73691)[0m 4 samples in time = 196481.91979265213
+[36m(run_sample pid=73702)[0m 4 samples in time = 196099.45107412338
+[36m(run_sample pid=73709)[0m 4 samples in time = 197162.47204589844
+[36m(run_sample pid=456)[0m 4 samples in time = 196256.69883656502
+[36m(run_sample pid=638)[0m 4 samples in time = 197260.89560055733
+[36m(run_sample pid=620)[0m 4 samples in time = 197171.64830851555
+[36m(run_sample pid=606)[0m 4 samples in time = 196769.20785808563
+[36m(run_sample pid=73694)[0m 4 samples in time = 197158.19531702995
+[36m(run_sample pid=637)[0m 4 samples in time = 198299.62488365173
+[36m(run_sample pid=73711)[0m 4 samples in time = 196410.63044261932
+[36m(run_sample pid=73693)[0m 4 samples in time = 196575.0141096115
+[36m(run_sample pid=520)[0m 4 samples in time = 196780.81481671333
+[36m(run_sample pid=73712)[0m 4 samples in time = 198432.99282336235[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73692)[0m 4 samples in time = 198912.28768992424
+[36m(run_sample pid=73698)[0m 4 samples in time = 198808.66648221016
+[36m(run_sample pid=461)[0m 4 samples in time = 198565.56686902046[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73704)[0m 4 samples in time = 198992.51235318184
+[36m(run_sample pid=73721)[0m 4 samples in time = 198586.17993068695
+[36m(run_sample pid=451)[0m 4 samples in time = 198904.455742836
+[36m(run_sample pid=73714)[0m 4 samples in time = 198902.0842871666
+[36m(run_sample pid=73710)[0m 4 samples in time = 198771.10501217842[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73713)[0m 4 samples in time = 198566.35596513748[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73688)[0m 4 samples in time = 197959.62847852707[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=436)[0m 4 samples in time = 199176.72511863708
+[36m(run_sample pid=460)[0m 4 samples in time = 198533.43550491333
+[36m(run_sample pid=513)[0m 4 samples in time = 198408.64613246918
+[36m(run_sample pid=73701)[0m 4 samples in time = 198225.39444184303
+[36m(run_sample pid=73699)[0m 4 samples in time = 198319.39782381058
+[36m(run_sample pid=73718)[0m 4 samples in time = 198552.25769591331
+[36m(run_sample pid=73716)[0m 4 samples in time = 197729.8563296795
+[36m(run_sample pid=73703)[0m 4 samples in time = 198072.12069559097
+[36m(run_sample pid=509)[0m 4 samples in time = 198144.35239195824
+[36m(run_sample pid=616)[0m 5 samples in time = 237395.49534773827
+[36m(run_sample pid=518)[0m 5 samples in time = 237504.67559099197
+[36m(run_sample pid=73715)[0m 5 samples in time = 237674.86134052277
+[36m(run_sample pid=517)[0m 5 samples in time = 237837.91370654106
+[36m(run_sample pid=73720)[0m 5 samples in time = 238091.10066223145
+[36m(run_sample pid=73719)[0m 5 samples in time = 237958.13213133812
+[36m(run_sample pid=544)[0m 5 samples in time = 237611.8263924122
+[36m(run_sample pid=514)[0m 5 samples in time = 237641.82922148705
+[36m(run_sample pid=516)[0m 5 samples in time = 237320.81240868568
+[36m(run_sample pid=537)[0m 5 samples in time = 237428.72581243515
+[36m(run_sample pid=73717)[0m 5 samples in time = 238066.08844661713
+[36m(run_sample pid=519)[0m 5 samples in time = 236943.7555937767
+[36m(run_sample pid=480)[0m 5 samples in time = 236088.60228943825
+[36m(run_sample pid=643)[0m 5 samples in time = 237360.11900234222
+[36m(run_sample pid=474)[0m 5 samples in time = 236089.89517354965
+[36m(run_sample pid=545)[0m 5 samples in time = 236996.3719203472
+[36m(run_sample pid=493)[0m 5 samples in time = 236682.90442156792
+[36m(run_sample pid=554)[0m 5 samples in time = 235867.70044517517
+[36m(run_sample pid=73689)[0m 5 samples in time = 236604.22119688988
+[36m(run_sample pid=442)[0m 5 samples in time = 236894.464199543
+[36m(run_sample pid=459)[0m 5 samples in time = 236220.64409947395
+[36m(run_sample pid=73690)[0m 5 samples in time = 236845.5220003128[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=521)[0m 5 samples in time = 238070.2863931656
+[36m(run_sample pid=73697)[0m 5 samples in time = 236054.87334370613
+[36m(run_sample pid=73708)[0m 5 samples in time = 238468.0681886673[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=540)[0m 5 samples in time = 235467.50452399254
+[36m(run_sample pid=466)[0m 5 samples in time = 236527.15665578842
+[36m(run_sample pid=639)[0m 5 samples in time = 237162.3387722969[32m [repeated 3x across cluster][0m
+[36m(run_sample pid=640)[0m 5 samples in time = 237027.03291773796
+[36m(run_sample pid=512)[0m 5 samples in time = 237231.955419302
+[36m(run_sample pid=73702)[0m 5 samples in time = 235332.93902516365
+[36m(run_sample pid=73691)[0m 5 samples in time = 235745.71096158028
+[36m(run_sample pid=73696)[0m 5 samples in time = 237316.67437195778[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=638)[0m 5 samples in time = 236548.92583155632
+[36m(run_sample pid=73709)[0m 5 samples in time = 236661.66074228287
+[36m(run_sample pid=606)[0m 5 samples in time = 236102.19101047516
+[36m(run_sample pid=620)[0m 5 samples in time = 236531.71998858452
+[36m(run_sample pid=73711)[0m 5 samples in time = 235591.52855348587
+[36m(run_sample pid=73694)[0m 5 samples in time = 236525.05375814438
+[36m(run_sample pid=73693)[0m 5 samples in time = 235876.5512971878
+[36m(run_sample pid=637)[0m 5 samples in time = 237829.1145348549
+[36m(run_sample pid=520)[0m 5 samples in time = 236090.17360591888
+[36m(run_sample pid=450)[0m 5 samples in time = 236032.14361667633
+[36m(run_sample pid=73712)[0m 5 samples in time = 238128.06685948372
+[36m(run_sample pid=461)[0m 5 samples in time = 238231.54731202126
+[36m(run_sample pid=73700)[0m 5 samples in time = 238373.13366651535
+[36m(run_sample pid=73698)[0m 5 samples in time = 238524.14353585243
+[36m(run_sample pid=73692)[0m 5 samples in time = 238683.3264567852
+[36m(run_sample pid=73721)[0m 5 samples in time = 238127.4989168644
+[36m(run_sample pid=73704)[0m 5 samples in time = 238764.55453372002
+[36m(run_sample pid=73722)[0m 5 samples in time = 237201.56892561913
+[36m(run_sample pid=73687)[0m 5 samples in time = 237620.94155406952
+[36m(run_sample pid=73713)[0m 5 samples in time = 238181.3512055874
+[36m(run_sample pid=451)[0m 5 samples in time = 238745.10243201256
+[36m(run_sample pid=73710)[0m 5 samples in time = 238473.3677482605
+[36m(run_sample pid=73688)[0m 5 samples in time = 237565.10257816315
+[36m(run_sample pid=73714)[0m 5 samples in time = 238786.02899694443
+[36m(run_sample pid=73695)[0m 5 samples in time = 238661.0501217842
+[36m(run_sample pid=436)[0m 5 samples in time = 238873.33851194382
+[36m(run_sample pid=460)[0m 5 samples in time = 238242.79733204842
+[36m(run_sample pid=513)[0m 5 samples in time = 238058.2128279209
+[36m(run_sample pid=73701)[0m 5 samples in time = 237804.75805425644
+[36m(run_sample pid=73699)[0m 5 samples in time = 237997.96619224548
+[36m(run_sample pid=73718)[0m 5 samples in time = 238289.07286953926
+[36m(run_sample pid=73716)[0m 5 samples in time = 237313.75783753395
+[36m(run_sample pid=73703)[0m 5 samples in time = 237646.46237111092
+[36m(run_sample pid=509)[0m 5 samples in time = 237806.90781593323
+[36m(run_sample pid=616)[0m 6 samples in time = 276905.9644911289
+[36m(run_sample pid=518)[0m 6 samples in time = 277055.10171175003
+[36m(run_sample pid=73715)[0m 6 samples in time = 277283.3591012955
+[36m(run_sample pid=517)[0m 6 samples in time = 277572.07597875595
+[36m(run_sample pid=73719)[0m 6 samples in time = 277563.0066483021[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=514)[0m 6 samples in time = 277191.79398679733
+[36m(run_sample pid=544)[0m 6 samples in time = 277296.693795681
+[36m(run_sample pid=516)[0m 6 samples in time = 276817.5367245674
+[36m(run_sample pid=537)[0m 6 samples in time = 277032.7782609463
+[36m(run_sample pid=474)[0m 6 samples in time = 275340.2297325134
+[36m(run_sample pid=519)[0m 6 samples in time = 276342.48108553886
+[36m(run_sample pid=73717)[0m 6 samples in time = 277751.13138365746
+[36m(run_sample pid=480)[0m 6 samples in time = 275511.9766712189
+[36m(run_sample pid=643)[0m 6 samples in time = 276888.70044898987
+[36m(run_sample pid=545)[0m 6 samples in time = 276441.94599699974
+[36m(run_sample pid=554)[0m 6 samples in time = 275142.90258288383
+[36m(run_sample pid=493)[0m 6 samples in time = 276096.3614447117
+[36m(run_sample pid=459)[0m 6 samples in time = 275543.3958790302
+[36m(run_sample pid=73689)[0m 6 samples in time = 275971.96887278557
+[36m(run_sample pid=442)[0m 6 samples in time = 276299.2283773422
+[36m(run_sample pid=73697)[0m 6 samples in time = 275371.25986242294
+[36m(run_sample pid=641)[0m 6 samples in time = 277032.9779200554
+[36m(run_sample pid=73690)[0m 6 samples in time = 276332.8870089054
+[36m(run_sample pid=462)[0m 6 samples in time = 274739.28715109825
+[36m(run_sample pid=540)[0m 6 samples in time = 274753.5096437931
+[36m(run_sample pid=642)[0m 6 samples in time = 276448.1984901428
+[36m(run_sample pid=73702)[0m 6 samples in time = 274540.00378227234
+[36m(run_sample pid=466)[0m 6 samples in time = 275902.4825358391[32m [repeated 2x across cluster][0m
+[36m(run_sample pid=73691)[0m 6 samples in time = 274991.37009334564
+[36m(run_sample pid=639)[0m 6 samples in time = 276575.7773015499
+[36m(run_sample pid=515)[0m 6 samples in time = 277127.56003403664
+[36m(run_sample pid=521)[0m 6 samples in time = 277797.50832629204
+[36m(run_sample pid=640)[0m 6 samples in time = 276523.0905637741
+[36m(run_sample pid=73708)[0m 6 samples in time = 278173.2364871502
