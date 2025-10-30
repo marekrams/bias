@@ -10,11 +10,11 @@ import numpy as np
 import scipy
 import ray
 import glob
+from itertools import product
 
 
 def mean(x):
     return sum(x) / len(x)
-
 
 def load_drive(E=1.0, smooth=100):
     if E == -1:
@@ -26,12 +26,17 @@ def load_drive(E=1.0, smooth=100):
     elif E == -3:
         fJ = lambda x: 0.5 + 1.5 * (x - 0.5) - 2 * (x - 0.5) ** 3
         fg = lambda x: 3.04438 * (1 - fJ(x))
+    elif E == -4:
+        fJ = lambda x: x ** 2
+        fg = lambda x: (1 - x) ** 2
+    elif E == -5:
+        fJ = lambda x: 1 - np.exp(-smooth * x * x)
+        fg = lambda x: 3.04438 * 2 * (1 - x * fJ(x))
     else:
         schedule = np.loadtxt('09-1265A-E_Advantage_system5_4_annealing_schedule.csv', delimiter=",")
         fg = scipy.interpolate.UnivariateSpline(schedule[:, 0], schedule[:, 1] * np.pi * (1 - np.exp(-smooth * schedule[:, 0]**2)) + np.exp(-smooth * schedule[:, 0]**2) * 30, s=0, k=4)
         fJ = scipy.interpolate.UnivariateSpline(schedule[:, 0], schedule[:, 2] * E * np.pi * (1 - np.exp(-smooth * schedule[:, 0]**2)), s=0, k=4)
     return fg, fJ
-
 
 
 def get_sc(E):
@@ -41,21 +46,6 @@ def get_sc(E):
     return sc[0]
 
 
-def exp_hamiltonian_nn(H, step):
-    H = H.fuse_legs(axes = ((0, 1), (2, 3)))
-    D, S = yastn.eigh(H, axes = (0, 1))
-    D = yastn.exp(D, step=-step)
-    G = yastn.ncon((S, D, S.conj()), ([-1, 1], [1, 2], [-3, 2]))
-    G = G.unfuse_legs(axes=(0, 1))
-    return peps.gates.decompose_nn_gate(G)
-
-
-def exp_hamiltonian_local(Hl, step):
-    """ exp(-step * Hl). """
-    D, S = yastn.eigh(Hl, axes = (0, 1))
-    D = yastn.exp(D, step=-step)
-    Gl = yastn.ncon((S, D, S.conj()), ([-1, 1], [1, 2], [-3, 2]))
-    return Gl
 
 
 def ZX(ops):
@@ -80,21 +70,12 @@ def gate_Ising_cluster(Jzz, hz, hx, step, ops, net):
     else:
         Hl = -hx * X - hz * Z
     Hnn = -Jzz * peps.gates.fkron(Z, Z)
-    Gnn = exp_hamiltonian_nn(Hnn, step)
-    Gl = exp_hamiltonian_local(Hl, step)
-
-    nn = []
-    for bond in net.bonds(dirn='v'):
-        nn.append(Gnn._replace(bond=bond))
-    for bond in net.bonds(dirn='h'):
-        nn.append(Gnn._replace(bond=bond))
-
-    local = [peps.gates.Gate_local(Gl, site) for site in net.sites()]
-
-    return peps.gates.Gates(nn=nn, local=local)
+    Gnn = peps.gates.gate_nn_exp(step, ops.I(), Hnn)
+    Gl = peps.gates.gate_local_exp(step, ops.I(), Hl)
+    return peps.gates.distribute(net, gates_local=Gl, gates_nn=Gnn)
 
 
-@ray.remote(num_cpus=2)
+@ray.remote(num_cpus=1)
 def run_quench(hz, ta, E, D, chi, which='NN+BP', dt=0.01, fs=61, sym='dense'):
     #
     geometry = peps.CheckerboardLattice()
@@ -132,7 +113,7 @@ def run_quench(hz, ta, E, D, chi, which='NN+BP', dt=0.01, fs=61, sym='dense'):
     # simulation parameters
     opts_svd_ntu = {"D_total": D, "D_block": D // 2} if sym == 'Z2' else {"D_total": D}
     #
-    if which in ['BP', 'NN+BP']:
+    if 'BP' in which:
         env = peps.EnvBP(psi, which=which)
         env.iterate_(max_sweeps=100, diff_tol=1e-8)
     else:
@@ -141,7 +122,7 @@ def run_quench(hz, ta, E, D, chi, which='NN+BP', dt=0.01, fs=61, sym='dense'):
     t = ta * si
     #
     sc = get_sc(E)
-    ss = list(np.arange(10, np.ceil(sc * 100)) / 100) + [sc] + list(np.arange(np.ceil(sc * 100 + 0.1), fs) / 100)
+    ss = list(np.arange(1, np.ceil(sc * 100)) / 100) + [sc] + list(np.arange(np.ceil(sc * 100 + 0.1), fs) / 100)
     ss = [s for s in ss if s > si + 0.0001]
 
     infoss = []
@@ -159,7 +140,7 @@ def run_quench(hz, ta, E, D, chi, which='NN+BP', dt=0.01, fs=61, sym='dense'):
             t += dt / 2
             gates = gate_Ising_cluster(fJ(t / ta), hz * fJ(t / ta), fg(t / ta), dt2, ops, geometry)
             infos = peps.evolution_step_(env, gates, opts_svd=opts_svd_ntu)
-            if which in ['BP', 'NN+BP']:
+            if 'BP' in which:
                 env.iterate_(max_sweeps=100, diff_tol=1e-8)
             infoss.append(infos)
             t += dt / 2
@@ -221,12 +202,104 @@ def run_quench(hz, ta, E, D, chi, which='NN+BP', dt=0.01, fs=61, sym='dense'):
         fname = path / f"env_{D=}_{chi=}_{which=}_{sf=:0.4f}.npy"
         d = env_ctm.save_to_dict()
         d['info'] = info
+        I = ops.I()
+        four = {}
+        err = 0
+        for n00, n01, n10, n11 in product((1, -1), (1, -1), (1, -1), (1, -1)):
+            O00 = (I + n00 * Z) / 2
+            O01 = (I + n01 * Z) / 2
+            O10 = (I + n10 * Z) / 2
+            O11 = (I + n11 * Z) / 2
+            v0 = env_ctm.measure_2x2(O00, O01, O10, O11, sites=((0, 0), (0, 1), (1, 0), (1, 1))).real
+            v1 = env_ctm.measure_2x2(O00, O01, O10, O11, sites=((0, 1), (0, 2), (1, 1), (1, 2))).real
+            four[((n00, n01), (n10, n11))] = (v0 + v1) / 2
+            err = max(err, abs(v0 - v1))
+
+        err = max(err, np.std([four[((-1, 1), (1, 1))], four[((1, -1), (1, 1))], four[((1, 1), (-1, 1))], four[((1, 1), (1, -1))]]))
+        err = max(err, np.std([four[((-1, -1), (-1, 1))], four[((-1, -1), (1, -1))], four[((-1, 1), (-1, -1))], four[((1, -1), (-1, -1))]]))
+        err = max(err, np.std([four[((-1, -1), (1, 1))], four[((1, 1), (-1, -1))], four[((-1, 1), (-1, 1))], four[((1, -1), (1, -1))]]))
+        err = max(err, np.std([four[((1, -1), (-1, 1))], four[((-1, 1), (1, -1))]]))
+
+        four['error'] = err
+
+        Op = (I + Z) / 2
+        Om = (I - Z) / 2
+        four['single_u'] = env_ctm.measure_nsite(Om, Om, Om, Om, Op, sites=((0, -1), (0, 1), (-1, 0), (1, 0), (0, 0))).real
+        four['single_d'] = env_ctm.measure_nsite(Op, Op, Op, Op, Om, sites=((0, -1), (0, 1), (-1, 0), (1, 0), (0, 0))).real
+        d['four'] = four
         np.save(fname, d, allow_pickle=True)
 
 
 
 
 @ray.remote(num_cpus=1)
+def run_4point(fname):
+    #
+    print(fname)
+    if 'ZZ' in fname:
+        sym = 'dense'
+    else:
+        sym = 'Z2'
+    ops = yastn.operators.Spin12(sym=sym)
+    Z, X, vec_x1, base = ZX(ops)
+    I = ops.I()
+    #
+    try:
+        d = np.load(fname, allow_pickle=True).item()
+    except:
+        return
+    if 'four' not in d:
+        env = peps.load_from_dict(ops.config, d)
+        four = {}
+        err = 0
+        for n00, n01, n10, n11 in product((1, -1), (1, -1), (1, -1), (1, -1)):
+            O00 = (I + n00 * Z) / 2
+            O01 = (I + n01 * Z) / 2
+            O10 = (I + n10 * Z) / 2
+            O11 = (I + n11 * Z) / 2
+            v0 = env_ctm.measure_2x2(O00, O01, O10, O11, sites=((0, 0), (0, 1), (1, 0), (1, 1))).real
+            v1 = env_ctm.measure_2x2(O00, O01, O10, O11, sites=((0, 1), (0, 2), (1, 1), (1, 2))).real
+            four[((n00, n01), (n10, n11))] = (v0 + v1) / 2
+            err = max(err, abs(v0 - v1))
+
+        err = max(err, np.std([four[((-1, 1), (1, 1))], four[((1, -1), (1, 1))], four[((1, 1), (-1, 1))], four[((1, 1), (1, -1))]]))
+        err = max(err, np.std([four[((-1, -1), (-1, 1))], four[((-1, -1), (1, -1))], four[((-1, 1), (-1, -1))], four[((1, -1), (-1, -1))]]))
+        err = max(err, np.std([four[((-1, -1), (1, 1))], four[((1, 1), (-1, -1))], four[((-1, 1), (-1, 1))], four[((1, -1), (1, -1))]]))
+        err = max(err, np.std([four[((1, -1), (-1, 1))], four[((-1, 1), (1, -1))]]))
+
+        four['error'] = err
+        d['four'] = four
+        np.save(fname, d, allow_pickle=True)
+
+
+
+@ray.remote(num_cpus=1)
+def run_5point(fname):
+    #
+    print(fname)
+    if 'ZZ' in fname:
+        sym = 'dense'
+    else:
+        sym = 'Z2'
+    ops = yastn.operators.Spin12(sym=sym)
+    Z, X, vec_x1, base = ZX(ops)
+    I = ops.I()
+    #
+    try:
+        d = np.load(fname, allow_pickle=True).item()
+    except:
+        return
+    if 'four' in d and 'single_u' not in d:
+        env = peps.load_from_dict(ops.config, d)
+        Op = (I + Z) / 2
+        Om = (I - Z) / 2
+        d['four']['single_u'] = env.measure_nsite(Om, Om, Om, Om, Op, sites=((0, -1), (0, 1), (-1, 0), (1, 0), (0, 0))).real
+        d['four']['single_d'] = env.measure_nsite(Op, Op, Op, Op, Om, sites=((0, -1), (0, 1), (-1, 0), (1, 0), (0, 0))).real
+        np.save(fname, d, allow_pickle=True)
+
+
+
+@ray.remote(num_cpus=4)
 def run_sample(hz, ta, E, D, chi, which='NN+BP', sf=0.01):
     #
     # Load operators.
@@ -238,13 +311,16 @@ def run_sample(hz, ta, E, D, chi, which='NN+BP', sf=0.01):
     #
     path = Path(f"./bias_dwave/{hz=:0.4f}/{ta=:0.4f}/{E=:0.4f}/{base}/")
     fname = path / f"env_{D=}_{chi=}_{which=}_{sf=:0.4f}.npy"
-    d = np.load(fname, allow_pickle=True).item()
+    try:
+        d = np.load(fname, allow_pickle=True).item()
+    except:
+        return
     print(d.keys())
     env_ctm = peps.load_from_dict(Z.config, d)
     print(env_ctm)
     #
-    number = 16
-    xmax, ymax = 32, 32
+    number = 1
+    xmax, ymax = 128, 128
     opss = {1: ops.vec_z(val=+1), -1: ops.vec_z(val=-1)}
 
     samples = np.zeros((number, xmax, ymax), dtype=np.int16)
@@ -260,44 +336,75 @@ def run_sample(hz, ta, E, D, chi, which='NN+BP', sf=0.01):
         np.save(fname, samples)
 
 
-if __name__ == '__main__':
-    #
-    # run_sample(0.0, 1.0, 1.0, 12, 16, which='NN+BP', sf=0.3)
-    #
-    scs = {0.5: 0.3445, 1.0: 0.3112}
-    refs = []
-    dt = 0.005
-    tas = [2.0, 4.0, 5.4] #[0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 5.4, 6.3, 7.2, 8.3, 9.6]
-    hzs = [0, 0.125, 0.25, 0.5, 1.0]  #[0.01] #, 0.125]  # [0] + [2.0 ** (-x) for x in [8, 6, 4, 2, 0, -2]]
-    for EE in [0.5]:
-        for ta in tas:
-            for hz in hzs:
-                for D in [12]:  # 4, 8, 16, 32
-                    for chi in [16,]:
-                        # for sf in [0.3112, 0.32,  0.33,  0.34,  0.35,  0.36,  0.37,  0.38,  0.39,  0.40]:
-                        for sf in [0.3445, 0.35,  0.36,  0.37,  0.38,  0.39,  0.40, 0.41, 0.42, 0.43, 0.44, 0.45]:
-                            for which in ["NN+BP"]:
-                                job = run_sample.remote(hz, ta, EE, D, chi, which, sf)
-                                refs.append(job)
-    ray.get(refs)
+# if __name__ == '__main__':
+#     refs = []
+#     for fname in glob.glob("./bias_dwave/**/env_*.npy", recursive=True):
+#         #if 'E=0.5000/ZZ/env_D=16_' in fname:
+#         refs.append(run_5point.remote(fname))
+#     ray.get(refs)
 
 
 # if __name__ == '__main__':
-
-#     ray.init()
+#     #
+#     # run_sample(0.0, 1.0, 1.0, 12, 16, which='NN+BP', sf=0.3)
+#     #
+#     scs = {0.5: 0.3445, 1.0: 0.3112}
 #     refs = []
 #     dt = 0.005
-#     tas = [0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0] #  [0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16, 32] # [0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 5.4, 6.3, 7.2, 8.3, 9.6] #
-#     hzs = [0]   # [0.01] #, 0.125]
-#     for EE in [-3]:   #2.0]:
+#     tas = [2.0, 4.0, 5.4] #[0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 5.4, 6.3, 7.2, 8.3, 9.6]
+#     hzs = [0, 0.125, 0.25, 0.5, 1.0]  #[0.01] #, 0.125]  # [0] + [2.0 ** (-x) for x in [8, 6, 4, 2, 0, -2]]
+#     for EE in [0.5]:
 #         for ta in tas:
 #             for hz in hzs:
-#                 for D in [8, 12]:  # 4, 8, 16, 32
+#                 for D in [16]:  # 4, 8, 16, 32
 #                     for chi in [16,]:
-#                         for which in ["NN+BP"]:
-#                             job = run_quench.remote(hz, ta, EE, D, chi, which, dt, 101)
-#                             refs.append(job)
+#                         # for sf in [0.3112, 0.32,  0.33,  0.34,  0.35,  0.36,  0.37,  0.38,  0.39,  0.40,  0.41,  0.42,  0.43,  0.44,  0.45]:
+#                         for sf in [0.3445, 0.35,  0.36,  0.37,  0.38,  0.39,  0.40, 0.41,  0.42,  0.43,  0.44,  0.45]:
+#                             for which in ["NN+BP"]:
+#                                 job = run_sample.remote(hz, ta, EE, D, chi, which, sf)
+#                                 refs.append(job)
 #     ray.get(refs)
+
+
+# if __name__ == '__main__':
+#     #
+#     # run_sample(0.0, 1.0, 1.0, 12, 16, which='NN+BP', sf=0.3)
+#     #
+#     scs = {0.5: 0.3445, 1.0: 0.3112}
+#     refs = []
+#     dt = 0.005
+#     tas = [2.0, 4.0, 5.4] #[0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 5.4, 6.3, 7.2, 8.3, 9.6]
+#     hzs = [0, 0.125, 0.25, 0.5, 1.0]  #[0.01] #, 0.125]  # [0] + [2.0 ** (-x) for x in [8, 6, 4, 2, 0, -2]]
+#     for EE in [0.5]:
+#         for ta in tas:
+#             for hz in hzs:
+#                 for D in [12]:  # 4, 8, 16, 32
+#                     for chi in [16,]:
+#                         # for sf in [0.3112, 0.32,  0.33,  0.34,  0.35,  0.36,  0.37,  0.38,  0.39,  0.40]:
+#                         for sf in [0.3445, 0.35,  0.36,  0.37,  0.38,  0.39,  0.40, 0.41, 0.42, 0.43, 0.44, 0.45]:
+#                             for which in ["NN+BP"]:
+#                                 job = run_sample.remote(hz, ta, EE, D, chi, which, sf)
+#                                 refs.append(job)
+#     ray.get(refs)
+
+
+if __name__ == '__main__':
+    ray.init()
+    refs = []
+    dt = 0.005
+    tas = 2 ** np.linspace(0, 4, 33)
+    # tas = [0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16,] #  [0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 8.0, 16, 32] # [0.125, 0.25, 0.5, 1.0, 2.0, 4.0, 5.4, 6.3, 7.2, 8.3, 9.6] #
+    hzs = [0, 0.125, 0.25, 0.5, 1.0]   # [0.01] #, 0.125]
+    for EE in [-2]:   #2.0]:
+        for ta in tas:
+            for hz in hzs:
+                for D in [12, ]:  # 12, 16 # 4, 8, 16, 32
+                    for chi in [16,]:
+                        for which in ["NN+BP"]:
+                            job = run_quench.remote(hz, ta, EE, D, chi, which, dt, 101)
+                            refs.append(job)
+
+    ray.get(refs)
 
 
 # if __name__ == '__main__':
